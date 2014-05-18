@@ -14,7 +14,6 @@
 		6A070DB519289F7F001C6659 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A070DB319289F7F001C6659 /* InfoPlist.strings */; };
 		6A070DB719289F7F001C6659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DB619289F7F001C6659 /* main.m */; };
 		6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DBA19289F7F001C6659 /* AppDelegate.m */; };
-		6A070DBE19289F7F001C6659 /* PowerSpot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DBC19289F7F001C6659 /* PowerSpot.xcdatamodeld */; };
 		6A070DC019289F7F001C6659 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A070DBF19289F7F001C6659 /* Images.xcassets */; };
 		6A070DC719289F7F001C6659 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DC619289F7F001C6659 /* XCTest.framework */; };
 		6A070DC819289F7F001C6659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DA819289F7F001C6659 /* Foundation.framework */; };
@@ -22,6 +21,8 @@
 		6A070DCA19289F7F001C6659 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DAE19289F7F001C6659 /* CoreData.framework */; };
 		6A070DD219289F7F001C6659 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A070DD019289F7F001C6659 /* InfoPlist.strings */; };
 		6A070DD419289F7F001C6659 /* PowerSpotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DD319289F7F001C6659 /* PowerSpotTests.m */; };
+		6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */; };
+		6A070DE21928A815001C6659 /* MapEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DE11928A815001C6659 /* MapEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +47,15 @@
 		6A070DB819289F7F001C6659 /* PowerSpot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PowerSpot-Prefix.pch"; sourceTree = "<group>"; };
 		6A070DB919289F7F001C6659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A070DBA19289F7F001C6659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6A070DBD19289F7F001C6659 /* PowerSpot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PowerSpot.xcdatamodel; sourceTree = "<group>"; };
 		6A070DBF19289F7F001C6659 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6A070DC519289F7F001C6659 /* PowerSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A070DC619289F7F001C6659 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6A070DCF19289F7F001C6659 /* PowerSpotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerSpotTests-Info.plist"; sourceTree = "<group>"; };
 		6A070DD119289F7F001C6659 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A070DD319289F7F001C6659 /* PowerSpotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerSpotTests.m; sourceTree = "<group>"; };
+		6A070DDE1928A573001C6659 /* MapDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapDB.xcdatamodel; sourceTree = "<group>"; };
+		6A070DE01928A815001C6659 /* MapEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapEntity.h; sourceTree = "<group>"; };
+		6A070DE11928A815001C6659 /* MapEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A070DAB19289F7F001C6659 /* CoreGraphics.framework in Frameworks */,
 				6A070DAF19289F7F001C6659 /* CoreData.framework in Frameworks */,
+				6A070DAB19289F7F001C6659 /* CoreGraphics.framework in Frameworks */,
 				6A070DAD19289F7F001C6659 /* UIKit.framework in Frameworks */,
 				6A070DA919289F7F001C6659 /* Foundation.framework in Frameworks */,
 			);
@@ -117,8 +120,10 @@
 			children = (
 				6A070DB919289F7F001C6659 /* AppDelegate.h */,
 				6A070DBA19289F7F001C6659 /* AppDelegate.m */,
+				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
+				6A070DE01928A815001C6659 /* MapEntity.h */,
+				6A070DE11928A815001C6659 /* MapEntity.m */,
 				6A070DBF19289F7F001C6659 /* Images.xcassets */,
-				6A070DBC19289F7F001C6659 /* PowerSpot.xcdatamodeld */,
 				6A070DB119289F7F001C6659 /* Supporting Files */,
 			);
 			path = PowerSpot;
@@ -248,7 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A070DBE19289F7F001C6659 /* PowerSpot.xcdatamodeld in Sources */,
+				6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */,
+				6A070DE21928A815001C6659 /* MapEntity.m in Sources */,
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
 			);
@@ -459,13 +465,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6A070DBC19289F7F001C6659 /* PowerSpot.xcdatamodeld */ = {
+		6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6A070DBD19289F7F001C6659 /* PowerSpot.xcdatamodel */,
+				6A070DDE1928A573001C6659 /* MapDB.xcdatamodel */,
 			);
-			currentVersion = 6A070DBD19289F7F001C6659 /* PowerSpot.xcdatamodel */;
-			path = PowerSpot.xcdatamodeld;
+			currentVersion = 6A070DDE1928A573001C6659 /* MapDB.xcdatamodel */;
+			path = MapDB.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
