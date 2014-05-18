@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69042E0A1928C286009B5D54 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69042E081928C286009B5D54 /* FirstViewController.m */; };
+		69042E0B1928C286009B5D54 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69042E091928C286009B5D54 /* FirstViewController.xib */; };
 		6A070DA919289F7F001C6659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DA819289F7F001C6659 /* Foundation.framework */; };
 		6A070DAB19289F7F001C6659 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DAA19289F7F001C6659 /* CoreGraphics.framework */; };
 		6A070DAD19289F7F001C6659 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DAC19289F7F001C6659 /* UIKit.framework */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69042E071928C286009B5D54 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		69042E081928C286009B5D54 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		69042E091928C286009B5D54 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		6A070DA519289F7F001C6659 /* PowerSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A070DA819289F7F001C6659 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A070DAA19289F7F001C6659 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,6 +130,9 @@
 				6A070DE11928A815001C6659 /* MapEntity.m */,
 				6A070DBF19289F7F001C6659 /* Images.xcassets */,
 				6A070DB119289F7F001C6659 /* Supporting Files */,
+				69042E071928C286009B5D54 /* FirstViewController.h */,
+				69042E081928C286009B5D54 /* FirstViewController.m */,
+				69042E091928C286009B5D54 /* FirstViewController.xib */,
 			);
 			path = PowerSpot;
 			sourceTree = "<group>";
@@ -234,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A070DB519289F7F001C6659 /* InfoPlist.strings in Resources */,
+				69042E0B1928C286009B5D54 /* FirstViewController.xib in Resources */,
 				6A070DC019289F7F001C6659 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +264,7 @@
 			files = (
 				6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */,
 				6A070DE21928A815001C6659 /* MapEntity.m in Sources */,
+				69042E0A1928C286009B5D54 /* FirstViewController.m in Sources */,
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
 			);
@@ -453,6 +463,7 @@
 				6A070DD919289F7F001C6659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A070DDA19289F7F001C6659 /* Build configuration list for PBXNativeTarget "PowerSpotTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +472,7 @@
 				6A070DDC19289F7F001C6659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
