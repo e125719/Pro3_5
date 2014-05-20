@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69042E0A1928C286009B5D54 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69042E081928C286009B5D54 /* FirstViewController.m */; };
-		69042E0B1928C286009B5D54 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69042E091928C286009B5D54 /* FirstViewController.xib */; };
 		6A070DA919289F7F001C6659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DA819289F7F001C6659 /* Foundation.framework */; };
 		6A070DAB19289F7F001C6659 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DAA19289F7F001C6659 /* CoreGraphics.framework */; };
 		6A070DAD19289F7F001C6659 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A070DAC19289F7F001C6659 /* UIKit.framework */; };
@@ -25,6 +23,8 @@
 		6A070DD419289F7F001C6659 /* PowerSpotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DD319289F7F001C6659 /* PowerSpotTests.m */; };
 		6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */; };
 		6A070DE21928A815001C6659 /* MapEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DE11928A815001C6659 /* MapEntity.m */; };
+		6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA15192B818D006C4CFF /* titleViewController.m */; };
+		6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A38CA16192B818D006C4CFF /* titleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		69042E071928C286009B5D54 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		69042E081928C286009B5D54 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		69042E091928C286009B5D54 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		6A070DA519289F7F001C6659 /* PowerSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A070DA819289F7F001C6659 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A070DAA19289F7F001C6659 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +58,9 @@
 		6A070DDE1928A573001C6659 /* MapDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapDB.xcdatamodel; sourceTree = "<group>"; };
 		6A070DE01928A815001C6659 /* MapEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapEntity.h; sourceTree = "<group>"; };
 		6A070DE11928A815001C6659 /* MapEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapEntity.m; sourceTree = "<group>"; };
+		6A38CA14192B818D006C4CFF /* titleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = titleViewController.h; sourceTree = "<group>"; };
+		6A38CA15192B818D006C4CFF /* titleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = titleViewController.m; sourceTree = "<group>"; };
+		6A38CA16192B818D006C4CFF /* titleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = titleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +123,9 @@
 		6A070DB019289F7F001C6659 /* PowerSpot */ = {
 			isa = PBXGroup;
 			children = (
+				6A38CA14192B818D006C4CFF /* titleViewController.h */,
+				6A38CA15192B818D006C4CFF /* titleViewController.m */,
+				6A38CA16192B818D006C4CFF /* titleViewController.xib */,
 				6A070DB919289F7F001C6659 /* AppDelegate.h */,
 				6A070DBA19289F7F001C6659 /* AppDelegate.m */,
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
@@ -130,9 +133,6 @@
 				6A070DE11928A815001C6659 /* MapEntity.m */,
 				6A070DBF19289F7F001C6659 /* Images.xcassets */,
 				6A070DB119289F7F001C6659 /* Supporting Files */,
-				69042E071928C286009B5D54 /* FirstViewController.h */,
-				69042E081928C286009B5D54 /* FirstViewController.m */,
-				69042E091928C286009B5D54 /* FirstViewController.xib */,
 			);
 			path = PowerSpot;
 			sourceTree = "<group>";
@@ -241,8 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */,
 				6A070DB519289F7F001C6659 /* InfoPlist.strings in Resources */,
-				69042E0B1928C286009B5D54 /* FirstViewController.xib in Resources */,
 				6A070DC019289F7F001C6659 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */,
 				6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */,
 				6A070DE21928A815001C6659 /* MapEntity.m in Sources */,
-				69042E0A1928C286009B5D54 /* FirstViewController.m in Sources */,
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
 			);
