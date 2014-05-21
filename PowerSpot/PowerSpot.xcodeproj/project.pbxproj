@@ -98,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A97981192CC33B00853451 /* GoogleMaps.framework in Frameworks */,
 				69A97995192CC48F00853451 /* SystemConfiguration.framework in Frameworks */,
 				69A97993192CC47800853451 /* QuartzCore.framework in Frameworks */,
 				69A97991192CC46C00853451 /* OpenGLES.framework in Frameworks */,
@@ -111,7 +112,6 @@
 				69A97983192CC3F800853451 /* AVFoundation.framework in Frameworks */,
 				6A070DAB19289F7F001C6659 /* CoreGraphics.framework in Frameworks */,
 				6A070DAD19289F7F001C6659 /* UIKit.framework in Frameworks */,
-				69A97981192CC33B00853451 /* GoogleMaps.framework in Frameworks */,
 				6A070DA919289F7F001C6659 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
