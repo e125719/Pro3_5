@@ -11,6 +11,5 @@
 
 @interface DiaryViewController : UIViewController
 
-@property (nonatomic, weak) GMSMapView *mapView;
 
 @end
