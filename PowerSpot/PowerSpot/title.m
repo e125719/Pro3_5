@@ -33,9 +33,21 @@
     [self setColor_r:0 g:0 b:0];
     
     [self drawString:[NSString stringWithFormat:@"画面サイズ%dx%d", (int)[UIScreen mainScreen].bounds.size.width, (int)[UIScreen mainScreen].bounds.size.height] x:0 y:20 attrs:attrs];
+
+    CGSize size = [@"A" sizeWithAttributes:attrs];
+    [self drawString:[NSString stringWithFormat:@"文字幅:%d", (int)size.width] x:0 y:20+26 attrs:attrs];
     
-    CGRect size = [@"A" sizeWithAttributes:attrs];
-    [self drawString:[NSString stringWithFormat:@"文字幅:"] x:<#(float)#> y:<#(float)#> attrs:<#(NSDictionary *)#>];
+    attrs = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:12], NSFontAttributeName, nil];
+    [self setColor_r:255 g:0 b:0];
+    [self drawString:@"12pt" x:0 y:20+26*2 attrs:attrs];
+    
+    attrs = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:16], NSFontAttributeName, nil];
+    [self setColor_r:0 g:255 b:0];
+    [self drawString:@"16pt" x:0 y:20+26*3 attrs:attrs];
+    
+    attrs = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:24], NSFontAttributeName, nil];
+    [self setColor_r:0 g:0 b:255];
+    [self drawString:@"24pt" x:0 y:20+26*4 attrs:attrs];
 }
 
 /*
