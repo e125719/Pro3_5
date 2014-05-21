@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 
 @interface DiaryViewController : UIViewController
+
+@property (nonatomic, weak) GMSMapView *mapView;
 
 @end

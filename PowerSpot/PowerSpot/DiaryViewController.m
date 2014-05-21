@@ -7,6 +7,7 @@
 //
 
 #import "DiaryViewController.h"
+#import "fmdb/FMDatabase.h"
 
 @interface DiaryViewController ()
 
@@ -27,6 +28,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:36.5946816
+                                                            longitude:136.6255726
+                                                                 zoom:10];
+    GMSMapView* mapView = [GMSMapView mapWithFrame:self.view.bounds camera:camera];
+    mapView.myLocationEnabled = YES;
+    [self.view addSubview:mapView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,5 +42,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end
