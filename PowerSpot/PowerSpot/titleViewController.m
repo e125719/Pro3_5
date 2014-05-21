@@ -7,6 +7,7 @@
 //
 
 #import "titleViewController.h"
+#import "DiaryViewController.h"
 
 @interface titleViewController ()
 
@@ -46,6 +47,8 @@
 }
 
 - (IBAction)clickButton:(UIButton*)sender {
+    DiaryViewController *Diary = [[DiaryViewController alloc]initWithNibName:@"DiaryViewController" bundle:nil];
+    [self presentViewController:Diary animated:YES completion:nil];
     
 }
 

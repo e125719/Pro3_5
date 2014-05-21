@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692CA556192D21F400D074CB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 692CA555192D21F400D074CB /* libsqlite3.dylib */; };
+		692CA557192D223400D074CB /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6905B12C192D0B5F00EEA001 /* GoogleMaps.framework */; };
+		692CA564192D23E100D074CB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CA55B192D23E100D074CB /* FMDatabase.m */; };
+		692CA565192D23E100D074CB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CA55D192D23E100D074CB /* FMDatabaseAdditions.m */; };
+		692CA566192D23E100D074CB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CA55F192D23E100D074CB /* FMDatabasePool.m */; };
+		692CA567192D23E100D074CB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CA561192D23E100D074CB /* FMDatabaseQueue.m */; };
+		692CA568192D23E100D074CB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CA563192D23E100D074CB /* FMResultSet.m */; };
 		69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9797C192CBEB000853451 /* DiaryViewController.m */; };
 		69A9797F192CBEB000853451 /* DiaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A9797D192CBEB000853451 /* DiaryViewController.xib */; };
 		69A97983192CC3F800853451 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A97982192CC3F800853451 /* AVFoundation.framework */; };
@@ -38,7 +45,6 @@
 		6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA15192B818D006C4CFF /* titleViewController.m */; };
 		6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A38CA16192B818D006C4CFF /* titleViewController.xib */; };
 		6A38CA1B192B839A006C4CFF /* title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA1A192B839A006C4CFF /* title.m */; };
-		6ADD66AD192D113B00F49791 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADD66AC192D113B00F49791 /* GoogleMaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,17 @@
 /* Begin PBXFileReference section */
 		6905B12A192D09C900EEA001 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = System/Library/Frameworks/GoogleMaps.framework; sourceTree = SDKROOT; };
 		6905B12C192D0B5F00EEA001 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = ../../../../../Library/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		692CA555192D21F400D074CB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		692CA55A192D23E100D074CB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		692CA55B192D23E100D074CB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		692CA55C192D23E100D074CB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		692CA55D192D23E100D074CB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		692CA55E192D23E100D074CB /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		692CA55F192D23E100D074CB /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		692CA560192D23E100D074CB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		692CA561192D23E100D074CB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		692CA562192D23E100D074CB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		692CA563192D23E100D074CB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		69A9797B192CBEB000853451 /* DiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryViewController.h; sourceTree = "<group>"; };
 		69A9797C192CBEB000853451 /* DiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryViewController.m; sourceTree = "<group>"; };
 		69A9797D192CBEB000853451 /* DiaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiaryViewController.xib; sourceTree = "<group>"; };
@@ -100,7 +117,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADD66AD192D113B00F49791 /* GoogleMaps.framework in Frameworks */,
+				692CA557192D223400D074CB /* GoogleMaps.framework in Frameworks */,
+				692CA556192D21F400D074CB /* libsqlite3.dylib in Frameworks */,
 				69A97995192CC48F00853451 /* SystemConfiguration.framework in Frameworks */,
 				69A97993192CC47800853451 /* QuartzCore.framework in Frameworks */,
 				69A97991192CC46C00853451 /* OpenGLES.framework in Frameworks */,
@@ -132,6 +150,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		692CA559192D23E100D074CB /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				692CA55A192D23E100D074CB /* FMDatabase.h */,
+				692CA55B192D23E100D074CB /* FMDatabase.m */,
+				692CA55C192D23E100D074CB /* FMDatabaseAdditions.h */,
+				692CA55D192D23E100D074CB /* FMDatabaseAdditions.m */,
+				692CA55E192D23E100D074CB /* FMDatabasePool.h */,
+				692CA55F192D23E100D074CB /* FMDatabasePool.m */,
+				692CA560192D23E100D074CB /* FMDatabaseQueue.h */,
+				692CA561192D23E100D074CB /* FMDatabaseQueue.m */,
+				692CA562192D23E100D074CB /* FMResultSet.h */,
+				692CA563192D23E100D074CB /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		6A070D9C19289F7F001C6659 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +189,7 @@
 		6A070DA719289F7F001C6659 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				692CA555192D21F400D074CB /* libsqlite3.dylib */,
 				6ADD66AC192D113B00F49791 /* GoogleMaps.framework */,
 				6905B12C192D0B5F00EEA001 /* GoogleMaps.framework */,
 				6905B12A192D09C900EEA001 /* GoogleMaps.framework */,
@@ -192,6 +228,7 @@
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
 				6A070DE01928A815001C6659 /* MapEntity.h */,
 				6A070DE11928A815001C6659 /* MapEntity.m */,
+				692CA559192D23E100D074CB /* fmdb */,
 				6A070DBF19289F7F001C6659 /* Images.xcassets */,
 				6A070DB119289F7F001C6659 /* Supporting Files */,
 			);
@@ -329,8 +366,13 @@
 				6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */,
 				6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */,
 				6A070DE21928A815001C6659 /* MapEntity.m in Sources */,
+				692CA565192D23E100D074CB /* FMDatabaseAdditions.m in Sources */,
+				692CA568192D23E100D074CB /* FMResultSet.m in Sources */,
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
+				692CA566192D23E100D074CB /* FMDatabasePool.m in Sources */,
+				692CA567192D23E100D074CB /* FMDatabaseQueue.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
+				692CA564192D23E100D074CB /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

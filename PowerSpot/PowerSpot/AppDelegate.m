@@ -24,6 +24,8 @@
     
     self.window.rootViewController = [[titleViewController alloc] init];
     return YES;
+    
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
