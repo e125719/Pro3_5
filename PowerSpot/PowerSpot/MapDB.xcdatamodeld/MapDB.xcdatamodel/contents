@@ -3,7 +3,7 @@
     <entity name="MapEntity" representedClassName="MapEntity" syncable="YES">
         <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="coordinate" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" syncable="YES"/>
     </entity>
     <elements>
         <element name="MapEntity" positionX="-45" positionY="0" width="128" height="90"/>

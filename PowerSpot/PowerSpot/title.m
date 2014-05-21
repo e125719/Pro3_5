@@ -32,7 +32,10 @@
     
     [self setColor_r:0 g:0 b:0];
     
-    [self drawString:[NSString stringWithFormat:@"PowerSpot:%dx%d", (int)[UIScreen mainScreen].bounds.size.width, (int)[UIScreen mainScreen].bounds.size.height] x:0 y:20 attrs:attrs];
+    [self drawString:[NSString stringWithFormat:@"画面サイズ%dx%d", (int)[UIScreen mainScreen].bounds.size.width, (int)[UIScreen mainScreen].bounds.size.height] x:0 y:20 attrs:attrs];
+    
+    CGRect size = [@"A" sizeWithAttributes:attrs];
+    [self drawString:[NSString stringWithFormat:@"文字幅:"] x:<#(float)#> y:<#(float)#> attrs:<#(NSDictionary *)#>];
 }
 
 /*
