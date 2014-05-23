@@ -8,6 +8,19 @@ Rails.application.routes.draw do
 
 
 
+  get 'start/index'
+
+  get 'sessions/create'
+  get 'sessions/verify'
+
+  get 'contents/post'
+
+  post "contents/input" => "contents#input"
+
+
+  #get  '/oauth2callback' => "sessions#create"
+  get "/auth/:provider/callback" => "sessions#create"
+
 
 
 

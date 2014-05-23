@@ -2,7 +2,7 @@ require 'pp'
 class MapController < ApplicationController
 
   def index
-    @users = User.all
+    @users = User.all.where(["userid=?",session[:uid]])
     @hash = Gmaps4rails.build_markers(@users) do |user, marker|
 
       marker.lat user.latitude

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>地図情報の更新</title>
+</head>
+<body>
+
+<p>データ送信</p>
+
+
+<form method="post" action="/contents/input">
+ <p>
+ ユーザーID：<input type="text" value=<%= session[:uid] %>  name="userid" /><br />
+ 緯度：<input type="text" name="latitude" /><br />
+ 経度：<input type="text" name="longitude" /><br />
+ タイトル：<input type="text" name="title" /><br />
+ Good od Bad ?：<input type="text" name="status" /><br />
+ 何があった？：<input type="text" name="description" /><br />
+ <input type="submit" value="送信" />
+ </p>
+</form>
+
+
+</body>
+</html>
