@@ -29,6 +29,11 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    
+}
+
 - (void)viewDidAppear:(BOOL)animated {
     if (self.text != nil) {
         [text setText:self.text];
@@ -43,6 +48,14 @@
 
 - (IBAction)commitButtonClicked:(id)sender {
     [self.delegate didCommitButtonClicked:self editText:text.text];
+}
+
+- (IBAction)cancelButtonClicked:(id)sender {
+    [self.delegate didCancelButtonClicked:self];
+}
+
+- (IBAction)clearButtonClicked:(id)sender {
+    [self.delegate didClearButtonClicked:self];
 }
 
 /*

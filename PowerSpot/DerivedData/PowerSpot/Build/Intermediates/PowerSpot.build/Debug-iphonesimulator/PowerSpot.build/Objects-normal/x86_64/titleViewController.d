@@ -1,41 +1,4 @@
 dependencies: \
   /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m \
   /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.h \
-  /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GoogleMaps.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSAddress.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapLayer.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCALayer.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSUISettings.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraPosition.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraUpdate.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCircle.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOverlay.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCoordinateBounds.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSProjection.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeocoder.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeometryUtils.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPath.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGroundOverlay.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorBuilding.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorDisplay.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorLevel.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView+Animation.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarker.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarkerLayer.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMutablePath.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOrientation.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanorama.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCamera.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLayer.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLink.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaService.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaView.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolygon.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolyline.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSServices.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSTileLayer.h \
-  /Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h
+  /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.h
