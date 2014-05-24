@@ -46,6 +46,7 @@
 		6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA15192B818D006C4CFF /* titleViewController.m */; };
 		6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A38CA16192B818D006C4CFF /* titleViewController.xib */; };
 		6A38CA1B192B839A006C4CFF /* title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA1A192B839A006C4CFF /* title.m */; };
+		6A97727019304B8B0041263F /* textBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97726F19304B8B0041263F /* textBoxViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		6A38CA16192B818D006C4CFF /* titleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = titleViewController.xib; sourceTree = "<group>"; };
 		6A38CA19192B839A006C4CFF /* title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = title.h; sourceTree = "<group>"; };
 		6A38CA1A192B839A006C4CFF /* title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = title.m; sourceTree = "<group>"; };
+		6A97726E19304B8B0041263F /* textBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textBoxViewController.h; sourceTree = "<group>"; };
+		6A97726F19304B8B0041263F /* textBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textBoxViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +226,8 @@
 				69A9797B192CBEB000853451 /* DiaryViewController.h */,
 				69A9797C192CBEB000853451 /* DiaryViewController.m */,
 				69A9797D192CBEB000853451 /* DiaryViewController.xib */,
+				6A97726E19304B8B0041263F /* textBoxViewController.h */,
+				6A97726F19304B8B0041263F /* textBoxViewController.m */,
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
 				6A070DE01928A815001C6659 /* MapEntity.h */,
 				6A070DE11928A815001C6659 /* MapEntity.m */,
@@ -371,6 +376,7 @@
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
 				692CA566192D23E100D074CB /* FMDatabasePool.m in Sources */,
 				692CA567192D23E100D074CB /* FMDatabaseQueue.m in Sources */,
+				6A97727019304B8B0041263F /* textBoxViewController.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
 				692CA564192D23E100D074CB /* FMDatabase.m in Sources */,
 			);
