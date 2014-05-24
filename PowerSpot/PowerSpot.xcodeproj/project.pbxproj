@@ -50,6 +50,8 @@
 		6A97727A193092B50041263F /* goodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A977278193092B50041263F /* goodViewController.xib */; };
 		6A97727E193092CA0041263F /* badViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97727C193092CA0041263F /* badViewController.m */; };
 		6A97727F193092CA0041263F /* badViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A97727D193092CA0041263F /* badViewController.xib */; };
+		6A9772881930A2410041263F /* goodText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9772871930A2410041263F /* goodText.m */; };
+		6A97728B1930A2AB0041263F /* badText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97728A1930A2AB0041263F /* badText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,10 @@
 		6A97727B193092CA0041263F /* badViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = badViewController.h; sourceTree = "<group>"; };
 		6A97727C193092CA0041263F /* badViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = badViewController.m; sourceTree = "<group>"; };
 		6A97727D193092CA0041263F /* badViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = badViewController.xib; sourceTree = "<group>"; };
+		6A9772861930A2410041263F /* goodText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goodText.h; sourceTree = "<group>"; };
+		6A9772871930A2410041263F /* goodText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = goodText.m; sourceTree = "<group>"; };
+		6A9772891930A2AB0041263F /* badText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = badText.h; sourceTree = "<group>"; };
+		6A97728A1930A2AB0041263F /* badText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = badText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,9 +242,13 @@
 				6A977276193092B50041263F /* goodViewController.h */,
 				6A977277193092B50041263F /* goodViewController.m */,
 				6A977278193092B50041263F /* goodViewController.xib */,
+				6A9772861930A2410041263F /* goodText.h */,
+				6A9772871930A2410041263F /* goodText.m */,
 				6A97727B193092CA0041263F /* badViewController.h */,
 				6A97727C193092CA0041263F /* badViewController.m */,
 				6A97727D193092CA0041263F /* badViewController.xib */,
+				6A9772891930A2AB0041263F /* badText.h */,
+				6A97728A1930A2AB0041263F /* badText.m */,
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
 				6A070DE01928A815001C6659 /* MapEntity.h */,
 				6A070DE11928A815001C6659 /* MapEntity.m */,
@@ -379,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A97728B1930A2AB0041263F /* badText.m in Sources */,
 				69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */,
 				6A977279193092B50041263F /* goodViewController.m in Sources */,
 				6A38CA1B192B839A006C4CFF /* title.m in Sources */,
@@ -392,6 +403,7 @@
 				6A97727E193092CA0041263F /* badViewController.m in Sources */,
 				692CA567192D23E100D074CB /* FMDatabaseQueue.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
+				6A9772881930A2410041263F /* goodText.m in Sources */,
 				692CA564192D23E100D074CB /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
