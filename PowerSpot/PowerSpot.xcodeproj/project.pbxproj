@@ -49,6 +49,7 @@
 		6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA15192B818D006C4CFF /* titleViewController.m */; };
 		6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A38CA16192B818D006C4CFF /* titleViewController.xib */; };
 		6A38CA1B192B839A006C4CFF /* title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA1A192B839A006C4CFF /* title.m */; };
+		6AF2DEBE19315AD2007A7B96 /* tabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2DEBD19315AD2007A7B96 /* tabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,8 @@
 		6A38CA16192B818D006C4CFF /* titleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = titleViewController.xib; sourceTree = "<group>"; };
 		6A38CA19192B839A006C4CFF /* title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = title.h; sourceTree = "<group>"; };
 		6A38CA1A192B839A006C4CFF /* title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = title.m; sourceTree = "<group>"; };
+		6AF2DEBC19315AD2007A7B96 /* tabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarViewController.h; sourceTree = "<group>"; };
+		6AF2DEBD19315AD2007A7B96 /* tabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +226,8 @@
 				6990972A1930FA27003BAA84 /* EditViewController.h */,
 				6990972B1930FA27003BAA84 /* EditViewController.m */,
 				6990972C1930FA27003BAA84 /* EditViewController.xib */,
+				6AF2DEBC19315AD2007A7B96 /* tabBarViewController.h */,
+				6AF2DEBD19315AD2007A7B96 /* tabBarViewController.m */,
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
 				6A070DE01928A815001C6659 /* MapEntity.h */,
 				6A070DE11928A815001C6659 /* MapEntity.m */,
@@ -372,6 +377,7 @@
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
 				699097321930FA99003BAA84 /* GoodTableViewController.m in Sources */,
 				6990972D1930FA27003BAA84 /* EditViewController.m in Sources */,
+				6AF2DEBE19315AD2007A7B96 /* tabBarViewController.m in Sources */,
 				699097371930FB05003BAA84 /* BadTableViewController.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
 				6990973C1930FB9F003BAA84 /* ListTableViewController.m in Sources */,
