@@ -7,7 +7,8 @@
 //
 
 #import "DiaryViewController.h"
-#import "textViewController.h"
+#import "goodViewController.h"
+#import "badViewController.h"
 #import "fmdb/FMDatabase.h"
 
 @interface DiaryViewController ()
@@ -32,9 +33,11 @@
     
     UIButton* btnGood = [self makeButton:CGRectMake(50, 100, 100, 40) text:@"GOOD"];
     [self.view addSubview:btnGood];
+    [btnGood addTarget:self action:@selector(pushGoodButton:) forControlEvents:UIControlEventTouchUpInside];
     
     UIButton* btnBad = [self makeButton:CGRectMake(170, 100, 100, 40) text:@"BAD"];
     [self.view addSubview:btnBad];
+    [btnBad addTarget:self action:@selector(pushBadButton:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,13 +50,18 @@
     UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button setFrame:rect];
     [button setTitle:text forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(actionButton:) forControlEvents:UIControlEventTouchUpInside];
+    
     return button;
 }
 
-- (IBAction)actionButton:(UIButton*)sender {
-    textViewController* TextView = [[textViewController alloc] initWithNibName:@"textViewController" bundle:nil];
-    [self presentViewController:TextView animated:YES completion:nil];
+- (IBAction)pushGoodButton:(UIButton*)sender {
+    goodViewController* GOOD = [[goodViewController alloc] initWithNibName:@"goodViewController" bundle:nil];
+    [self presentViewController:GOOD animated:YES completion:nil];
+}
+
+- (IBAction)pushBadButton:(id)sender {
+    badViewController* BAD = [[badViewController alloc] initWithNibName:@"badViewController" bundle:nil];
+    [self presentViewController:BAD animated:YES completion:nil];
 }
 
 @end
