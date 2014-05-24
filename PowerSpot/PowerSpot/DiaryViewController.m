@@ -9,7 +9,7 @@
 #import "DiaryViewController.h"
 #import "goodViewController.h"
 #import "badViewController.h"
-#import "fmdb/FMDatabase.h"
+#import "ListViewController.h"
 
 @interface DiaryViewController ()
 
@@ -37,6 +37,11 @@
     UIButton* btnBad = [self makeButton:CGRectMake(170, 100, 100, 40) text:@"BAD"];
     [self.view addSubview:btnBad];
     [btnBad addTarget:self action:@selector(pushBadButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton* list = [self makeButton:CGRectMake(110, 150, 100, 40) text:@"LIST"];
+    [self.view addSubview:list];
+    [list addTarget:self action:@selector(pushListButton:) forControlEvents:UIControlEventTouchUpInside];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,6 +66,11 @@
 - (IBAction)pushBadButton:(id)sender {
     badViewController* BAD = [[badViewController alloc] initWithNibName:@"badViewController" bundle:nil];
     [self presentViewController:BAD animated:YES completion:nil];
+}
+
+- (IBAction)pushListButton :(id)sender {
+    ListViewController* slist = [[ListViewController alloc]initWithNibName:@"ListViewController" bundle:nil];
+    [self presentViewController:slist animated:YES completion:nil];
 }
 
 @end

@@ -10,6 +10,8 @@
 		692CA556192D21F400D074CB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 692CA555192D21F400D074CB /* libsqlite3.dylib */; };
 		692CA56A192D2EA400D074CB /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 692CA569192D2EA400D074CB /* GoogleMaps.bundle */; };
 		692CA56C192D301000D074CB /* GoogleMaps.framework in Resources */ = {isa = PBXBuildFile; fileRef = 692CA56B192D301000D074CB /* GoogleMaps.framework */; };
+		699097281930F2BF003BAA84 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699097261930F2BF003BAA84 /* ListViewController.m */; };
+		699097291930F2BF003BAA84 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699097271930F2BF003BAA84 /* ListViewController.xib */; };
 		69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9797C192CBEB000853451 /* DiaryViewController.m */; };
 		69A9797F192CBEB000853451 /* DiaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A9797D192CBEB000853451 /* DiaryViewController.xib */; };
 		69A97983192CC3F800853451 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A97982192CC3F800853451 /* AVFoundation.framework */; };
@@ -45,7 +47,6 @@
 		6A97727A193092B50041263F /* goodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A977278193092B50041263F /* goodViewController.xib */; };
 		6A97727E193092CA0041263F /* badViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97727C193092CA0041263F /* badViewController.m */; };
 		6A97727F193092CA0041263F /* badViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A97727D193092CA0041263F /* badViewController.xib */; };
-		6A9772881930A2410041263F /* goodText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9772871930A2410041263F /* goodText.m */; };
 		6A97728B1930A2AB0041263F /* badText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97728A1930A2AB0041263F /* badText.m */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,9 @@
 		692CA555192D21F400D074CB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		692CA569192D2EA400D074CB /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		692CA56B192D301000D074CB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		699097251930F2BF003BAA84 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		699097261930F2BF003BAA84 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		699097271930F2BF003BAA84 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		69A9797B192CBEB000853451 /* DiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryViewController.h; sourceTree = "<group>"; };
 		69A9797C192CBEB000853451 /* DiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryViewController.m; sourceTree = "<group>"; };
 		69A9797D192CBEB000853451 /* DiaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiaryViewController.xib; sourceTree = "<group>"; };
@@ -217,6 +221,9 @@
 				6A97727D193092CA0041263F /* badViewController.xib */,
 				6A9772891930A2AB0041263F /* badText.h */,
 				6A97728A1930A2AB0041263F /* badText.m */,
+				699097251930F2BF003BAA84 /* ListViewController.h */,
+				699097261930F2BF003BAA84 /* ListViewController.m */,
+				699097271930F2BF003BAA84 /* ListViewController.xib */,
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
 				6A070DE01928A815001C6659 /* MapEntity.h */,
 				6A070DE11928A815001C6659 /* MapEntity.m */,
@@ -335,6 +342,7 @@
 				6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */,
 				6A070DB519289F7F001C6659 /* InfoPlist.strings in Resources */,
 				6A070DC019289F7F001C6659 /* Images.xcassets in Resources */,
+				699097291930F2BF003BAA84 /* ListViewController.xib in Resources */,
 				692CA56A192D2EA400D074CB /* GoogleMaps.bundle in Resources */,
 				6A97727A193092B50041263F /* goodViewController.xib in Resources */,
 				6A97727F193092CA0041263F /* badViewController.xib in Resources */,
@@ -358,6 +366,7 @@
 			files = (
 				6A97728B1930A2AB0041263F /* badText.m in Sources */,
 				69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */,
+				699097281930F2BF003BAA84 /* ListViewController.m in Sources */,
 				6A977279193092B50041263F /* goodViewController.m in Sources */,
 				6A38CA1B192B839A006C4CFF /* title.m in Sources */,
 				6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */,
