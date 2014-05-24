@@ -29,9 +29,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    UIButton* btnGood = [self makeButton:CGRectMake(10, 100, 200, 40) text:@"GOOD"];
+    UIButton* btnGood = [self makeButton:CGRectMake(50, 100, 100, 40) text:@"GOOD"];
     [self.view addSubview:btnGood];
-    UIButton* btnBad = [self makeButton:CGRectMake(110, 100, 200, 40) text:@"BAD"];
+    UIButton* btnBad = [self makeButton:CGRectMake(170, 100, 100, 40) text:@"BAD"];
     [self.view addSubview:btnBad];
 }
 
