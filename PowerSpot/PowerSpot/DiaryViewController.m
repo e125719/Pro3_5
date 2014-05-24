@@ -7,6 +7,7 @@
 //
 
 #import "DiaryViewController.h"
+#import "textViewController.h"
 #import "fmdb/FMDatabase.h"
 
 @interface DiaryViewController ()
@@ -31,6 +32,7 @@
     
     UIButton* btnGood = [self makeButton:CGRectMake(50, 100, 100, 40) text:@"GOOD"];
     [self.view addSubview:btnGood];
+    
     UIButton* btnBad = [self makeButton:CGRectMake(170, 100, 100, 40) text:@"BAD"];
     [self.view addSubview:btnBad];
 }
@@ -45,12 +47,13 @@
     UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button setFrame:rect];
     [button setTitle:text forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    [button addTarget:self action:@selector(actionButton:) forControlEvents:UIControlEventTouchUpInside];
     return button;
 }
 
-- (IBAction)clickButton:(UIButton*)sender {
-    
+- (IBAction)actionButton:(UIButton*)sender {
+    textViewController* TextView = [[textViewController alloc] initWithNibName:@"textViewController" bundle:nil];
+    [self presentViewController:TextView animated:YES completion:nil];
 }
 
 @end

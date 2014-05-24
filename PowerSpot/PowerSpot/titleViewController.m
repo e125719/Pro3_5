@@ -47,9 +47,8 @@
 }
 
 - (IBAction)clickButton:(UIButton*)sender {
-    DiaryViewController *Diary = [[DiaryViewController alloc]initWithNibName:@"DiaryViewController" bundle:nil];
-    [self presentViewController:Diary animated:YES completion:nil];
-    
+    DiaryViewController *DiaryView = [[DiaryViewController alloc]initWithNibName:@"DiaryViewController" bundle:nil];
+    [self presentViewController:DiaryView animated:YES completion:nil];
 }
 
 @end

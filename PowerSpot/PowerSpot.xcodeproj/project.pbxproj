@@ -48,6 +48,10 @@
 		6A38CA1B192B839A006C4CFF /* title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA1A192B839A006C4CFF /* title.m */; };
 		6A977274193075020041263F /* textViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A977272193075020041263F /* textViewController.m */; };
 		6A977275193075020041263F /* textViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A977273193075020041263F /* textViewController.xib */; };
+		6A977279193092B50041263F /* goodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A977277193092B50041263F /* goodViewController.m */; };
+		6A97727A193092B50041263F /* goodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A977278193092B50041263F /* goodViewController.xib */; };
+		6A97727E193092CA0041263F /* badViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97727C193092CA0041263F /* badViewController.m */; };
+		6A97727F193092CA0041263F /* badViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A97727D193092CA0041263F /* badViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +119,12 @@
 		6A977271193075020041263F /* textViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textViewController.h; sourceTree = "<group>"; };
 		6A977272193075020041263F /* textViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textViewController.m; sourceTree = "<group>"; };
 		6A977273193075020041263F /* textViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = textViewController.xib; sourceTree = "<group>"; };
+		6A977276193092B50041263F /* goodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goodViewController.h; sourceTree = "<group>"; };
+		6A977277193092B50041263F /* goodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = goodViewController.m; sourceTree = "<group>"; };
+		6A977278193092B50041263F /* goodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = goodViewController.xib; sourceTree = "<group>"; };
+		6A97727B193092CA0041263F /* badViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = badViewController.h; sourceTree = "<group>"; };
+		6A97727C193092CA0041263F /* badViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = badViewController.m; sourceTree = "<group>"; };
+		6A97727D193092CA0041263F /* badViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = badViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +241,12 @@
 				6A977271193075020041263F /* textViewController.h */,
 				6A977272193075020041263F /* textViewController.m */,
 				6A977273193075020041263F /* textViewController.xib */,
+				6A977276193092B50041263F /* goodViewController.h */,
+				6A977277193092B50041263F /* goodViewController.m */,
+				6A977278193092B50041263F /* goodViewController.xib */,
+				6A97727B193092CA0041263F /* badViewController.h */,
+				6A97727C193092CA0041263F /* badViewController.m */,
+				6A97727D193092CA0041263F /* badViewController.xib */,
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
 				6A070DE01928A815001C6659 /* MapEntity.h */,
 				6A070DE11928A815001C6659 /* MapEntity.m */,
@@ -352,6 +368,8 @@
 				6A070DC019289F7F001C6659 /* Images.xcassets in Resources */,
 				6A977275193075020041263F /* textViewController.xib in Resources */,
 				692CA56A192D2EA400D074CB /* GoogleMaps.bundle in Resources */,
+				6A97727A193092B50041263F /* goodViewController.xib in Resources */,
+				6A97727F193092CA0041263F /* badViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */,
+				6A977279193092B50041263F /* goodViewController.m in Sources */,
 				6A38CA1B192B839A006C4CFF /* title.m in Sources */,
 				6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */,
 				6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */,
@@ -379,6 +398,7 @@
 				692CA568192D23E100D074CB /* FMResultSet.m in Sources */,
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
 				692CA566192D23E100D074CB /* FMDatabasePool.m in Sources */,
+				6A97727E193092CA0041263F /* badViewController.m in Sources */,
 				692CA567192D23E100D074CB /* FMDatabaseQueue.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
 				692CA564192D23E100D074CB /* FMDatabase.m in Sources */,
