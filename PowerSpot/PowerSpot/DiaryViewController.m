@@ -30,11 +30,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    UIButton* btnGood = [self makeButton:CGRectMake(50, 100, 100, 40) text:@"GOOD"];
+    UIButton* btnGood = [self makeButton:CGRectMake(10, 100, 100, 40) text:@"GOOD"];
     [self.view addSubview:btnGood];
     [btnGood addTarget:self action:@selector(pushGoodButton:) forControlEvents:UIControlEventTouchUpInside];
-    
+
     UIButton* btnBad = [self makeButton:CGRectMake(170, 100, 100, 40) text:@"BAD"];
     [self.view addSubview:btnBad];
     [btnBad addTarget:self action:@selector(pushBadButton:) forControlEvents:UIControlEventTouchUpInside];
@@ -54,7 +53,7 @@
     return button;
 }
 
-- (IBAction)pushGoodButton:(UIButton*)sender {
+- (IBAction)pushGoodButton:(id)sender {
     goodViewController* GOOD = [[goodViewController alloc] initWithNibName:@"goodViewController" bundle:nil];
     [self presentViewController:GOOD animated:YES completion:nil];
 }
