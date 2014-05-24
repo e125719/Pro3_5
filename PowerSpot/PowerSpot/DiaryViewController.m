@@ -7,15 +7,17 @@
 //
 
 #import "DiaryViewController.h"
-#import "goodViewController.h"
-#import "badViewController.h"
-#import "ListViewController.h"
+#import "GoodTableViewController.h"
+#import "BadTableViewController.h"
+#import "ListTableViewController.h"
 
 @interface DiaryViewController ()
 
 @end
 
 @implementation DiaryViewController
+
+@synthesize goodbad = _goodbad;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,7 +40,7 @@
     [self.view addSubview:btnBad];
     [btnBad addTarget:self action:@selector(pushBadButton:) forControlEvents:UIControlEventTouchUpInside];
     
-    UIButton* list = [self makeButton:CGRectMake(110, 150, 100, 40) text:@"LIST"];
+    UIButton* list = [self makeButton:CGRectMake(110, 250, 100, 40) text:@"LIST"];
     [self.view addSubview:list];
     [list addTarget:self action:@selector(pushListButton:) forControlEvents:UIControlEventTouchUpInside];
 
@@ -59,17 +61,23 @@
 }
 
 - (IBAction)pushGoodButton:(id)sender {
-    goodViewController* GOOD = [[goodViewController alloc] initWithNibName:@"goodViewController" bundle:nil];
+    GoodTableViewController* GOOD = [[GoodTableViewController alloc] initWithNibName:@"GoodTableViewController" bundle:nil];
     [self presentViewController:GOOD animated:YES completion:nil];
+    
+    _goodbad = [NSNumber numberWithBool:YES];
+    NSLog(@"%@", _goodbad);
 }
 
 - (IBAction)pushBadButton:(id)sender {
-    badViewController* BAD = [[badViewController alloc] initWithNibName:@"badViewController" bundle:nil];
+    BadTableViewController* BAD = [[BadTableViewController alloc] initWithNibName:@"BadTableViewController" bundle:nil];
     [self presentViewController:BAD animated:YES completion:nil];
+    
+    _goodbad = [NSNumber numberWithBool:NO];
+     NSLog(@"%@", _goodbad);
 }
 
 - (IBAction)pushListButton :(id)sender {
-    ListViewController* slist = [[ListViewController alloc]initWithNibName:@"ListViewController" bundle:nil];
+    ListTableViewController* slist = [[ListTableViewController alloc]initWithNibName:@"ListTableViewController" bundle:nil];
     [self presentViewController:slist animated:YES completion:nil];
 }
 

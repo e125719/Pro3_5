@@ -1,18 +1,18 @@
 //
-//  badViewController.m
+//  EditViewController.m
 //  PowerSpot
 //
-//  Created by e125719 on 2014/05/24.
-//  Copyright (c) 2014年 e125719. All rights reserved.
+//  Created by Hiroki MATSUMOTO on 5/25/14.
+//  Copyright (c) 2014 e125719. All rights reserved.
 //
 
-#import "badViewController.h"
+#import "EditViewController.h"
 
-@interface badViewController ()
+@interface EditViewController ()
 
 @end
 
-@implementation badViewController
+@implementation EditViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

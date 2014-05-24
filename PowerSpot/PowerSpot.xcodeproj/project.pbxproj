@@ -10,8 +10,14 @@
 		692CA556192D21F400D074CB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 692CA555192D21F400D074CB /* libsqlite3.dylib */; };
 		692CA56A192D2EA400D074CB /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 692CA569192D2EA400D074CB /* GoogleMaps.bundle */; };
 		692CA56C192D301000D074CB /* GoogleMaps.framework in Resources */ = {isa = PBXBuildFile; fileRef = 692CA56B192D301000D074CB /* GoogleMaps.framework */; };
-		699097281930F2BF003BAA84 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699097261930F2BF003BAA84 /* ListViewController.m */; };
-		699097291930F2BF003BAA84 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699097271930F2BF003BAA84 /* ListViewController.xib */; };
+		6990972D1930FA27003BAA84 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990972B1930FA27003BAA84 /* EditViewController.m */; };
+		6990972E1930FA27003BAA84 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6990972C1930FA27003BAA84 /* EditViewController.xib */; };
+		699097321930FA99003BAA84 /* GoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699097301930FA99003BAA84 /* GoodTableViewController.m */; };
+		699097331930FA99003BAA84 /* GoodTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699097311930FA99003BAA84 /* GoodTableViewController.xib */; };
+		699097371930FB05003BAA84 /* BadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699097351930FB05003BAA84 /* BadTableViewController.m */; };
+		699097381930FB05003BAA84 /* BadTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699097361930FB05003BAA84 /* BadTableViewController.xib */; };
+		6990973C1930FB9F003BAA84 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990973A1930FB9F003BAA84 /* ListTableViewController.m */; };
+		6990973D1930FB9F003BAA84 /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6990973B1930FB9F003BAA84 /* ListTableViewController.xib */; };
 		69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9797C192CBEB000853451 /* DiaryViewController.m */; };
 		69A9797F192CBEB000853451 /* DiaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A9797D192CBEB000853451 /* DiaryViewController.xib */; };
 		69A97983192CC3F800853451 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A97982192CC3F800853451 /* AVFoundation.framework */; };
@@ -43,11 +49,6 @@
 		6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA15192B818D006C4CFF /* titleViewController.m */; };
 		6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A38CA16192B818D006C4CFF /* titleViewController.xib */; };
 		6A38CA1B192B839A006C4CFF /* title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA1A192B839A006C4CFF /* title.m */; };
-		6A977279193092B50041263F /* goodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A977277193092B50041263F /* goodViewController.m */; };
-		6A97727A193092B50041263F /* goodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A977278193092B50041263F /* goodViewController.xib */; };
-		6A97727E193092CA0041263F /* badViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97727C193092CA0041263F /* badViewController.m */; };
-		6A97727F193092CA0041263F /* badViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A97727D193092CA0041263F /* badViewController.xib */; };
-		6A97728B1930A2AB0041263F /* badText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97728A1930A2AB0041263F /* badText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +65,18 @@
 		692CA555192D21F400D074CB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		692CA569192D2EA400D074CB /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		692CA56B192D301000D074CB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		699097251930F2BF003BAA84 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		699097261930F2BF003BAA84 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
-		699097271930F2BF003BAA84 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		6990972A1930FA27003BAA84 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		6990972B1930FA27003BAA84 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		6990972C1930FA27003BAA84 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		6990972F1930FA99003BAA84 /* GoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodTableViewController.h; sourceTree = "<group>"; };
+		699097301930FA99003BAA84 /* GoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodTableViewController.m; sourceTree = "<group>"; };
+		699097311930FA99003BAA84 /* GoodTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodTableViewController.xib; sourceTree = "<group>"; };
+		699097341930FB05003BAA84 /* BadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadTableViewController.h; sourceTree = "<group>"; };
+		699097351930FB05003BAA84 /* BadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadTableViewController.m; sourceTree = "<group>"; };
+		699097361930FB05003BAA84 /* BadTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BadTableViewController.xib; sourceTree = "<group>"; };
+		699097391930FB9F003BAA84 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		6990973A1930FB9F003BAA84 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		6990973B1930FB9F003BAA84 /* ListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
 		69A9797B192CBEB000853451 /* DiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryViewController.h; sourceTree = "<group>"; };
 		69A9797C192CBEB000853451 /* DiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryViewController.m; sourceTree = "<group>"; };
 		69A9797D192CBEB000853451 /* DiaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiaryViewController.xib; sourceTree = "<group>"; };
@@ -105,16 +115,6 @@
 		6A38CA16192B818D006C4CFF /* titleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = titleViewController.xib; sourceTree = "<group>"; };
 		6A38CA19192B839A006C4CFF /* title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = title.h; sourceTree = "<group>"; };
 		6A38CA1A192B839A006C4CFF /* title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = title.m; sourceTree = "<group>"; };
-		6A977276193092B50041263F /* goodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goodViewController.h; sourceTree = "<group>"; };
-		6A977277193092B50041263F /* goodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = goodViewController.m; sourceTree = "<group>"; };
-		6A977278193092B50041263F /* goodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = goodViewController.xib; sourceTree = "<group>"; };
-		6A97727B193092CA0041263F /* badViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = badViewController.h; sourceTree = "<group>"; };
-		6A97727C193092CA0041263F /* badViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = badViewController.m; sourceTree = "<group>"; };
-		6A97727D193092CA0041263F /* badViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = badViewController.xib; sourceTree = "<group>"; };
-		6A9772861930A2410041263F /* goodText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goodText.h; sourceTree = "<group>"; };
-		6A9772871930A2410041263F /* goodText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = goodText.m; sourceTree = "<group>"; };
-		6A9772891930A2AB0041263F /* badText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = badText.h; sourceTree = "<group>"; };
-		6A97728A1930A2AB0041263F /* badText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = badText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,19 +211,18 @@
 				69A9797B192CBEB000853451 /* DiaryViewController.h */,
 				69A9797C192CBEB000853451 /* DiaryViewController.m */,
 				69A9797D192CBEB000853451 /* DiaryViewController.xib */,
-				6A977276193092B50041263F /* goodViewController.h */,
-				6A977277193092B50041263F /* goodViewController.m */,
-				6A977278193092B50041263F /* goodViewController.xib */,
-				6A9772861930A2410041263F /* goodText.h */,
-				6A9772871930A2410041263F /* goodText.m */,
-				6A97727B193092CA0041263F /* badViewController.h */,
-				6A97727C193092CA0041263F /* badViewController.m */,
-				6A97727D193092CA0041263F /* badViewController.xib */,
-				6A9772891930A2AB0041263F /* badText.h */,
-				6A97728A1930A2AB0041263F /* badText.m */,
-				699097251930F2BF003BAA84 /* ListViewController.h */,
-				699097261930F2BF003BAA84 /* ListViewController.m */,
-				699097271930F2BF003BAA84 /* ListViewController.xib */,
+				6990972F1930FA99003BAA84 /* GoodTableViewController.h */,
+				699097301930FA99003BAA84 /* GoodTableViewController.m */,
+				699097311930FA99003BAA84 /* GoodTableViewController.xib */,
+				699097341930FB05003BAA84 /* BadTableViewController.h */,
+				699097351930FB05003BAA84 /* BadTableViewController.m */,
+				699097361930FB05003BAA84 /* BadTableViewController.xib */,
+				699097391930FB9F003BAA84 /* ListTableViewController.h */,
+				6990973A1930FB9F003BAA84 /* ListTableViewController.m */,
+				6990973B1930FB9F003BAA84 /* ListTableViewController.xib */,
+				6990972A1930FA27003BAA84 /* EditViewController.h */,
+				6990972B1930FA27003BAA84 /* EditViewController.m */,
+				6990972C1930FA27003BAA84 /* EditViewController.xib */,
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
 				6A070DE01928A815001C6659 /* MapEntity.h */,
 				6A070DE11928A815001C6659 /* MapEntity.m */,
@@ -339,13 +338,14 @@
 			files = (
 				692CA56C192D301000D074CB /* GoogleMaps.framework in Resources */,
 				69A9797F192CBEB000853451 /* DiaryViewController.xib in Resources */,
+				6990972E1930FA27003BAA84 /* EditViewController.xib in Resources */,
 				6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */,
 				6A070DB519289F7F001C6659 /* InfoPlist.strings in Resources */,
 				6A070DC019289F7F001C6659 /* Images.xcassets in Resources */,
-				699097291930F2BF003BAA84 /* ListViewController.xib in Resources */,
+				699097331930FA99003BAA84 /* GoodTableViewController.xib in Resources */,
 				692CA56A192D2EA400D074CB /* GoogleMaps.bundle in Resources */,
-				6A97727A193092B50041263F /* goodViewController.xib in Resources */,
-				6A97727F193092CA0041263F /* badViewController.xib in Resources */,
+				699097381930FB05003BAA84 /* BadTableViewController.xib in Resources */,
+				6990973D1930FB9F003BAA84 /* ListTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,17 +364,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A97728B1930A2AB0041263F /* badText.m in Sources */,
 				69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */,
-				699097281930F2BF003BAA84 /* ListViewController.m in Sources */,
-				6A977279193092B50041263F /* goodViewController.m in Sources */,
 				6A38CA1B192B839A006C4CFF /* title.m in Sources */,
 				6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */,
 				6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */,
 				6A070DE21928A815001C6659 /* MapEntity.m in Sources */,
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
-				6A97727E193092CA0041263F /* badViewController.m in Sources */,
+				699097321930FA99003BAA84 /* GoodTableViewController.m in Sources */,
+				6990972D1930FA27003BAA84 /* EditViewController.m in Sources */,
+				699097371930FB05003BAA84 /* BadTableViewController.m in Sources */,
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
+				6990973C1930FB9F003BAA84 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

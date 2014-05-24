@@ -10,4 +10,6 @@
 
 @interface DiaryViewController : UIViewController
 
+@property NSNumber *goodbad;
+
 @end
