@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 
   get 'sessions/create'
   get 'sessions/verify'
+  get 'sessions/destroy'
 
   get 'contents/post'
 

@@ -11,7 +11,7 @@
 
 <form method="post" action="/contents/input">
  <p>
- ユーザーID：<input type="text" value=<%= session[:uid] %>  name="userid" /><br />
+ ユーザーID：<input type="text" name="userid" value="<%= session[:uid] %>" /><br />
  緯度：<input type="text" name="latitude" /><br />
  経度：<input type="text" name="longitude" /><br />
  タイトル：<input type="text" name="title" /><br />
