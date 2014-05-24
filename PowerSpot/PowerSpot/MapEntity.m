@@ -11,6 +11,6 @@
 
 @implementation MapEntity
 
-@dynamic coordinate;
+@dynamic coordinate, title, status, comment;
 
 @end

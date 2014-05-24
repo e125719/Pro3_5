@@ -12,6 +12,9 @@
 
 @interface MapEntity : NSManagedObject
 
-@property (nonatomic, retain) NSNumber * coordinate;
+@property (nonatomic, retain) NSNumber *coordinate;
+@property (nonatomic, retain) NSString *title;
+@property (nonatomic, retain) NSString *comment;
+@property (nonatomic, retain) NSNumber *status;
 
 @end
