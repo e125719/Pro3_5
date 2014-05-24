@@ -7,7 +7,8 @@ class MapController < ApplicationController
 
       marker.lat user.latitude
       marker.lng user.longitude
-      marker.infowindow user.description
+      #marker.infowindow user.description
+      marker.infowindow '<font size="1">'+user.title+'</font>'+'<br>'+user.description
 
       marker.json({title: user.title})
       marker.json({status: user.status})

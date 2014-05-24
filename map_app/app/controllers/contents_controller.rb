@@ -19,7 +19,9 @@ class ContentsController < ApplicationController
     model_data.save  
 
  
-    render :text => "データを入力しました"
+    #render :text => "データを入力しました"
+
+
 
   end
 
