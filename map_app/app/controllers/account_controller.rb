@@ -15,7 +15,8 @@ class AccountController < ApplicationController
       model_data.user_id = params[:user_id] 
       model_data.password = params[:password]
       model_data.save  
-      render :text => "アカウントを登録できました"
+      #render :text => "アカウントを登録できました"
+      redirect_to '/account/verify'
     else
       render :text => "そのアカウント名は既に存在しています"
     end
@@ -33,6 +34,9 @@ class AccountController < ApplicationController
 
   end
 
+
+  def verify
+  end 
 
 
 end

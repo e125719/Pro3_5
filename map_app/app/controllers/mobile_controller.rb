@@ -24,11 +24,14 @@ class MobileController < ApplicationController
       model_data.description = params[:description]
       model_data.save
 
-      render :text => "データを入力しました"
+      #render :text => "データを入力しました"
+      redirect_to '/mobile/verify'
     end
-
 
   end
 
+
+  def verify
+  end
 
 end
