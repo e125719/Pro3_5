@@ -3,14 +3,28 @@ v6
 r1
 cCheck dependencies
 cDataModelVersionCompile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapDB.xcdatamodeld
-cProcessPCH /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot normal i386
+cProcessPCH /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot normal x86_64
+cCpResource GoogleMaps.framework DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.framework
+cCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.xib
+cCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.xib
 cCopyStringsFile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj/InfoPlist.strings PowerSpot/en.lproj/InfoPlist.strings
-cCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.xib
+cCpResource GoogleMaps.bundle DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.bundle
+cCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.xib
+cCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.xib
 cCompileAssetCatalog /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/Images.xcassets
 cProcessInfoPlistFile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist
 cGenerateDSYMFile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot
@@ -31,6 +45,11 @@ c00000000531E5597000000000000019E
 t1394496919
 s414
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000531E55980000000000484210
+t1394496920
+s4735504
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 c00000000531E559900000000006CED60
 t1394496921
@@ -41,155 +60,358 @@ c000000005347DB620000000000446820
 t1397218146
 s4483104
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000531E559900000000000F1A80
+t1394496921
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000531E559A00000000002FC3B0
+t1394496922
+s3130288
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c00000000531E559B000000000088D8C0
 t1394496923
 s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c00000000531E559C000000000067F940
+t1394496924
+s6814016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531E559C0000000000037680
+t1394496924
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531E559D000000000048F720
+t1394496925
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000531E559D00000000001081C0
+t1394496925
+s1081792
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
 c00000000531E55A00000000001F1DE10
 t1394496928
 s32628240
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libicucore.dylib
+c00000000531E55B900000000004F47E0
+t1394496953
+s5195744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libsqlite3.dylib
+c00000000531E55B900000000001D35B0
+t1394496953
+s1914288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libstdc++.dylib
+c00000000531E55B9000000000018DF40
+t1394496953
+s1630016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libz.dylib
+c00000000531E55B9000000000002B700
+t1394496953
+s177920
+
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
 c00000000531E55C00000000000000ADC
 t1394496960
 s2780
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.o
-t1400409616
-s76968
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.o
+t1400922569
+s84912
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.o
-t1400409616
-s44064
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.o
+t1400922568
+s52344
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.o
-t1400409616
-s8264
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.o
+t1400922569
+s137820
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/PowerSpot.LinkFileList
-c0000000053788DF4000000000000031B
-t1400409588
-s795
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.o
+t1400922569
+s30676
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.o
-t1400409616
-s3660
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.o
+t1400922569
+s48488
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.o
+t1400922569
+s39656
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.o
+t1400922568
+s54260
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.o
+t1400922568
+s8816
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/PowerSpot.LinkFileList
+c00000000538061C70000000000000A51
+t1400922567
+s2641
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.o
+t1400922569
+s40936
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.o
+t1400922568
+s40952
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.o
+t1400922569
+s3892
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.o
+t1400922568
+s43928
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.o
+t1400922568
+s50588
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_dependencies.txt
-t1400409636
+t1400922577
 s538
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_generated_info.plist
-t1400409636
+t1400922577
 s525
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.pch
-t1400409614
-s118076
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.pch
+t1400922567
+s125560
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app
-t1400409646
-s340
+t1400922577
+s510
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM
 t2
 s0
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/FirstViewController.nib
-t1400409646
-s2159
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/DiaryViewController.nib
+t1400922575
+s867
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.bundle
+t1400922574
+s748
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.framework
+t1400922569
+s204
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist
-t1400409646
+t1400922577
 s990
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd
-t1400409602
+t1400922568
 s136
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PkgInfo
-t1400409646
+t1400922577
 s8
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot
-t1400409620
-s29136
+t1400922569
+s199256
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/badViewController.nib
+t1400922577
+s867
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj/InfoPlist.strings
-t1400409620
+t1400922569
 s42
 
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/goodViewController.nib
+t1400922575
+s867
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/titleViewController.nib
+t1400922575
+s942
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/GoogleMaps.bundle
+c00000000537DA10E00000000000002EC
+t1400742158
+s748
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/GoogleMaps.framework
+c00000000537DA10E00000000000000CC
+t1400742158
+s204
+
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m
-c00000000537870F00000000000001A90
-t1400402160
-s6800
+c00000000537DA10F0000000000001B22
+t1400742159
+s6946
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m
-c0000000053788DD500000000000002EF
-t1400409557
-s751
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m
+c00000000538061B700000000000007BD
+t1400922551
+s1981
 
-N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.xib
-c0000000053788DD500000000000008A4
-t1400409557
-s2212
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.xib
+c00000000537FF5A7000000000000054F
+t1400894887
+s1359
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/Images.xcassets
-c00000000537867FF0000000000000088
-t1400399871
+c00000000537CD8C60000000000000088
+t1400690886
 s136
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapDB.xcdatamodeld
-c00000000537882A30000000000000066
-t1400406691
+c00000000537CD8C60000000000000066
+t1400690886
 s102
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m
-c00000000537870ED00000000000000D4
-t1400402157
+c00000000537CD8C600000000000000D4
+t1400690886
 s212
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist
-c00000000537867FF0000000000000496
-t1400399871
+c00000000537CD8C60000000000000496
+t1400690886
 s1174
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Prefix.pch
-c00000000537867FF000000000000017A
-t1400399871
+c00000000537CD8C6000000000000017A
+t1400690886
 s378
 
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m
+c0000000053805B4900000000000002D8
+t1400920905
+s728
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.xib
+c0000000053805B49000000000000054C
+t1400920905
+s1356
+
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/en.lproj/InfoPlist.strings
-c00000000537867FF000000000000002D
-t1400399871
+c00000000537CD8C6000000000000002D
+t1400690886
 s45
 
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m
+c00000000537DA10F000000000000A416
+t1400742159
+s42006
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m
+c00000000537DA10F00000000000019D1
+t1400742159
+s6609
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m
+c00000000537DA10F0000000000001B06
+t1400742159
+s6918
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m
+c00000000537DA10F0000000000001871
+t1400742159
+s6257
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m
+c00000000537DA10F0000000000002C76
+t1400742159
+s11382
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m
+c0000000053805B3500000000000002DC
+t1400920885
+s732
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.xib
+c0000000053805B35000000000000054D
+t1400920885
+s1357
+
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m
-c00000000537867FF0000000000000151
-t1400399871
+c00000000537CD8C60000000000000151
+t1400690886
 s337
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m
+c0000000053803CA9000000000000037B
+t1400913065
+s891
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m
+c000000005380560200000000000005C3
+t1400919554
+s1475
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.xib
+c00000000537CD8C60000000000000563
+t1400690886
+s1379
 
 CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m
 r0
 
-CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m
 r0
 
 CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m
 r0
 
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m
+r0
+
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m
+r0
+
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m
+r0
+
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m
+r0
+
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m
+r0
+
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m
+r0
+
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m
+r0
+
 CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m
+r0
+
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m
+r0
+
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m
 r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4b5c2774c528b941^616c9974c528b941^---0#1#1#--18"Check dependencies36"1512867D-47FE-42E3-ABDF-3FC953980E56-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies16f949479930b941^7c275a479930b941^---0#1#1#--18"Check dependencies36"DDB82815-4642-4B4A-AED8-46A5F66A6D95-
 
 CCompileAssetCatalog /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/Images.xcassets
-s422102420.203872
-e422102436.024382
+s422615375.866231
+e422615377.476939
 r1
 xCompileAssetCatalog
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app
@@ -199,127 +421,357 @@ o/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedDat
 o/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Assets.car
 o/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_generated_info.plist
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CompileAssetCatalog DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app PowerSpot/Images.xcassets118"CompileAssetCatalog DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app PowerSpot/Images.xcassets5a483494c528b941^293e06a4c528b941^-566"/* com.apple.actool.compilation-results *//Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/LaunchImage-700-568h@2x.png/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Assets.car/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@102"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/Images.xcassets/0000000000000000^1392"CompileAssetCatalog DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app PowerSpot/Images.xcassets    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/Images.xcassets36"8D566BBD-10B3-474D-B5C3-2004ECFFB6D7-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CompileAssetCatalog DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app PowerSpot/Images.xcassets118"CompileAssetCatalog DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app PowerSpot/Images.xcassets51dcdd4f9930b941^471c7a519930b941^-566"/* com.apple.actool.compilation-results *//Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/LaunchImage-700-568h@2x.png/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Assets.car/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@102"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/Images.xcassets/0000000000000000^1392"CompileAssetCatalog DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app PowerSpot/Images.xcassets    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/Images.xcassets36"34BA888D-95FE-406A-95F1-5578EE51254A-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
-CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s422102415.015245
-e422102416.847123
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.445650
+e422615369.151581
 r1
 xCompileC
-xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.o
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.o
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m
 xnormal
-xi386
+xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m230"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.o PowerSpot/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3108048fc528b941^94ddd890c528b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m0000000000000000^4445"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.o PowerSpot/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/i386 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.o36"2560062E-CB56-4EA4-9A9D-974697A9A295-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m234"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.o PowerSpot/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd04272489930b941^46ce26499930b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m0000000000000000^4584"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.o PowerSpot/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.o36"226A5972-87B9-46C1-8EA7-DD1D75610D76-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
-CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s422102415.014595
-e422102416.860694
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.051031
+e422615368.184661
 r1
 xCompileC
-xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.o
-x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m
 xnormal
-xi386
+xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m
-d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m246"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.o PowerSpot/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraddc038fc528b941^1558dc90c528b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m0000000000000000^4493"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.o PowerSpot/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/i386 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.o36"50B85340-9B5F-4BF9-8E55-D74414EC9909-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m250"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.o PowerSpot/DiaryViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercf4b0d489930b941^8e5c2f489930b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m0000000000000000^4632"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.o PowerSpot/DiaryViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.o36"555C4C68-3C43-4124-A9BA-31B6B660E139-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
-CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s422102415.014111
-e422102416.776418
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615369.151859
+e422615369.597856
 r1
 xCompileC
-xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.o
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m237"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.o PowerSpot/fmdb/FMDatabase.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc40627499930b941^f10d99499930b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m0000000000000000^4588"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.o PowerSpot/fmdb/FMDatabase.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.o36"E646C8AB-7BF9-4C77-A09F-9656DD465879-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.160666
+e422615369.142529
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m255"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.o PowerSpot/fmdb/FMDatabaseAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6f4629489930b941^eae725499930b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m0000000000000000^4642"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.o PowerSpot/fmdb/FMDatabaseAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseAdditions.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.o36"188FD743-B011-4D34-B600-ED90329B4E44-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.446439
+e422615369.279644
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m245"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.o PowerSpot/fmdb/FMDatabasePool.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler097072489930b941^579747499930b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m0000000000000000^4612"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.o PowerSpot/fmdb/FMDatabasePool.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.o36"7A7B613D-5B04-400A-AB30-AE2F2F561529-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615369.142856
+e422615369.399774
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m247"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.o PowerSpot/fmdb/FMDatabaseQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf1bc24499930b941^1d5866499930b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m0000000000000000^4618"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.o PowerSpot/fmdb/FMDatabaseQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabaseQueue.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.o36"1C5ADB58-BAE2-45BB-9EDB-DE06CCBF95B2-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.184987
+e422615368.990277
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabase.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMDatabasePool.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m239"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.o PowerSpot/fmdb/FMResultSet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler62812f489930b941^dc82fd489930b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m0000000000000000^4594"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.o PowerSpot/fmdb/FMResultSet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/fmdb/FMResultSet.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.o36"9ED99D81-8910-436D-97B2-94B1F179D1DA-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.159208
+e422615368.446181
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.o
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m
 xnormal
-xi386
+xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m226"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.o PowerSpot/MapEntity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera4c3038fc528b941^a6b8c690c528b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m0000000000000000^4433"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.o PowerSpot/MapEntity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/i386 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.o36"733138B8-C01F-4F86-86A8-FE2C54975715-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m230"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.o PowerSpot/MapEntity.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0ff028489930b941^8e3a72489930b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m0000000000000000^4572"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.o PowerSpot/MapEntity.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapEntity.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.o36"A7623CBA-1B6B-4A15-BA2C-B8FFF02AA8C7-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
-CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s422102415.015628
-e422102416.793553
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.990925
+e422615369.146206
 r1
 xCompileC
-xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.o
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m246"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.o PowerSpot/badViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler08e9fd489930b941^52ef25499930b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m0000000000000000^4620"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.o PowerSpot/badViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.o36"7CC39D0F-A442-4C8D-8A75-E0C798066BC1-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.051475
+e422615368.159844
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m248"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.o PowerSpot/goodViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercc7a0d489930b941^c00529489930b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m0000000000000000^4626"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.o PowerSpot/goodViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.o36"CC9993D4-CAA9-409C-8F9A-5F9FCDF35D64-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615369.146479
+e422615369.325924
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.o
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m
 xnormal
-xi386
+xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m216"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.o PowerSpot/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerac1e048fc528b941^a225cb90c528b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m0000000000000000^4403"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.o PowerSpot/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/i386 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.o36"CE2259BF-38DB-4E58-B409-532B9415A17D-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m220"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.o PowerSpot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler40a225499930b941^2e7253499930b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m0000000000000000^4542"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.o PowerSpot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/main.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.o36"70FDB211-D9C8-4B45-B877-F5CAE0229C30-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
-CCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.xib
-s422102420.202632
-e422102446.699126
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.051959
+e422615368.445232
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m222"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.o PowerSpot/title.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler05a40d489930b941^d7fb71489930b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m0000000000000000^4548"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.o PowerSpot/title.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/title.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.o36"FF26F204-13B2-4935-8722-58B1C8FD6D3E-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615368.054136
+e422615368.158890
+r1
+xCompileC
+xDerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.h
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m250"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.o PowerSpot/titleViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4b000e489930b941^9fb028489930b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m0000000000000000^4632"CompileC DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.o PowerSpot/titleViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.o36"4C36C67C-F36E-4595-B09D-7F4FC27380FC-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.xib
+s422615369.648804
+e422615375.865484
 r1
 xCompileXIB
-x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compiling /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.xib44"CompileXIB PowerSpot/FirstViewController.xib2ff93394c528b941^f8fab2aec528b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.xib0000000000000000^890"CompileXIB PowerSpot/FirstViewController.xib    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/FirstViewController.nib /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/FirstViewController.xib36"DB270B30-F334-47CA-8868-9E48C6BC584D-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compiling /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.xib44"CompileXIB PowerSpot/DiaryViewController.xiba52da6499930b941^d194dd4f9930b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.xib0000000000000000^890"CompileXIB PowerSpot/DiaryViewController.xib    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/DiaryViewController.nib /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/DiaryViewController.xib36"FC1121C9-79BB-4BA6-844F-A362368C4AB3-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.xib
+s422615375.449070
+e422615377.141333
+r1
+xCompileXIB
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.xib42"CompileXIB PowerSpot/badViewController.xib6f0e734f9930b941^3c3024519930b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.xib0000000000000000^884"CompileXIB PowerSpot/badViewController.xib    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/badViewController.nib /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/badViewController.xib36"2BBC4397-0480-4D33-BB33-F320E10081B3-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.xib
+s422615374.241465
+e422615375.865305
+r1
+xCompileXIB
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compiling /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.xib43"CompileXIB PowerSpot/goodViewController.xib2ae53d4e9930b941^4985dd4f9930b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.xib0000000000000000^887"CompileXIB PowerSpot/goodViewController.xib    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/goodViewController.nib /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/goodViewController.xib36"75B4CFAB-C41A-4A2C-9667-9C9AA29C9632-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCompileXIB /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.xib
+s422615369.649080
+e422615375.870786
+r1
+xCompileXIB
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compiling /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.xib44"CompileXIB PowerSpot/titleViewController.xib3d45a6499930b941^8decde4f9930b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.xib0000000000000000^890"CompileXIB PowerSpot/titleViewController.xib    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/titleViewController.nib /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/titleViewController.xib36"93BA68D1-571C-452D-875B-B4CBDAF5CFB1-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
 CCopyStringsFile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj/InfoPlist.strings PowerSpot/en.lproj/InfoPlist.strings
-s422102420.202294
-e422102420.264957
+s422615369.650079
+e422615369.858596
 r1
 xCopyStringsFile
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj/InfoPlist.strings
 xPowerSpot/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy PowerSpot/en.lproj/InfoPlist.strings152"CopyStringsFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj/InfoPlist.strings PowerSpot/en.lproj/InfoPlist.stringse9f13394c528b941^41d64394c528b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/en.lproj/InfoPlist.strings0000000000000000^705"CopyStringsFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj/InfoPlist.strings PowerSpot/en.lproj/InfoPlist.strings    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj -- PowerSpot/en.lproj/InfoPlist.strings36"5599B201-4C51-41FB-A75C-79A1B3272B33-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy PowerSpot/en.lproj/InfoPlist.strings152"CopyStringsFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj/InfoPlist.strings PowerSpot/en.lproj/InfoPlist.strings6a84a6499930b941^3c15dc499930b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/en.lproj/InfoPlist.strings0000000000000000^705"CopyStringsFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj/InfoPlist.strings PowerSpot/en.lproj/InfoPlist.strings    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/en.lproj -- PowerSpot/en.lproj/InfoPlist.strings36"A018E329-7E9B-4562-AA6B-44F3CFC844CF-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCpResource GoogleMaps.bundle DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.bundle
+s422615369.858856
+e422615374.241198
+r1
+xCpResource
+xGoogleMaps.bundle
+xDerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.bundle119"CpResource GoogleMaps.bundle DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.bundlea0fedb499930b941^23c03d4e9930b941^---0#0#1#-19%DVTDocumentLocation2@166"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.bundle0034c8e5dcffdf42^732"CpResource GoogleMaps.bundle DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.bundle    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/GoogleMaps.bundle /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app36"0D2F257B-D959-40BB-B634-AA957A434CB8-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
+
+CCpResource GoogleMaps.framework DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.framework
+s422615369.648646
+e422615375.448715
+r1
+xCpResource
+xGoogleMaps.framework
+xDerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.framework
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.framework125"CpResource GoogleMaps.framework DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.framework2025a6499930b941^5de0724f9930b941^---0#0#1#-19%DVTDocumentLocation2@169"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.framework0034c8e5dcffdf42^741"CpResource GoogleMaps.framework DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/GoogleMaps.framework    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/GoogleMaps.framework /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app36"2833EB72-68EA-4F5C-8267-17FC43417B63-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
 CDataModelVersionCompile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapDB.xcdatamodeld
-s422102388.713867
-e422102402.861794
+s422615367.353369
+e422615368.050021
 r1
 xDataModelVersionCompile
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapDB.xcdatamodeld
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"DataModelVersionCompile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd PowerSpot/MapDB.xcdatamodeld136"DataModelVersionCompile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd PowerSpot/MapDB.xcdatamodeld4a0bb774c528b941^dc9edc82c528b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapDB.xcdatamodeld/0000000000000000^1015"DataModelVersionCompile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd PowerSpot/MapDB.xcdatamodeld    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -XD_MOMC_IOS_TARGET_VERSION=7.1 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapDB.xcdatamodeld /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd36"1EB3AA78-0837-41E7-81EA-4BA6958FCCF7-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"DataModelVersionCompile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd PowerSpot/MapDB.xcdatamodeld136"DataModelVersionCompile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd PowerSpot/MapDB.xcdatamodeld508a5a479930b941^24d00c489930b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapDB.xcdatamodeld/0000000000000000^1015"DataModelVersionCompile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd PowerSpot/MapDB.xcdatamodeld    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -XD_MOMC_IOS_TARGET_VERSION=7.1 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/MapDB.xcdatamodeld /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/MapDB.momd36"2997E1ED-F33E-4125-9436-AE57C1B02C7A-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
 CGenerateDSYMFile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot
-s422102446.775452
-e422102447.781878
+s422615377.482194
+e422615377.523696
 r1
 xGenerateDSYMFile
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Generate /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM177"GenerateDSYMFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot37a7c6aec528b941^aa2ac8afc528b941^---0#0#1#-19%DVTDocumentLocation2@153"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM0034047fdcffdf42^851"GenerateDSYMFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM36"22962909-4D82-43D7-B513-65A7C32B07BC-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Generate /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM177"GenerateDSYMFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot99847b519930b941^881186519930b941^---0#0#1#-19%DVTDocumentLocation2@153"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM0034c8e5dcffdf42^851"GenerateDSYMFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app.dSYM36"EC0C8321-CE11-48DC-97F1-10698100C794-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
-CLd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot normal i386
-s422102416.861756
-e422102420.200921
+CLd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot normal x86_64
+s422615369.601106
+e422615369.647639
 r1
 xLd
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot
 xnormal
-xi386
-d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/PowerSpot.LinkFileList
+xx86_64
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/PowerSpot.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
-d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/MapEntity.o
-d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/FirstViewController.o
-d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/AppDelegate.o
-d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/main.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/DiaryViewController.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/goodViewController.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/title.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/titleViewController.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/MapEntity.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseAdditions.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMResultSet.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabasePool.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/badViewController.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabaseQueue.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/main.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/FMDatabase.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libz.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libicucore.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
@@ -328,12 +780,12 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -356,13 +808,12 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
 d/usr/lib/system/libcompiler_rt.dylib
 d/usr/lib/system/libcopyfile.dylib
 d/usr/lib/system/libcorecrypto.dylib
-d/usr/lib/system/libdyld.dylib
 d/usr/lib/system/libkeymgr.dylib
 d/usr/lib/system/liblaunch.dylib
 d/usr/lib/system/libmacho.dylib
@@ -381,38 +832,39 @@ d/usr/lib/system/libsystem_notify.dylib
 d/usr/lib/system/libsystem_platform.dylib
 d/usr/lib/system/libsystem_pthread.dylib
 d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Link /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot97"Ld DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot normal i386b9c1dc90c528b941^ce703394c528b941^---0#0#1#--1741"Ld DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot normal i386    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -filelist /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/PowerSpot.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreData -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/i386/PowerSpot_dependency_info.dat -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot36"7BD624B6-229F-4414-8C7C-5800E3CDC3FE-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+old: warning: directory not found for option '-F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1'
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Link /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot99"Ld DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot normal x86_6447019a499930b941^a7cca5499930b941^-92"ld: warning: directory not found for option '-F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1'1(21%IDEActivityLogMessage2@78"Directory not found for option '-F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1'-422615369#0#92#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--2073"Ld DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot normal x86_64    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks -filelist /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/PowerSpot.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -lsqlite3 -framework SystemConfiguration -framework QuartzCore -framework OpenGLES -lz -lstdc++ -licucore -framework ImageIO -framework CoreText -framework CoreLocation -framework CoreData -framework AVFoundation -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/Objects-normal/x86_64/PowerSpot_dependency_info.dat -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PowerSpot36"CFB184B9-8DDE-4D6E-9CD5-CDF6EA72A8E2-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
 CProcessInfoPlistFile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist
-s422102446.700761
-e422102446.774184
+s422615377.477842
+e422615377.481506
 r1
 xProcessInfoPlistFile
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Process /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist135"ProcessInfoPlistFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist PowerSpot/PowerSpot-Info.plist3693b3aec528b941^9032c6aec528b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist0000000000000000^1138"ProcessInfoPlistFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist PowerSpot/PowerSpot-Info.plist    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist -genpkginfo /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_generated_info.plist -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist36"520A47F1-0CBA-4962-B553-76C4300169F5-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Process /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist135"ProcessInfoPlistFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist PowerSpot/PowerSpot-Info.plist4c6c7a519930b941^63477b519930b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist0000000000000000^1138"ProcessInfoPlistFile DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist PowerSpot/PowerSpot-Info.plist    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Info.plist -genpkginfo /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/assetcatalog_generated_info.plist -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app/Info.plist36"21598FD7-3A5C-4E91-ADCA-D991AD0CDFFF-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
-CProcessPCH /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s422102388.715276
-e422102415.013311
+CProcessPCH /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422615367.353857
+e422615367.935631
 r1
 xProcessPCH
-x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.pch
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.pch
 xPowerSpot/PowerSpot-Prefix.pch
 xnormal
-xi386
+xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile PowerSpot/PowerSpot-Prefix.pch241"ProcessPCH DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerba4ab774c528b941^9d68038fc528b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Prefix.pch0000000000000000^4266"ProcessPCH DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/i386 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.dia -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.d -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Prefix.pch -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-ggllspxvwkobjzdeneqvjcsrqoee/PowerSpot-Prefix.pch.pch36"701C4D3B-8672-4E66-B01D-053F2E1D6A39-
-b2F66F056-3C97-499B-8C32-9018B2C7FFD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile PowerSpot/PowerSpot-Prefix.pch243"ProcessPCH DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler96b05a479930b941^9485ef479930b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Prefix.pch0000000000000000^4397"ProcessPCH DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/PowerSpot-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PowerSpot.build/Debug-iphonesimulator/PowerSpot.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator -F/Users/e125705/Desktop/GoogleMaps-iOS-1.8.1 -F/Users/nagakuratakahiro/Downloads/GoogleMaps-iOS-1.8.1 -F/Library/Frameworks --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.dia -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.d -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/PowerSpot/PowerSpot-Prefix.pch -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Intermediates/PrecompiledHeaders/PowerSpot-Prefix-eappawgodkpsjsavvxxgjesrhbis/PowerSpot-Prefix.pch.pch36"8FD04F90-8397-4A5B-BE3B-73C879D3A58D-
+b56309F3A-4F68-4F68-A0C7-B039FFC799B6
 
-CProcessPCH /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Index/PrecompiledHeaders/PowerSpot-Prefix-efhngthpyiqgagbyaydaepaduipd_ast/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Index/PrecompiledHeaders/PowerSpot-Prefix-fycqlmxzzzuqlkagigxfmnnfkrxj_ast/PowerSpot-Prefix.pch.pch PowerSpot/PowerSpot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
 CTouch /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerSpot/DerivedData/PowerSpot/Build/Products/Debug-iphonesimulator/PowerSpot.app

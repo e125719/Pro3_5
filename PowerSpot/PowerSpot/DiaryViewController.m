@@ -7,13 +7,17 @@
 //
 
 #import "DiaryViewController.h"
-#import "fmdb/FMDatabase.h"
+#import "GoodTableViewController.h"
+#import "BadTableViewController.h"
+#import "ListTableViewController.h"
 
 @interface DiaryViewController ()
 
 @end
 
 @implementation DiaryViewController
+
+@synthesize goodbad = _goodbad;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,7 +32,18 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UIButton* btnGood = [self makeButton:CGRectMake(50, 100, 100, 40) text:@"GOOD"];
+    [self.view addSubview:btnGood];
+    [btnGood addTarget:self action:@selector(pushGoodButton:) forControlEvents:UIControlEventTouchUpInside];
+
+    UIButton* btnBad = [self makeButton:CGRectMake(170, 100, 100, 40) text:@"BAD"];
+    [self.view addSubview:btnBad];
+    [btnBad addTarget:self action:@selector(pushBadButton:) forControlEvents:UIControlEventTouchUpInside];
     
+    UIButton* list = [self makeButton:CGRectMake(110, 250, 100, 40) text:@"LIST"];
+    [self.view addSubview:list];
+    [list addTarget:self action:@selector(pushListButton:) forControlEvents:UIControlEventTouchUpInside];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,6 +52,33 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (UIButton*)makeButton:(CGRect)rect text:(NSString*)text {
+    UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setFrame:rect];
+    [button setTitle:text forState:UIControlStateNormal];
+    
+    return button;
+}
 
+- (IBAction)pushGoodButton:(id)sender {
+    GoodTableViewController* GOOD = [[GoodTableViewController alloc] initWithNibName:@"GoodTableViewController" bundle:nil];
+    [self presentViewController:GOOD animated:YES completion:nil];
+    
+    _goodbad = [NSNumber numberWithBool:YES];
+    NSLog(@"%@", _goodbad);
+}
+
+- (IBAction)pushBadButton:(id)sender {
+    BadTableViewController* BAD = [[BadTableViewController alloc] initWithNibName:@"BadTableViewController" bundle:nil];
+    [self presentViewController:BAD animated:YES completion:nil];
+    
+    _goodbad = [NSNumber numberWithBool:NO];
+     NSLog(@"%@", _goodbad);
+}
+
+- (IBAction)pushListButton :(id)sender {
+    ListTableViewController* slist = [[ListTableViewController alloc]initWithNibName:@"ListTableViewController" bundle:nil];
+    [self presentViewController:slist animated:YES completion:nil];
+}
 
 @end

@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <GoogleMaps/GoogleMaps.h>
 
 @interface DiaryViewController : UIViewController
 
+@property NSNumber *goodbad;
 
 @end

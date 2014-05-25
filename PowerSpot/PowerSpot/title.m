@@ -34,12 +34,4 @@
     [self drawString:[NSString stringWithFormat:@"PowerSpot"] x:60 y:160 attrs:attrs];
 }
 
-- (UIButton*)makeButton:(CGRect)rect text:(NSString*)text {
-    UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button setFrame:rect];
-    [button setTitle:text forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
-    return button;
-}
-
 @end
