@@ -7,9 +7,8 @@
 //
 
 #import "DiaryViewController.h"
-#import "GoodTableViewController.h"
-#import "BadTableViewController.h"
 #import "ListTableViewController.h"
+#import "ShowTableViewController.h"
 
 @interface DiaryViewController ()
 
@@ -61,7 +60,7 @@
 }
 
 - (IBAction)pushGoodButton:(id)sender {
-    GoodTableViewController* GOOD = [[GoodTableViewController alloc] initWithNibName:@"GoodTableViewController" bundle:nil];
+    ShowTableViewController* GOOD = [[ShowTableViewController alloc] initWithNibName:@"ShowTableViewController" bundle:nil];
     [self presentViewController:GOOD animated:YES completion:nil];
     
     _goodbad = [NSNumber numberWithBool:YES];
@@ -69,7 +68,7 @@
 }
 
 - (IBAction)pushBadButton:(id)sender {
-    BadTableViewController* BAD = [[BadTableViewController alloc] initWithNibName:@"BadTableViewController" bundle:nil];
+    ShowTableViewController* BAD = [[ShowTableViewController alloc] initWithNibName:@"ShowTableViewController" bundle:nil];
     [self presentViewController:BAD animated:YES completion:nil];
     
     _goodbad = [NSNumber numberWithBool:NO];

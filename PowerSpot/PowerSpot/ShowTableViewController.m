@@ -1,18 +1,18 @@
 //
-//  BadTableViewController.m
+//  ShowTableViewController.m
 //  PowerSpot
 //
 //  Created by Hiroki MATSUMOTO on 5/25/14.
 //  Copyright (c) 2014 e125719. All rights reserved.
 //
 
-#import "BadTableViewController.h"
+#import "ShowTableViewController.h"
 
-@interface BadTableViewController ()
+@interface ShowTableViewController ()
 
 @end
 
-@implementation BadTableViewController
+@implementation ShowTableViewController
 
 - (void)viewDidLoad
 {

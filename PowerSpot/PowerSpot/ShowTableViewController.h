@@ -1,5 +1,5 @@
 //
-//  BadTableViewController.h
+//  ShowTableViewController.h
 //  PowerSpot
 //
 //  Created by Hiroki MATSUMOTO on 5/25/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BadTableViewController : UITableViewController
+@interface ShowTableViewController : UITableViewController
 
 @end
