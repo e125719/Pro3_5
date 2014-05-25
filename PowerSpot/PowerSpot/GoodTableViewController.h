@@ -6,8 +6,17 @@
 //  Copyright (c) 2014 e125719. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@class MapEntity;
 
 @interface GoodTableViewController : UITableViewController
+
+@property (nonatomic, strong) MapEntity *mapentity;
+
+@end
+
+@interface GoodTableViewController (private)
+
+- (void)setUpUndoManager;
+- (void)cleanUpUndoManager;
 
 @end

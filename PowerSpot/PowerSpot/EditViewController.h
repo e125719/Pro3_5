@@ -10,4 +10,8 @@
 
 @interface EditViewController : UIViewController
 
+@property (nonatomic, strong) NSManagedObject *editObject;
+@property (nonatomic, strong) NSString *editKey;
+@property (nonatomic, strong) NSString *editName;
+
 @end

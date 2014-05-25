@@ -7,6 +7,8 @@
 //
 
 #import "GoodTableViewController.h"
+#import "MapEntity.h"
+#import "EditViewController.h"
 
 @interface GoodTableViewController ()
 
