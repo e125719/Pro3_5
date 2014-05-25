@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>アカウントを作る</title>
+
+
+<script type="text/javascript"> 
+
+function check(){
+
+var flag = 0;
+var flag2 = 0;
+
+
+if(document.form1.user_id.value == ""){
+  flag = 1;
+}
+else if(document.form1.password.value == ""){
+  flag = 1;
+}
+else if(document.form1.password_again.value == ""){
+  flag = 1;
+}
+
+if(document.form1.password.value != document.form1.password_again.value){
+  flag2 = 1;
+}
+
+if(flag){
+  window.alert('必須項目に未入力がありました');
+  return false;
+}else if(flag2){
+  window.alert('パスワードが一致しません');
+  return false;
+}else{
+  return true; 
+}
+
+
+
+}
+
+</script>
+
+</head>
+
+
+
+<body>
+
+
+<p>データ入力</p>
+
+
+<form method="post" action="/account/input" name="form1" onSubmit="return check()">
+ <p>
+ ユーザーID：<input type="text" name="user_id" /><br />
+ パスワード：<input type="password" name="password" /><br />
+ パスワード(確認)：<input type="password" name="password_again" /><br />
+  <input type="submit" value="送信" />
+ </p>
+</form>
+
+
+</body>
+</html>

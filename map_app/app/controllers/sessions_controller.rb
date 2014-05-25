@@ -14,6 +14,7 @@ class SessionsController < ApplicationController
     session[:email] = auth['info']['email']
     session[:image]=auth['info']['image']
     session[:fb_page]=auth['info']['urls']['Facebook']   
+#    session[:access_pass]=
 
 
     pp auth

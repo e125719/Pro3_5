@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>アカウントを作る</title>
+</head>
+<body>
+
+<p>データ入力</p>
+
+
+<form method="post" action="/contents/input">
+ <p>
+ ユーザーID：<input type="text" name="userid" /><br />
+ パスワード：<input type="text" name="password" /><br />
+ パスワード(確認)：<input type="text" name="password_again" /><br />
+  <input type="submit" value="送信" />
+ </p>
+</form>
+
+
+</body>
+</html>

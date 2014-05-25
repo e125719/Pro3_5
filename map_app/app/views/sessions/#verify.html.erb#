@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+
+<ul>
+    <li><%= link_to "Mapを見る", "/map/index" %></li>
+    <li><%= link_to "地図情報を追加", "/contents/post" %></li>
+</ul>
+
+
+</body>
+
+</html>
+

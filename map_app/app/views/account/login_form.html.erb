@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>ログイン</title>
+</head>
+
+<script type="text/javascript"> 
+
+function check(){
+
+var flag = 0;
+var flag2 = 0;
+
+
+if(document.form1.user_id.value == ""){
+  flag = 1;
+}
+else if(document.form1.password.value == ""){
+  flag = 1;
+}
+
+
+if(flag){
+  window.alert('必須項目に未入力がありました');
+  return false;
+}else{
+  return true; 
+}
+
+
+
+}
+
+</script>
+
+
+
+<body>
+
+<p>データ入力</p>
+
+
+<form method="post" action="/account/login"  name="form1" onSubmit="return check()">
+ <p>
+ ユーザーID：<input type="text" name="user_id" /><br />
+ パスワード：<input type="password" name="password" /><br />
+ <input type="submit" value="login" />
+ </p>
+</form>
+
+
+</body>
+</html>
+

@@ -19,6 +19,21 @@ Rails.application.routes.draw do
   post "contents/input" => "contents#input"
 
 
+
+  get "account/login"
+  get 'account/create'
+  post "account/input" => "account#input"
+
+  get "account/login_form"
+  post "account/login" => "account#login"
+
+  post "account/input" => "account#input"
+
+
+  get "mobile/post"
+  post "mobile/input" => "mobile#input"
+
+
   #get  '/oauth2callback' => "sessions#create"
   get "/auth/:provider/callback" => "sessions#create"
 
