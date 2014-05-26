@@ -6,8 +6,17 @@
 //  Copyright (c) 2014 e125719. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@class MapEntity;
 
 @interface ShowTableViewController : UITableViewController
+
+@property (nonatomic, strong) MapEntity *mapE;
+
+@end
+
+@interface ShowTableViewController (private)
+
+- (void)setUpUndoManager;
+- (void)cleanUpUndoManager;
 
 @end
