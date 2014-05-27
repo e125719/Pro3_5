@@ -94,9 +94,9 @@
     
     NSError *error = nil;
     
-    _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self manageObjectModel]];
     
-    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configration:nil URL:storeUrl options:nil error:&error]) {
+    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:nil error:&error]) {
     }
     
     return _persistentStoreCoordinator;
