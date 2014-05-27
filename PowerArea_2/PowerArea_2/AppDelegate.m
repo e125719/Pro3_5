@@ -90,7 +90,7 @@
         return _persistentStoreCoordinator;
     }
     
-    NSURL *storeUrl = [NSURL fileURLWithPath:[[self applicationDocumentsDirectory] stringByAppendingPathComponent:@"PowerArea_2.sqlite"]];
+    NSURL *storeUrl = [NSURL fileURLWithPath:[[self applicationDocumentsDirectory] stringByAppendingPathComponent:@"MapDataEntity.sqlite"]];
     
     NSError *error = nil;
     

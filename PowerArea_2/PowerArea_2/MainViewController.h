@@ -9,14 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface MainViewController : UIViewController<CLLocationManagerDelegate> {
+@interface MainViewController : UIViewController<CLLocationManagerDelegate>{
+    IBOutlet UIButton *btnSend;
     IBOutlet UIButton *btnGood;
     IBOutlet UIButton *btnBad;
-    IBOutlet UIButton *btnSend;
-    
-    //IBOutlet UITextField *place;
-    //IBOutlet UITextField *text;
+
 }
+
+@property (nonatomic, strong) NSNumber *goodbad;
+
 
 @property (nonatomic, retain) CLLocationManager *locationManager;
 

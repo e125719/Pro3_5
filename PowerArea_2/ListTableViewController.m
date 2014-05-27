@@ -7,12 +7,14 @@
 //
 
 #import "ListTableViewController.h"
-#import "AppDelegate.h"
 #import "MapDataEntity.h"
+#import "AppDelegate.h"
 
 @interface ListTableViewController ()
 
-@property (nonatomic, strong) NSArray *fetchedRecordsArray;
+
+
+@property (nonatomic,strong)NSArray* fetchedRecordsArray;
 
 @end
 
@@ -31,16 +33,12 @@
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    AppDelegate *delegate = [UIApplication sharedApplication].delegate;
-    
-    self.fetchedRecordsArray = [delegate getAllMap];
+    // Fetching Records and saving it in "fetchedRecordsArray" object
+    self.fetchedRecordsArray = [appDelegate getAllMap];
     [self.tableView reloadData];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,6 +46,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -61,13 +61,12 @@
     return [self.fetchedRecordsArray count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *cellIdentifier = @"MapCellIdentifier";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
-    
-    MapDataEntity *map = [self.fetchedRecordsArray objectAtIndex:indexPath.row];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"MapCellIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    MapDataEntity * map = [self.fetchedRecordsArray objectAtIndex:indexPath.row];
     cell.textLabel.text = [NSString stringWithFormat:@"%@",map.title];
-    
     return cell;
 }
 

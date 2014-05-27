@@ -13,6 +13,7 @@
 #define BTN_GOOD    0
 #define BTN_BAD     1
 #define BTN_SEND    2
+#define URL @ "http://133.13.60.160/mobile/post"
 
 @interface MainViewController ()<UITextFieldDelegate>
 
@@ -21,11 +22,17 @@
 @property (nonatomic, retain) IBOutlet UITextField *place;
 @property (nonatomic, retain) IBOutlet UITextField *text;
 
+@property (nonatomic, strong) NSNumber *lon;
+@property (nonatomic, strong) NSNumber *lat;
+
+
 @end
 
 @implementation MainViewController
 
 @synthesize locationManager;
+@synthesize goodbad = _goodbad;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -45,9 +52,10 @@
     
     [self.text setDelegate:self];
     
+     btnSend.tag = BTN_SEND;
+    
     btnGood.tag = BTN_GOOD;
     btnBad.tag = BTN_BAD;
-    btnSend.tag = BTN_SEND;
     
     [btnGood setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btnGood addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
@@ -80,6 +88,9 @@
     
     NSLog(@"Get coordinate\n");
     NSLog(@"Lati = %f, Long = %f",latitude,longitude);
+    
+    self.lon = [[NSNumber alloc]initWithFloat:longitude];
+    self.lat = [[NSNumber alloc]initWithFloat:latitude];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
@@ -88,6 +99,7 @@
 }
 
 - (IBAction)clickButton:(UIButton *)sender {
+    
     if (locationManager == nil) {
         locationManager = [[CLLocationManager alloc] init];
         locationManager.delegate = self;
@@ -97,6 +109,7 @@
         [locationManager startUpdatingLocation];
     }
     
+    
     if (sender.tag == BTN_GOOD) {
         btnGood.alpha = 1.0f;
         [btnGood setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
@@ -105,6 +118,7 @@
         [btnBad setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         
         NSLog(@"Good");
+        _goodbad = [NSNumber numberWithBool:YES];
     } else if (sender.tag == BTN_BAD) {
         btnBad.alpha = 1.0f;
         [btnBad setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -112,15 +126,28 @@
         btnGood.alpha = 0.5f;
         [btnGood setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         NSLog(@"Bad");
+        _goodbad = [NSNumber numberWithBool:NO];
     }
     
     if (sender.tag == BTN_SEND) {
+        
         NSLog(@"Send");
         
         MapDataEntity *map = [NSEntityDescription insertNewObjectForEntityForName:@"MapDataEntity" inManagedObjectContext:self.managedObjectContext];
         
-        map.descriptions = self.place.text;
+        map.title = self.place.text;
         map.descriptions = self.text.text;
+        if (btnGood.alpha == 1.0f) {
+            map.status = @"good";
+        }else{
+            map.status = @"bad";
+        }
+        map.longitude = self.lon;
+        map.latitude = self.lat;
+        map.userid = @"tekitou";
+        map.password = @"hogehoge";
+        
+        
         
         NSError *error;
         
@@ -132,18 +159,21 @@
         self.text.text = @"";
         
         [self.view endEditing:YES];
+        
+        NSString *lati = [map.latitude stringValue];
+        NSString *tek = [map.longitude stringValue];
+        
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL]];
+        NSString *body = [NSString stringWithFormat:@"title=%@&description=%@&status=%@&longitude=%@&latitude=%@&userid=%@&password=%@", map.title, map.descriptions, map.status, tek, lati, map.userid, map.password];
+        [request setHTTPMethod:@"POST"];
+        [request setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
+        
+        [NSURLConnection connectionWithRequest:request delegate:self];
     }
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void) dealloc {
+    locationManager = nil;
 }
-*/
 
 @end
