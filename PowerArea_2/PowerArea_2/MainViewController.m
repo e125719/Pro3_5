@@ -7,12 +7,19 @@
 //
 
 #import "MainViewController.h"
+#import "AppDelegate.h"
+#import "MapDataEntity.h"
 
 #define BTN_GOOD    0
 #define BTN_BAD     1
 #define BTN_SEND    2
 
 @interface MainViewController ()<UITextFieldDelegate>
+
+
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, retain) IBOutlet UITextField *place;
+@property (nonatomic, retain) IBOutlet UITextField *text;
 
 @end
 
@@ -33,7 +40,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [text setDelegate:self];
+    AppDelegate *delegate = [UIApplication sharedApplication].delegate;
+    self.managedObjectContext = delegate.manageObjectContext;
+    
+    [self.text setDelegate:self];
     
     btnGood.tag = BTN_GOOD;
     btnBad.tag = BTN_BAD;
@@ -106,6 +116,22 @@
     
     if (sender.tag == BTN_SEND) {
         NSLog(@"Send");
+        
+        MapDataEntity *map = [NSEntityDescription insertNewObjectForEntityForName:@"MapDataEntity" inManagedObjectContext:self.managedObjectContext];
+        
+        map.descriptions = self.place.text;
+        map.descriptions = self.text.text;
+        
+        NSError *error;
+        
+        if (![self.managedObjectContext save:&error]) {
+            NSLog(@"miss");
+        }
+        
+        self.place.text = @"";
+        self.text.text = @"";
+        
+        [self.view endEditing:YES];
     }
 }
 

@@ -14,7 +14,8 @@
     IBOutlet UIButton *btnBad;
     IBOutlet UIButton *btnSend;
     
-    IBOutlet UITextField *text;
+    //IBOutlet UITextField *place;
+    //IBOutlet UITextField *text;
 }
 
 @property (nonatomic, retain) CLLocationManager *locationManager;
