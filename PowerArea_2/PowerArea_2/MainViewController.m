@@ -147,7 +147,8 @@
         map.userid = @"tekitou";
         map.password = @"hogehoge";
         
-        
+        NSString *lati = [self.lat stringValue];
+        NSString *tek = [self.lon stringValue];
         
         NSError *error;
         
@@ -160,8 +161,6 @@
         
         [self.view endEditing:YES];
         
-        NSString *lati = [map.latitude stringValue];
-        NSString *tek = [map.longitude stringValue];
         
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL]];
         NSString *body = [NSString stringWithFormat:@"title=%@&description=%@&status=%@&longitude=%@&latitude=%@&userid=%@&password=%@", map.title, map.descriptions, map.status, tek, lati, map.userid, map.password];
@@ -169,11 +168,10 @@
         [request setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
         
         [NSURLConnection connectionWithRequest:request delegate:self];
+        
+        [locationManager stopUpdatingLocation];
+        locationManager = nil;
     }
-}
-
-- (void) dealloc {
-    locationManager = nil;
 }
 
 @end
