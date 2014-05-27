@@ -10,6 +10,10 @@
 
 @implementation AppDelegate
 
+@synthesize manageObjectContext = _manageObjectContext;
+@synthesize manageObjectModel = _manageObjectModel;
+@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
@@ -41,6 +45,65 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (NSArray *)getAllMap {
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"MapDataEntity" inManagedObjectContext:self.manageObjectContext];
+    [fetchRequest setEntity:entity];
+    
+    NSError *error;
+    
+    NSArray *fetchedRecords = [self.manageObjectContext executeFetchRequest:fetchRequest error:&error];
+    
+    return fetchedRecords;
+}
+
+- (NSManagedObjectContext *)manageObjectContext {
+    if (_manageObjectContext != nil) {
+        return _manageObjectContext;
+    }
+    
+    NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+    
+    if (coordinator != nil) {
+        _manageObjectContext = [[NSManagedObjectContext alloc] init];
+        [_manageObjectContext setPersistentStoreCoordinator:coordinator];
+    }
+    
+    return _manageObjectContext;
+}
+
+- (NSManagedObjectModel *)manageObjectModel {
+    if (_manageObjectModel != nil) {
+        return _manageObjectModel;
+    }
+    
+    _manageObjectModel = [NSManagedObjectModel mergedModelFromBundles:nil];
+    
+    return _manageObjectModel;
+}
+
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
+    if (_persistentStoreCoordinator != nil) {
+        return _persistentStoreCoordinator;
+    }
+    
+    NSURL *storeUrl = [NSURL fileURLWithPath:[[self applicationDocumentsDirectory] stringByAppendingPathComponent:@"PowerArea_2.sqlite"]];
+    
+    NSError *error = nil;
+    
+    _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    
+    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configration:nil URL:storeUrl options:nil error:&error]) {
+    }
+    
+    return _persistentStoreCoordinator;
+}
+
+- (NSString *)applicationDocumentsDirectory {
+    return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 }
 
 @end

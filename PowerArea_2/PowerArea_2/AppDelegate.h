@@ -12,4 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic, readonly) NSManagedObjectContext *manageObjectContext;
+@property (strong, nonatomic, readonly) NSManagedObjectModel *manageObjectModel;
+@property (strong, nonatomic, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+- (NSArray *)getAllMap;
+
 @end

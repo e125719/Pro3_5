@@ -11,5 +11,12 @@
 
 @implementation MapDataEntity
 
+@dynamic userid;
+@dynamic password;
+@dynamic latitude;
+@dynamic longitude;
+@dynamic title;
+@dynamic status;
+@dynamic descriptions;
 
 @end
