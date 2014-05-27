@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6A1C9B821933575B00449F12 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C9B811933575B00449F12 /* CoreLocation.framework */; };
+		6A62BA0919348879003A4631 /* MapData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A62BA0719348879003A4631 /* MapData.xcdatamodeld */; };
+		6A62BA0C193488A5003A4631 /* MapDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A62BA0B193488A5003A4631 /* MapDataEntity.m */; };
 		6AF52A211931ED1C001932F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF52A201931ED1C001932F0 /* Foundation.framework */; };
 		6AF52A231931ED1C001932F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF52A221931ED1C001932F0 /* CoreGraphics.framework */; };
 		6AF52A251931ED1C001932F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF52A241931ED1C001932F0 /* UIKit.framework */; };
@@ -38,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		6A1C9B811933575B00449F12 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6A62BA0819348879003A4631 /* MapData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapData.xcdatamodel; sourceTree = "<group>"; };
+		6A62BA0A193488A5003A4631 /* MapDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDataEntity.h; sourceTree = "<group>"; };
+		6A62BA0B193488A5003A4631 /* MapDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDataEntity.m; sourceTree = "<group>"; };
 		6AF52A1D1931ED1C001932F0 /* PowerArea_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerArea_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF52A201931ED1C001932F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6AF52A221931ED1C001932F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +136,9 @@
 				6AF52A591931F262001932F0 /* MainViewController.m */,
 				6AF52A5B1931F271001932F0 /* ListViewController.h */,
 				6AF52A5C1931F271001932F0 /* ListViewController.m */,
+				6A62BA0719348879003A4631 /* MapData.xcdatamodeld */,
+				6A62BA0A193488A5003A4631 /* MapDataEntity.h */,
+				6A62BA0B193488A5003A4631 /* MapDataEntity.m */,
 				6AF52A381931ED1C001932F0 /* Images.xcassets */,
 				6AF52A271931ED1C001932F0 /* Supporting Files */,
 			);
@@ -263,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A62BA0C193488A5003A4631 /* MapDataEntity.m in Sources */,
 				6AF52A5D1931F271001932F0 /* ListViewController.m in Sources */,
 				6AF52A311931ED1C001932F0 /* AppDelegate.m in Sources */,
+				6A62BA0919348879003A4631 /* MapData.xcdatamodeld in Sources */,
 				6AF52A571931F032001932F0 /* TitleViewController.m in Sources */,
 				6AF52A2D1931ED1C001932F0 /* main.m in Sources */,
 				6AF52A5A1931F262001932F0 /* MainViewController.m in Sources */,
@@ -484,6 +494,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A62BA0719348879003A4631 /* MapData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A62BA0819348879003A4631 /* MapData.xcdatamodel */,
+			);
+			currentVersion = 6A62BA0819348879003A4631 /* MapData.xcdatamodel */;
+			name = MapData.xcdatamodeld;
+			path = ../MapData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6AF52A151931ED1C001932F0 /* Project object */;
 }
