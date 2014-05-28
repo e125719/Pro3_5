@@ -17,14 +17,12 @@
 
 @interface MainViewController ()<UITextFieldDelegate>
 
-
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain) IBOutlet UITextField *place;
 @property (nonatomic, retain) IBOutlet UITextField *text;
 
 @property (nonatomic, strong) NSNumber *lon;
 @property (nonatomic, strong) NSNumber *lat;
-
 
 @end
 

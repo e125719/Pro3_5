@@ -10,9 +10,17 @@
 
 @interface LoginViewController ()
 
+@property (nonatomic, retain) IBOutlet UITextField *userid;
+@property (nonatomic, retain) IBOutlet UITextField *name;
+
 @end
 
 @implementation LoginViewController
+
+- (void)showAlert:(NSString *)title text:(NSString *)text {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:text delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

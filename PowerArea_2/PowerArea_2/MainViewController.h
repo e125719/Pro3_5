@@ -13,7 +13,6 @@
     IBOutlet UIButton *btnSend;
     IBOutlet UIButton *btnGood;
     IBOutlet UIButton *btnBad;
-
 }
 
 @property (nonatomic, strong) NSNumber *goodbad;
