@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0AECAC19358E6E00026FE1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AECAB19358E6E00026FE1 /* LoginViewController.m */; };
 		6A1C9B821933575B00449F12 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C9B811933575B00449F12 /* CoreLocation.framework */; };
 		6A62BA0919348879003A4631 /* MapData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A62BA0719348879003A4631 /* MapData.xcdatamodeld */; };
 		6A62BA0E193493ED003A4631 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A62BA0D193493ED003A4631 /* CoreData.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A0AECAA19358E6E00026FE1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6A0AECAB19358E6E00026FE1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6A1C9B811933575B00449F12 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6A62BA0819348879003A4631 /* MapData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapData.xcdatamodel; sourceTree = "<group>"; };
 		6A62BA0D193493ED003A4631 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -136,6 +139,8 @@
 				6AF52A321931ED1C001932F0 /* Main.storyboard */,
 				6AF52A551931F032001932F0 /* TitleViewController.h */,
 				6AF52A561931F032001932F0 /* TitleViewController.m */,
+				6A0AECAA19358E6E00026FE1 /* LoginViewController.h */,
+				6A0AECAB19358E6E00026FE1 /* LoginViewController.m */,
 				6AF52A581931F262001932F0 /* MainViewController.h */,
 				6AF52A591931F262001932F0 /* MainViewController.m */,
 				6A62BA121934C43B003A4631 /* ListTableViewController.h */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0AECAC19358E6E00026FE1 /* LoginViewController.m in Sources */,
 				6A62BA111934999B003A4631 /* MapDataEntity.m in Sources */,
 				6AF52A311931ED1C001932F0 /* AppDelegate.m in Sources */,
 				6A62BA0919348879003A4631 /* MapData.xcdatamodeld in Sources */,
