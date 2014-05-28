@@ -13,12 +13,16 @@
     IBOutlet UIButton *btnSend;
     IBOutlet UIButton *btnGood;
     IBOutlet UIButton *btnBad;
+    NSString *_usid;
+    NSString *_pass;
 }
 
 @property (nonatomic, strong) NSNumber *goodbad;
 
 
 @property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic) NSString *usid;
+@property (nonatomic) NSString *pass;
 
 - (IBAction)clickButton:(UIButton *)sender;
 

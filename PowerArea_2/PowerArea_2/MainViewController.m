@@ -30,6 +30,8 @@
 
 @synthesize locationManager;
 @synthesize goodbad = _goodbad;
+@synthesize usid = _usid;
+@synthesize pass = _pass;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -62,6 +64,7 @@
     [btnBad addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
     [btnSend addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -142,7 +145,7 @@
         }
         map.longitude = self.lon;
         map.latitude = self.lat;
-        map.userid = @"tekitou";
+        map.userid = @"hoge";
         map.password = @"hogehoge";
         
         NSString *lati = [self.lat stringValue];
@@ -156,6 +159,7 @@
         
         self.place.text = @"";
         self.text.text = @"";
+        
         
         [self.view endEditing:YES];
         
