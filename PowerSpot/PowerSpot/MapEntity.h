@@ -16,5 +16,6 @@
 @property (nonatomic, retain) NSString *title;
 @property (nonatomic, retain) NSString *comment;
 @property (nonatomic, retain) NSNumber *status;
+@property (nonatomic, retain) NSDate *date;
 
 @end

@@ -31,6 +31,7 @@ Rails.application.routes.draw do
   get "account/verify"
 
   get "mobile/post"
+  post 'mobile/post' => "mobile#input"
   post "mobile/input" => "mobile#input"
   get "mobile/verify"
 

@@ -11,15 +11,10 @@
 		692CA56A192D2EA400D074CB /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 692CA569192D2EA400D074CB /* GoogleMaps.bundle */; };
 		692CA56C192D301000D074CB /* GoogleMaps.framework in Resources */ = {isa = PBXBuildFile; fileRef = 692CA56B192D301000D074CB /* GoogleMaps.framework */; };
 		6990972D1930FA27003BAA84 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990972B1930FA27003BAA84 /* EditViewController.m */; };
-		6990972E1930FA27003BAA84 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6990972C1930FA27003BAA84 /* EditViewController.xib */; };
-		699097321930FA99003BAA84 /* GoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699097301930FA99003BAA84 /* GoodTableViewController.m */; };
-		699097331930FA99003BAA84 /* GoodTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699097311930FA99003BAA84 /* GoodTableViewController.xib */; };
-		699097371930FB05003BAA84 /* BadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699097351930FB05003BAA84 /* BadTableViewController.m */; };
-		699097381930FB05003BAA84 /* BadTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699097361930FB05003BAA84 /* BadTableViewController.xib */; };
 		6990973C1930FB9F003BAA84 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990973A1930FB9F003BAA84 /* ListTableViewController.m */; };
-		6990973D1930FB9F003BAA84 /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6990973B1930FB9F003BAA84 /* ListTableViewController.xib */; };
+		699097411931B216003BAA84 /* ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990973F1931B216003BAA84 /* ShowTableViewController.m */; };
+		699097441931C408003BAA84 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699097431931C408003BAA84 /* main.storyboard */; };
 		69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9797C192CBEB000853451 /* DiaryViewController.m */; };
-		69A9797F192CBEB000853451 /* DiaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A9797D192CBEB000853451 /* DiaryViewController.xib */; };
 		69A97983192CC3F800853451 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A97982192CC3F800853451 /* AVFoundation.framework */; };
 		69A97985192CC40D00853451 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A97984192CC40D00853451 /* CoreLocation.framework */; };
 		69A97987192CC41900853451 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A97986192CC41900853451 /* CoreText.framework */; };
@@ -47,9 +42,12 @@
 		6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */; };
 		6A070DE21928A815001C6659 /* MapEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A070DE11928A815001C6659 /* MapEntity.m */; };
 		6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA15192B818D006C4CFF /* titleViewController.m */; };
+<<<<<<< HEAD
 		6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A38CA16192B818D006C4CFF /* titleViewController.xib */; };
 		6A38CA1B192B839A006C4CFF /* title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38CA1A192B839A006C4CFF /* title.m */; };
 		6AF2DEBE19315AD2007A7B96 /* tabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2DEBD19315AD2007A7B96 /* tabBarViewController.m */; };
+=======
+>>>>>>> 4d84ce2e12532a15f3eaf616d393c8a369145790
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,19 +66,13 @@
 		692CA56B192D301000D074CB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		6990972A1930FA27003BAA84 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
 		6990972B1930FA27003BAA84 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
-		6990972C1930FA27003BAA84 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
-		6990972F1930FA99003BAA84 /* GoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodTableViewController.h; sourceTree = "<group>"; };
-		699097301930FA99003BAA84 /* GoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodTableViewController.m; sourceTree = "<group>"; };
-		699097311930FA99003BAA84 /* GoodTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodTableViewController.xib; sourceTree = "<group>"; };
-		699097341930FB05003BAA84 /* BadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadTableViewController.h; sourceTree = "<group>"; };
-		699097351930FB05003BAA84 /* BadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadTableViewController.m; sourceTree = "<group>"; };
-		699097361930FB05003BAA84 /* BadTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BadTableViewController.xib; sourceTree = "<group>"; };
 		699097391930FB9F003BAA84 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
 		6990973A1930FB9F003BAA84 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
-		6990973B1930FB9F003BAA84 /* ListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
+		6990973E1931B216003BAA84 /* ShowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTableViewController.h; sourceTree = "<group>"; };
+		6990973F1931B216003BAA84 /* ShowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewController.m; sourceTree = "<group>"; };
+		699097431931C408003BAA84 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		69A9797B192CBEB000853451 /* DiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryViewController.h; sourceTree = "<group>"; };
 		69A9797C192CBEB000853451 /* DiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryViewController.m; sourceTree = "<group>"; };
-		69A9797D192CBEB000853451 /* DiaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiaryViewController.xib; sourceTree = "<group>"; };
 		69A97982192CC3F800853451 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		69A97984192CC40D00853451 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		69A97986192CC41900853451 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -113,11 +105,14 @@
 		6A070DE11928A815001C6659 /* MapEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapEntity.m; sourceTree = "<group>"; };
 		6A38CA14192B818D006C4CFF /* titleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = titleViewController.h; sourceTree = "<group>"; };
 		6A38CA15192B818D006C4CFF /* titleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = titleViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		6A38CA16192B818D006C4CFF /* titleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = titleViewController.xib; sourceTree = "<group>"; };
 		6A38CA19192B839A006C4CFF /* title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = title.h; sourceTree = "<group>"; };
 		6A38CA1A192B839A006C4CFF /* title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = title.m; sourceTree = "<group>"; };
 		6AF2DEBC19315AD2007A7B96 /* tabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarViewController.h; sourceTree = "<group>"; };
 		6AF2DEBD19315AD2007A7B96 /* tabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarViewController.m; sourceTree = "<group>"; };
+=======
+>>>>>>> 4d84ce2e12532a15f3eaf616d393c8a369145790
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,29 +203,24 @@
 				6A070DBA19289F7F001C6659 /* AppDelegate.m */,
 				6A38CA14192B818D006C4CFF /* titleViewController.h */,
 				6A38CA15192B818D006C4CFF /* titleViewController.m */,
-				6A38CA16192B818D006C4CFF /* titleViewController.xib */,
-				6A38CA19192B839A006C4CFF /* title.h */,
-				6A38CA1A192B839A006C4CFF /* title.m */,
 				69A9797B192CBEB000853451 /* DiaryViewController.h */,
 				69A9797C192CBEB000853451 /* DiaryViewController.m */,
-				69A9797D192CBEB000853451 /* DiaryViewController.xib */,
-				6990972F1930FA99003BAA84 /* GoodTableViewController.h */,
-				699097301930FA99003BAA84 /* GoodTableViewController.m */,
-				699097311930FA99003BAA84 /* GoodTableViewController.xib */,
-				699097341930FB05003BAA84 /* BadTableViewController.h */,
-				699097351930FB05003BAA84 /* BadTableViewController.m */,
-				699097361930FB05003BAA84 /* BadTableViewController.xib */,
+				6990973E1931B216003BAA84 /* ShowTableViewController.h */,
+				6990973F1931B216003BAA84 /* ShowTableViewController.m */,
 				699097391930FB9F003BAA84 /* ListTableViewController.h */,
 				6990973A1930FB9F003BAA84 /* ListTableViewController.m */,
-				6990973B1930FB9F003BAA84 /* ListTableViewController.xib */,
 				6990972A1930FA27003BAA84 /* EditViewController.h */,
 				6990972B1930FA27003BAA84 /* EditViewController.m */,
+<<<<<<< HEAD
 				6990972C1930FA27003BAA84 /* EditViewController.xib */,
 				6AF2DEBC19315AD2007A7B96 /* tabBarViewController.h */,
 				6AF2DEBD19315AD2007A7B96 /* tabBarViewController.m */,
+=======
+>>>>>>> 4d84ce2e12532a15f3eaf616d393c8a369145790
 				6A070DDD1928A573001C6659 /* MapDB.xcdatamodeld */,
 				6A070DE01928A815001C6659 /* MapEntity.h */,
 				6A070DE11928A815001C6659 /* MapEntity.m */,
+				699097431931C408003BAA84 /* main.storyboard */,
 				6A070DBF19289F7F001C6659 /* Images.xcassets */,
 				6A070DB119289F7F001C6659 /* Supporting Files */,
 			);
@@ -342,15 +332,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				692CA56C192D301000D074CB /* GoogleMaps.framework in Resources */,
-				69A9797F192CBEB000853451 /* DiaryViewController.xib in Resources */,
-				6990972E1930FA27003BAA84 /* EditViewController.xib in Resources */,
-				6A38CA18192B818D006C4CFF /* titleViewController.xib in Resources */,
 				6A070DB519289F7F001C6659 /* InfoPlist.strings in Resources */,
 				6A070DC019289F7F001C6659 /* Images.xcassets in Resources */,
-				699097331930FA99003BAA84 /* GoodTableViewController.xib in Resources */,
 				692CA56A192D2EA400D074CB /* GoogleMaps.bundle in Resources */,
-				699097381930FB05003BAA84 /* BadTableViewController.xib in Resources */,
-				6990973D1930FB9F003BAA84 /* ListTableViewController.xib in Resources */,
+				699097441931C408003BAA84 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,16 +354,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699097411931B216003BAA84 /* ShowTableViewController.m in Sources */,
 				69A9797E192CBEB000853451 /* DiaryViewController.m in Sources */,
-				6A38CA1B192B839A006C4CFF /* title.m in Sources */,
 				6A38CA17192B818D006C4CFF /* titleViewController.m in Sources */,
 				6A070DDF1928A573001C6659 /* MapDB.xcdatamodeld in Sources */,
 				6A070DE21928A815001C6659 /* MapEntity.m in Sources */,
 				6A070DBB19289F7F001C6659 /* AppDelegate.m in Sources */,
-				699097321930FA99003BAA84 /* GoodTableViewController.m in Sources */,
 				6990972D1930FA27003BAA84 /* EditViewController.m in Sources */,
+<<<<<<< HEAD
 				6AF2DEBE19315AD2007A7B96 /* tabBarViewController.m in Sources */,
 				699097371930FB05003BAA84 /* BadTableViewController.m in Sources */,
+=======
+>>>>>>> 4d84ce2e12532a15f3eaf616d393c8a369145790
 				6A070DB719289F7F001C6659 /* main.m in Sources */,
 				6990973C1930FB9F003BAA84 /* ListTableViewController.m in Sources */,
 			);
