@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A16911B19362C2600DDC0E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16911A19362C2600DDC0E5 /* MapKit.framework */; };
+		6A16911E19362C7700DDC0E5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A16911D19362C7700DDC0E5 /* MapViewController.m */; };
 		6A1C9B821933575B00449F12 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C9B811933575B00449F12 /* CoreLocation.framework */; };
 		6A62BA0919348879003A4631 /* MapData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A62BA0719348879003A4631 /* MapData.xcdatamodeld */; };
 		6A62BA0E193493ED003A4631 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A62BA0D193493ED003A4631 /* CoreData.framework */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A16911A19362C2600DDC0E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6A16911C19362C7700DDC0E5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6A16911D19362C7700DDC0E5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		6A1C9B811933575B00449F12 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6A62BA0819348879003A4631 /* MapData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapData.xcdatamodel; sourceTree = "<group>"; };
 		6A62BA0D193493ED003A4631 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -75,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A16911B19362C2600DDC0E5 /* MapKit.framework in Frameworks */,
 				6A62BA0E193493ED003A4631 /* CoreData.framework in Frameworks */,
 				6A1C9B821933575B00449F12 /* CoreLocation.framework in Frameworks */,
 				6AF52A231931ED1C001932F0 /* CoreGraphics.framework in Frameworks */,
@@ -118,6 +124,7 @@
 		6AF52A1F1931ED1C001932F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A16911A19362C2600DDC0E5 /* MapKit.framework */,
 				6A62BA0D193493ED003A4631 /* CoreData.framework */,
 				6A1C9B811933575B00449F12 /* CoreLocation.framework */,
 				6AF52A201931ED1C001932F0 /* Foundation.framework */,
@@ -140,6 +147,8 @@
 				6AF52A591931F262001932F0 /* MainViewController.m */,
 				6A62BA121934C43B003A4631 /* ListTableViewController.h */,
 				6A62BA131934C43B003A4631 /* ListTableViewController.m */,
+				6A16911C19362C7700DDC0E5 /* MapViewController.h */,
+				6A16911D19362C7700DDC0E5 /* MapViewController.m */,
 				6A62BA0719348879003A4631 /* MapData.xcdatamodeld */,
 				6A62BA0F1934999B003A4631 /* MapDataEntity.h */,
 				6A62BA101934999B003A4631 /* MapDataEntity.m */,
@@ -225,6 +234,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = e125719;
 				TargetAttributes = {
+					6AF52A1C1931ED1C001932F0 = {
+						DevelopmentTeam = S3UNBN5SS6;
+					};
 					6AF52A3D1931ED1D001932F0 = {
 						TestTargetID = 6AF52A1C1931ED1C001932F0;
 					};
@@ -278,6 +290,7 @@
 				6A62BA111934999B003A4631 /* MapDataEntity.m in Sources */,
 				6AF52A311931ED1C001932F0 /* AppDelegate.m in Sources */,
 				6A62BA0919348879003A4631 /* MapData.xcdatamodeld in Sources */,
+				6A16911E19362C7700DDC0E5 /* MapViewController.m in Sources */,
 				6A62BA141934C43B003A4631 /* ListTableViewController.m in Sources */,
 				6AF52A571931F032001932F0 /* TitleViewController.m in Sources */,
 				6AF52A2D1931ED1C001932F0 /* main.m in Sources */,
@@ -406,10 +419,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PowerArea_2/PowerArea_2-Prefix.pch";
 				INFOPLIST_FILE = "PowerArea_2/PowerArea_2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,10 +435,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PowerArea_2/PowerArea_2-Prefix.pch";
 				INFOPLIST_FILE = "PowerArea_2/PowerArea_2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

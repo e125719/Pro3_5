@@ -41,6 +41,7 @@
 }
 
 
+// begin
 - (IBAction)add:(id)sender {
     Map *map = [NSEntityDescription insertNewObjectForEntityForName:@"Map"
                                              inManagedObjectContext:self.managedObjectContext];

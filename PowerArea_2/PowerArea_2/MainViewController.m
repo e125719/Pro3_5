@@ -112,6 +112,7 @@
     
     
     if (sender.tag == BTN_GOOD) {
+        
         btnGood.alpha = 1.0f;
         [btnGood setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
         
@@ -120,7 +121,9 @@
         
         NSLog(@"Good");
         _goodbad = [NSNumber numberWithBool:YES];
+        
     } else if (sender.tag == BTN_BAD) {
+        
         btnBad.alpha = 1.0f;
         [btnBad setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
         
@@ -128,6 +131,7 @@
         [btnGood setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         NSLog(@"Bad");
         _goodbad = [NSNumber numberWithBool:NO];
+        
     }
     
     if (sender.tag == BTN_SEND) {
