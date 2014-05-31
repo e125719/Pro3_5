@@ -434,7 +434,7 @@ t1401188036
 s119188
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app
-t1401517473
+t1401519706
 s340
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM
@@ -442,7 +442,7 @@ t1401514662
 s102
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Base.lproj/Main.storyboardc
-t1401517473
+t1401519705
 s272
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Info.plist
@@ -491,9 +491,9 @@ t1401244780
 s4139
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard
-c00000000538975A000000000000043A9
-t1401517472
-s17321
+c0000000053897E4B0000000000003618
+t1401519691
+s13848
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Images.xcassets
 c000000005381B59C0000000000000088
@@ -757,7 +757,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6d562db1ae39b941^58ac2db1ae39b941^---0#1#1#--18"Check dependencies36"AB616FC4-A143-459B-9A70-81537C63556B-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesaa9e40f7b539b941^792141f7b539b941^---0#1#1#--18"Check dependencies36"7B80CA48-E901-4874-A1C9-74620A45329A-
 
 CCompileAssetCatalog /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/PowerArea_2/Images.xcassets
 s422702896.766657
@@ -1014,16 +1014,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile
 bB4E6747A-86B1-4DA1-8792-7DFCD7EDC2E8
 
 CCompileStoryboard /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard
-s423210272.233167
-e423210273.961835
+s423212492.516000
+e423212505.924032
 r1
 xCompileStoryboard
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard
-o/* com.apple.ibtool.document.warnings */
-o/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard:SKZ-AV-U2f: warning: Prototype table cells must have reuse identifiers [9]
-o/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard:tDu-Gf-lqi: warning: Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:. [9]
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard56"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard00c63b20ad39b941^8a3bf621ad39b941^-500"/* com.apple.ibtool.document.warnings *//Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard:SKZ-AV-U2f: warning: Prototype table cells must have reuse identifiers/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard:tDu-Gf-lqi: warning: Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:.2(21%IDEActivityLogMessage2@49"Prototype table cells must have reuse identifiers-423210273#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@116"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@146"Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:.-423210273#18446744073709551615#0#-1#-3@116"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#1#-19%DVTDocumentLocation4@116"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard0000000000000000^971"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Base.lproj/Main.storyboardc /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard36"CE786F6A-DCE3-4CA9-AE72-4CFAF9326850-
-b37744EAC-8C41-442D-ABDD-7153F8FE74CD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard56"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboardd72f84ccb539b941^6090ecd9b539b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard0000000000000000^971"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Base.lproj/Main.storyboardc /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard36"43A1E510-860F-4B2C-BE3F-2916CBD7C4C8-
+b7A61F1EB-9257-40AC-9F2E-FEFD8E274EDB
 
 CCopyStringsFile /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/en.lproj/InfoPlist.strings PowerArea_2/en.lproj/InfoPlist.strings
 s422702896.765309
@@ -1329,11 +1326,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Touch 
 bB4E6747A-86B1-4DA1-8792-7DFCD7EDC2E8
 
 CTouch /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app
-s423210273.962878
-e423210273.979404
+s423212505.956251
+e423212506.014246
 r1
 xTouch
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Touch /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app82"Touch DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app8f8bf621ad39b941^45bbfa21ad39b941^---0#0#1#--526"Touch DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app36"2FC1DF8B-7891-4543-9E65-991605F3A9EB-
-b37744EAC-8C41-442D-ABDD-7153F8FE74CD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Touch /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app82"Touch DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.appdcd8f4d9b539b941^33a703dab539b941^---0#0#1#--526"Touch DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app36"F57F671D-8BF3-41F3-BBBC-652CA10FF06A-
+b5A966018-346C-44A7-9F8E-559155CF573C
 
