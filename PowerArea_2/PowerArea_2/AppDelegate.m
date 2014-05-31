@@ -60,6 +60,40 @@
     return fetchedRecords;
 }
 
+- (NSUInteger)countForFetchRequest:(NSFetchRequest *)request error:(NSError **)error{
+    // 検索リクエストのオブジェクトを生成します。
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    
+    // 対象エンティティを指定します。
+    NSEntityDescription *entity
+    = [NSEntityDescription entityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext];
+    [fetchRequest setEntity:entity];
+    
+    // キャッシュサイズや上限を指定します。
+    [fetchRequest setFetchBatchSize:20];
+    [fetchRequest setFetchLimit:0];
+    
+    // 検索条件を指定します。
+    NSPredicate *pred
+    = [NSPredicate predicateWithFormat:@"isError = 0"];
+    [fetchRequest setPredicate:pred];
+    
+    // ソート条件を指定します。
+    NSSortDescriptor *sort = [[NSSortDescriptor alloc] initWithKey:@"user" ascending:NO];
+    [fetchRequest setSortDescriptors:[NSArray arrayWithObject:sort]];
+    
+    // 上記リクエストを元に件数を取得します。
+    NSError *erro = nil;
+    int count = [self.manageObjectContext countForFetchRequest:fetchRequest error:&erro];
+    
+    // エラーがあった場合には、エラー情報を表示する。
+    if (error) {
+        NSLog(@"error occurred. error = %@", erro);
+    }
+    return count;
+}
+
+
 - (NSManagedObjectContext *)manageObjectContext {
     if (_manageObjectContext != nil) {
         return _manageObjectContext;

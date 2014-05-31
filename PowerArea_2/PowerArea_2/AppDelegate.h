@@ -16,6 +16,9 @@
 @property (strong, nonatomic, readonly) NSManagedObjectModel *manageObjectModel;
 @property (strong, nonatomic, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property (strong, nonatomic, readonly) NSNumber *datacount;
+
 - (NSArray *)getAllMap;
+- (NSNumber *)getdatacount;
 
 @end

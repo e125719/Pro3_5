@@ -28,16 +28,16 @@
                                 <state key="normal" title="START">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="qgh-Pz-3lO" kind="push" id="hd5-l8-7kY"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Jja-yT-mx9"/>
                     <connections>
                         <outlet property="btnStart" destination="knl-T5-I9s" id="MG2-41-Nes"/>
                         <outlet property="lblTitle" destination="K0O-9I-Fal" id="Y3v-RE-cWM"/>
+                        <segue destination="qgh-Pz-3lO" kind="push" id="tdv-gr-wAN"/>
+                        <segue destination="pOu-rA-mlw" kind="push" id="Qsm-QR-LSg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

@@ -3,6 +3,7 @@
     <entity name="IdEntity" representedClassName="IdEntity" syncable="YES">
         <attribute name="pass" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="mapentity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MapDataEntity" inverseName="identity" inverseEntity="MapDataEntity" syncable="YES"/>
     </entity>
     <entity name="MapDataEntity" representedClassName="MapDataEntity" syncable="YES">
         <attribute name="descriptions" optional="YES" attributeType="String" syncable="YES"/>
@@ -12,9 +13,10 @@
         <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="identity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IdEntity" inverseName="mapentity" inverseEntity="IdEntity" syncable="YES"/>
     </entity>
     <elements>
-        <element name="MapDataEntity" positionX="-63" positionY="-18" width="128" height="148"/>
-        <element name="IdEntity" positionX="144" positionY="27" width="144" height="73"/>
+        <element name="MapDataEntity" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="IdEntity" positionX="144" positionY="27" width="144" height="88"/>
     </elements>
 </model>
