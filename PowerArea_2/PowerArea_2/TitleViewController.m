@@ -6,12 +6,18 @@
 //  Copyright (c) 2014年 e125719. All rights reserved.
 //
 
-#import "TitleViewController.h"s
+#import "TitleViewController.h"
+#import "AppDelegate.h"
+#import "IdEntity.h"
 
 @interface TitleViewController ()
 
+@property (nonatomic, retain) NSManagedObjectContext *manageObjectContext;
+- (IBAction)start:(id)sender;
+
 @end
 
+NSInteger count;
 
 @implementation TitleViewController
 
@@ -36,4 +42,33 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (int)countUnreadItems {
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    [request setEntity:[NSEntityDescription entityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext]];
+    
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@" read = 0"];
+    [request setPredicate:predicate];
+    
+    
+    NSError *err;
+    count = [self.manageObjectContext countForFetchRequest:request error:&err];
+    if(count == NSNotFound) {
+        NSLog(@"Error");
+    }
+    
+    NSLog(@"%d", count);
+    return count;
+}
+
+
+
+- (IBAction)start:(id)sender {
+    
+    if (count == 0) {
+        [self performSegueWithIdentifier:@"notdata" sender:self];
+    }else{
+        [self performSegueWithIdentifier:@"getdata" sender:self];
+    }
+    
+}
 @end

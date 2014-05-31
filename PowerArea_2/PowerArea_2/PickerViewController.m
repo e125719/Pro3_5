@@ -31,7 +31,7 @@
     self.picker.dataSource = self;
 }
 
-- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
+/*- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     [self.delegate applySelectedString:[NSString stringWithFormat:@"%ld",row]];
 }
 

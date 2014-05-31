@@ -13,7 +13,7 @@
 @property (nonatomic, weak) IBOutlet UIPickerView *picker;
 @property (nonatomic, weak) IBOutlet UIButton *closeButton;
 
-@property (nonatomic, weak) id<PickerViewControllerDelegate> delegate;
+//@property (nonatomic, weak) id<PickerViewControllerDelegate> delegate;
 
 - (IBAction)closePickerView:(id)sender;
 

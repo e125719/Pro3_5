@@ -19,6 +19,5 @@
 @property (strong, nonatomic, readonly) NSNumber *datacount;
 
 - (NSArray *)getAllMap;
-- (NSNumber *)getdatacount;
 
 @end
