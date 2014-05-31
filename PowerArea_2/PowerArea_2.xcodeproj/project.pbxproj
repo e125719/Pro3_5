@@ -13,7 +13,6 @@
 		6A62BA0919348879003A4631 /* MapData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A62BA0719348879003A4631 /* MapData.xcdatamodeld */; };
 		6A62BA0E193493ED003A4631 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A62BA0D193493ED003A4631 /* CoreData.framework */; };
 		6A62BA111934999B003A4631 /* MapDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A62BA101934999B003A4631 /* MapDataEntity.m */; };
-		6A62BA141934C43B003A4631 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A62BA131934C43B003A4631 /* ListTableViewController.m */; };
 		6AF52A211931ED1C001932F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF52A201931ED1C001932F0 /* Foundation.framework */; };
 		6AF52A231931ED1C001932F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF52A221931ED1C001932F0 /* CoreGraphics.framework */; };
 		6AF52A251931ED1C001932F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF52A241931ED1C001932F0 /* UIKit.framework */; };
@@ -50,8 +49,6 @@
 		6A62BA0D193493ED003A4631 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6A62BA0F1934999B003A4631 /* MapDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDataEntity.h; sourceTree = "<group>"; };
 		6A62BA101934999B003A4631 /* MapDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDataEntity.m; sourceTree = "<group>"; };
-		6A62BA121934C43B003A4631 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListTableViewController.h; path = ../ListTableViewController.h; sourceTree = "<group>"; };
-		6A62BA131934C43B003A4631 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTableViewController.m; path = ../ListTableViewController.m; sourceTree = "<group>"; };
 		6AF52A1D1931ED1C001932F0 /* PowerArea_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerArea_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF52A201931ED1C001932F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6AF52A221931ED1C001932F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,8 +142,6 @@
 				6AF52A561931F032001932F0 /* TitleViewController.m */,
 				6AF52A581931F262001932F0 /* MainViewController.h */,
 				6AF52A591931F262001932F0 /* MainViewController.m */,
-				6A62BA121934C43B003A4631 /* ListTableViewController.h */,
-				6A62BA131934C43B003A4631 /* ListTableViewController.m */,
 				6A16911C19362C7700DDC0E5 /* MapViewController.h */,
 				6A16911D19362C7700DDC0E5 /* MapViewController.m */,
 				6A62BA0719348879003A4631 /* MapData.xcdatamodeld */,
@@ -291,7 +286,6 @@
 				6AF52A311931ED1C001932F0 /* AppDelegate.m in Sources */,
 				6A62BA0919348879003A4631 /* MapData.xcdatamodeld in Sources */,
 				6A16911E19362C7700DDC0E5 /* MapViewController.m in Sources */,
-				6A62BA141934C43B003A4631 /* ListTableViewController.m in Sources */,
 				6AF52A571931F032001932F0 /* TitleViewController.m in Sources */,
 				6AF52A2D1931ED1C001932F0 /* main.m in Sources */,
 				6AF52A5A1931F262001932F0 /* MainViewController.m in Sources */,
