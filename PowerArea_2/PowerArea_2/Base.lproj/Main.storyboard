@@ -29,7 +29,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qgh-Pz-3lO" kind="modal" id="BKT-8c-grD"/>
+                                    <segue destination="qgh-Pz-3lO" kind="push" id="hd5-l8-7kY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="194" y="62"/>
+            <point key="canvasLocation" x="202" y="62"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="6XT-Yb-kZ0">
@@ -63,6 +63,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAO-Eh-gcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="724" y="62"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="l9o-Cd-X2r">
+            <objects>
+                <viewController id="pOu-rA-mlw" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IaO-Ip-iLy"/>
+                        <viewControllerLayoutGuide type="bottom" id="olr-mi-nFA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="INl-cQ-ipC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HVB-lD-Act"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L2p-6t-Oyx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="-653"/>
         </scene>
         <!--Main View Controller - Item 1-->
         <scene sceneID="HpD-3c-bUz">
