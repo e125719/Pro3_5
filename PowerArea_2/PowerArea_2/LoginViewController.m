@@ -7,8 +7,16 @@
 //
 
 #import "LoginViewController.h"
+#import "AppDelegate.h"
+#import "IdEntity.h"
 
-@interface LoginViewController ()
+@interface LoginViewController ()<UITextFieldDelegate>
+
+@property (nonatomic, retain) NSManagedObjectContext *manageObjectContext;
+
+@property (retain, nonatomic) IBOutlet UITextField *userT;
+@property (retain, nonatomic) IBOutlet UITextField *passT;
+
 
 @end
 
@@ -27,6 +35,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    AppDelegate *appdele = [UIApplication sharedApplication].delegate;
+    self.manageObjectContext = appdele.manageObjectContext;
+    
+    [self.passT setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,15 +47,27 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
 }
-*/
+
+- (IBAction)login:(id)sender {
+    
+    IdEntity *iden = [NSEntityDescription insertNewObjectForEntityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext];
+    
+    iden.user = self.userT.text;
+    iden.pass = self.passT.text;
+    
+    NSError *error = nil;
+    if (![self.manageObjectContext save:&error]) {
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        abort();
+    }
+    
+    [self.view endEditing:YES];
+    
+    
+}
 
 @end

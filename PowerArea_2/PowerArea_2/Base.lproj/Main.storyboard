@@ -106,7 +106,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eUY-cE-KU5">
-                                <rect key="frame" x="46" y="255" width="228" height="30"/>
+                                <rect key="frame" x="46" y="269" width="228" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -119,6 +119,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="login:" destination="pOu-rA-mlw" eventType="touchUpInside" id="Jnd-v3-mjp"/>
                                     <segue destination="qgh-Pz-3lO" kind="modal" id="FeR-aS-cwU"/>
                                 </connections>
                             </button>
@@ -126,6 +127,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="HVB-lD-Act"/>
+                    <connections>
+                        <outlet property="passT" destination="eUY-cE-KU5" id="9Od-6G-Hp1"/>
+                        <outlet property="userT" destination="oDr-zq-hUN" id="Uxr-Mx-mrJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2p-6t-Oyx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

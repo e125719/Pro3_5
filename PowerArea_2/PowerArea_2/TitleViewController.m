@@ -34,6 +34,9 @@ NSInteger count;
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    AppDelegate *appdele = [UIApplication sharedApplication].delegate;
+    self.manageObjectContext = appdele.manageObjectContext;
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,20 +46,36 @@ NSInteger count;
 }
 
 - (int)countUnreadItems {
-    NSFetchRequest *request = [[NSFetchRequest alloc] init];
-    [request setEntity:[NSEntityDescription entityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext]];
+    // 検索リクエストのオブジェクトを生成します。
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
     
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@" read = 0"];
-    [request setPredicate:predicate];
+    // 対象エンティティを指定します。
+    NSEntityDescription *entity
+    = [NSEntityDescription entityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext];
+    [fetchRequest setEntity:entity];
     
+    // キャッシュサイズや上限を指定します。
+    [fetchRequest setFetchBatchSize:20];
+    [fetchRequest setFetchLimit:0];
     
-    NSError *err;
-    count = [self.manageObjectContext countForFetchRequest:request error:&err];
-    if(count == NSNotFound) {
-        NSLog(@"Error");
+    // 検索条件を指定します。
+    NSPredicate *pred
+    = [NSPredicate predicateWithFormat:@"isError = 0"];
+    [fetchRequest setPredicate:pred];
+    
+    // ソート条件を指定します。
+    NSSortDescriptor *sort = [[NSSortDescriptor alloc] initWithKey:@"user" ascending:NO];
+    [fetchRequest setSortDescriptors:[NSArray arrayWithObject:sort]];
+    
+    // 上記リクエストを元に件数を取得します。
+    NSError *error = nil;
+    count = [self.manageObjectContext countForFetchRequest:fetchRequest error:&error];
+    
+    // エラーがあった場合には、エラー情報を表示する。
+    if (error) {
+        NSLog(@"error occurred. error = %@", error);
     }
     
-    NSLog(@"%d", count);
     return count;
 }
 
@@ -70,5 +89,6 @@ NSInteger count;
         [self performSegueWithIdentifier:@"getdata" sender:self];
     }
     
+    NSLog(@"%ld", (long)count);
 }
 @end
