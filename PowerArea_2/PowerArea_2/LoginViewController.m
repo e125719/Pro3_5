@@ -57,20 +57,21 @@
 
 - (IBAction)clickButton:(id)sender{
     
-IdEntity *iden = [NSEntityDescription insertNewObjectForEntityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext];
+    IdEntity *iden = [NSEntityDescription insertNewObjectForEntityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext];
 
-iden.user = self.userT.text;
-iden.pass = self.passT.text;
+    iden.user = self.userT.text;
+    iden.pass = self.passT.text;
 
-NSError *error = nil;
-if (![self.manageObjectContext save:&error]) {
-    NSLog(@"miss");
-}
+    NSError *error;
+    if (![self.manageObjectContext save:&error]) {
+        NSLog(@"miss");
+    }
 
-self.passT.text = @"";
-self.userT.text = @"";
+    self.passT.text = @"";
+    self.userT.text = @"";
 
-[self.view endEditing:YES];
+    [self.view endEditing:YES];
+    [self performSegueWithIdentifier:@"loginok" sender:self];
 
 }
 
