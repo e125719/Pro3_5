@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "AppDelegate.h"
 #import "MapDataEntity.h"
+#import "SpotEntity.h"
 
 #define BTN_GOOD    0
 #define BTN_BAD     1
@@ -20,6 +21,7 @@
 #define BTN_OTHER   6
 
 #define URL @ "http://133.13.60.160/mobile/post"
+#define URL2 @ "http://133.13.60.160/mobile/search_form"
 
 @interface MainViewController ()<UITextFieldDelegate>
 
@@ -29,6 +31,8 @@
 
 @property (nonatomic, strong) NSNumber *lon;
 @property (nonatomic, strong) NSNumber *lat;
+
+@property (nonatomic, strong) NSString *attrs;
 
 @end
 
@@ -169,8 +173,8 @@
         map.userid = @"hoge";
         map.password = @"hogehoge";
         
-        NSString *lati = [self.lat stringValue];
-        NSString *tek = [self.lon stringValue];
+        NSString *mapX = [self.lat stringValue];
+        NSString *mapY = [self.lon stringValue];
         
         NSError *error;
         
@@ -186,7 +190,7 @@
         
         
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL]];
-        NSString *body = [NSString stringWithFormat:@"title=%@&description=%@&status=%@&longitude=%@&latitude=%@&userid=%@&password=%@", map.title, map.descriptions, map.status, tek, lati, map.userid, map.password];
+        NSString *body = [NSString stringWithFormat:@"title=%@&description=%@&status=%@&longitude=%@&latitude=%@&userid=%@&password=%@", map.title, map.descriptions, map.status, mapY, mapX, map.userid, map.password];
         [request setHTTPMethod:@"POST"];
         [request setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
         
@@ -196,22 +200,46 @@
         locationManager = nil;
     }
     
+    if (sender.tag == BTN_SCHOOL || sender.tag == BTN_RESTA || sender.tag == BTN_LEISURE || sender.tag == BTN_OTHER) {
+        SpotEntity *spot = [NSEntityDescription insertNewObjectForEntityForName:@"SpotEntity" inManagedObjectContext:self.managedObjectContext];
+        
+        spot.latitude = self.lon;
+        spot.longitude = self.lat;
+        
+        NSString *spotX = [self.lon stringValue];
+        NSString *spotY = [self.lat stringValue];
+        
+        NSMutableURLRequest *request2 = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL2]];
+        
+        NSString *body2 = [NSString stringWithFormat:@"latitude=%@&longitude=%@&spotAttrs=%@", spotX, spotY, self.attrs];
+        [request2 setHTTPMethod:@"POST"];
+        [request2 setHTTPBody:[body2 dataUsingEncoding:NSUTF8StringEncoding]];
+        
+        [NSURLConnection connectionWithRequest:request2  delegate:self];
+    }
+    
     if (sender.tag == BTN_SCHOOL) {
         NSLog(@"School");
         
-        
+        self.attrs = @"School";
     }
     
     if (sender.tag == BTN_RESTA) {
         NSLog(@"Restaurant");
+        
+        self.attrs = @"Resta";
     }
     
     if (sender.tag == BTN_LEISURE) {
         NSLog(@"Leisure");
+        
+        self.attrs = @"Leisure";
     }
     
     if (sender.tag == BTN_OTHER) {
         NSLog(@"Other");
+        
+        self.attrs = @"Other";
     }
 }
 
