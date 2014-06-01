@@ -9,12 +9,16 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-#import "PickerViewController.h"
-
-@interface MainViewController : UIViewController<CLLocationManagerDelegate, PickerViewControllerDelegate>{
+@interface MainViewController : UIViewController<CLLocationManagerDelegate>{
     IBOutlet UIButton *btnSend;
     IBOutlet UIButton *btnGood;
     IBOutlet UIButton *btnBad;
+    
+    IBOutlet UIButton *btnSchool;
+    IBOutlet UIButton *btnResta;
+    IBOutlet UIButton *btnLeisure;
+    IBOutlet UIButton *btnOther;
+    
     NSString *_usid;
     NSString *_pass;
 }

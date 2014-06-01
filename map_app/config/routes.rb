@@ -31,12 +31,21 @@ Rails.application.routes.draw do
   get "account/verify"
 
   get "mobile/post"
-  post 'mobile/post' => "mobile#input"
+  #post 'mobile/post' => "mobile#input"
   post "mobile/input" => "mobile#input"
   get "mobile/verify"
 
+  get "mobile/search_form"  
+  post "mobile/search_form" => "mobile#search"
+  post "mobile/search" => "mobile#search"    
+
+
   #get  '/oauth2callback' => "sessions#create"
   get "/auth/:provider/callback" => "sessions#create"
+
+
+
+
 
 
 

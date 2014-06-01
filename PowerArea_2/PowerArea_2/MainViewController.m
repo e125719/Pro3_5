@@ -13,6 +13,12 @@
 #define BTN_GOOD    0
 #define BTN_BAD     1
 #define BTN_SEND    2
+
+#define BTN_SCHOOL  3
+#define BTN_RESTA   4
+#define BTN_LEISURE 5
+#define BTN_OTHER   6
+
 #define URL @ "http://133.13.60.160/mobile/post"
 
 @interface MainViewController ()<UITextFieldDelegate>
@@ -52,19 +58,28 @@
     
     [self.text setDelegate:self];
     
-     btnSend.tag = BTN_SEND;
-    
     btnGood.tag = BTN_GOOD;
-    btnBad.tag = BTN_BAD;
-    
     [btnGood setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btnGood addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
+    btnBad.tag = BTN_BAD;
     [btnBad setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btnBad addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
+    btnSend.tag = BTN_SEND;
     [btnSend addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
+    btnSchool.tag = BTN_SCHOOL;
+    [btnSchool addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    btnResta.tag = BTN_RESTA;
+    [btnResta addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    btnLeisure.tag = BTN_LEISURE;
+    [btnLeisure addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    btnOther.tag = BTN_OTHER;
+    [btnOther addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
@@ -142,11 +157,13 @@
         
         map.title = self.place.text;
         map.descriptions = self.text.text;
+
         if (btnGood.alpha == 1.0f) {
             map.status = @"good";
-        }else{
+        } else {
             map.status = @"bad";
         }
+
         map.longitude = self.lon;
         map.latitude = self.lat;
         map.userid = @"hoge";
@@ -177,6 +194,24 @@
         
         [locationManager stopUpdatingLocation];
         locationManager = nil;
+    }
+    
+    if (sender.tag == BTN_SCHOOL) {
+        NSLog(@"School");
+        
+        
+    }
+    
+    if (sender.tag == BTN_RESTA) {
+        NSLog(@"Restaurant");
+    }
+    
+    if (sender.tag == BTN_LEISURE) {
+        NSLog(@"Leisure");
+    }
+    
+    if (sender.tag == BTN_OTHER) {
+        NSLog(@"Other");
     }
 }
 
