@@ -52,7 +52,7 @@
     
     [self.text setDelegate:self];
     
-     btnSend.tag = BTN_SEND;
+    btnSend.tag = BTN_SEND;
     
     btnGood.tag = BTN_GOOD;
     btnBad.tag = BTN_BAD;

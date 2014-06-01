@@ -9,12 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-#import "PickerViewController.h"
-
 @interface MainViewController : UIViewController<CLLocationManagerDelegate, PickerViewControllerDelegate>{
     IBOutlet UIButton *btnSend;
     IBOutlet UIButton *btnGood;
     IBOutlet UIButton *btnBad;
+    
     NSString *_usid;
     NSString *_pass;
 }
