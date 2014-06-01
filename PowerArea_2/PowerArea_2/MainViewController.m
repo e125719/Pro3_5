@@ -214,8 +214,6 @@
         [NSURLConnection connectionWithRequest:request2  delegate:self];
         
         [request2 setHTTPMethod:@"GET"];
-        
-        
     }
     
     if (sender.tag == BTN_SCHOOL) {
