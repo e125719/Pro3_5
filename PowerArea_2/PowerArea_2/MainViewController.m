@@ -22,6 +22,7 @@
 
 #define URL @ "http://133.13.60.160/mobile/post"
 #define URL2 @ "http://133.13.60.160/mobile/search_form"
+#define URL3 @ "http://133.13.60.160/mobile/search"
 
 @interface MainViewController ()<UITextFieldDelegate>
 
@@ -213,7 +214,8 @@
         
         [NSURLConnection connectionWithRequest:request2  delegate:self];
         
-        [request2 setHTTPMethod:@"GET"];
+        NSMutableURLRequest *request3 = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL3]];
+        [request3 setHTTPMethod:@"GET"];
     }
     
     if (sender.tag == BTN_SCHOOL) {
