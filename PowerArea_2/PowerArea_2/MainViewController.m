@@ -31,6 +31,7 @@
 
 @property (nonatomic, strong) NSNumber *lon;
 @property (nonatomic, strong) NSNumber *lat;
+@property (nonatomic, strong) NSMutableData *receivedData;
 
 @property (nonatomic, strong) NSString *attrs;
 
@@ -111,11 +112,6 @@
     
     self.lon = [[NSNumber alloc]initWithFloat:longitude];
     self.lat = [[NSNumber alloc]initWithFloat:latitude];
-}
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    [textField resignFirstResponder];
-    return YES;
 }
 
 - (IBAction)clickButton:(UIButton *)sender {
@@ -216,6 +212,10 @@
         [request2 setHTTPBody:[body2 dataUsingEncoding:NSUTF8StringEncoding]];
         
         [NSURLConnection connectionWithRequest:request2  delegate:self];
+        
+        [request2 setHTTPMethod:@"GET"];
+        
+        
     }
     
     if (sender.tag == BTN_SCHOOL) {
