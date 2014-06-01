@@ -196,30 +196,11 @@
         locationManager = nil;
     }
     
-    if (sender.tag == BTN_SCHOOL || sender.tag == BTN_RESTA || sender.tag == BTN_LEISURE || sender.tag == BTN_OTHER) {
-        SpotEntity *spot = [NSEntityDescription insertNewObjectForEntityForName:@"SpotEntity" inManagedObjectContext:self.managedObjectContext];
-        
-        spot.latitude = self.lon;
-        spot.longitude = self.lat;
-        
-        NSString *spotX = [self.lon stringValue];
-        NSString *spotY = [self.lat stringValue];
-        
-        NSMutableURLRequest *request2 = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL2]];
-        
-        NSString *body2 = [NSString stringWithFormat:@"latitude=%@&longitude=%@&spotAttrs=%@", spotX, spotY, self.attrs];
-        [request2 setHTTPMethod:@"POST"];
-        [request2 setHTTPBody:[body2 dataUsingEncoding:NSUTF8StringEncoding]];
-        
-        [NSURLConnection connectionWithRequest:request2  delegate:self];
-        
-        [request2 setHTTPMethod:@"GET"];
-    }
     
     if (sender.tag == BTN_SCHOOL) {
         NSLog(@"School");
         
-        self.attrs = @"School";
+        self.attrs = @"school";
     }
     
     if (sender.tag == BTN_RESTA) {
@@ -239,6 +220,30 @@
         
         self.attrs = @"Other";
     }
+    
+    if (sender.tag == BTN_SCHOOL || sender.tag == BTN_RESTA || sender.tag == BTN_LEISURE || sender.tag == BTN_OTHER) {
+        SpotEntity *spot = [NSEntityDescription insertNewObjectForEntityForName:@"SpotEntity" inManagedObjectContext:self.managedObjectContext];
+        
+        spot.latitude = [[NSNumber alloc]initWithFloat:26.252948];
+        spot.longitude = [[NSNumber alloc]initWithFloat:127.766483];
+        
+        NSString *spotX = [self.lon stringValue];
+        NSString *spotY = [self.lat stringValue];
+        
+        NSMutableURLRequest *request2 = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL2]];
+        
+        NSString *body2 = [NSString stringWithFormat:@"latitude=%@&longitude=%@&type=%@", spotX, spotY, self.attrs];
+        [request2 setHTTPMethod:@"POST"];
+        [request2 setHTTPBody:[body2 dataUsingEncoding:NSUTF8StringEncoding]];
+        
+        NSURLResponse *response;
+        NSError *err = nil;
+        NSData *result = [NSURLConnection sendSynchronousRequest:request2 returningResponse:&response error:&err];
+        
+        NSString *ket = [[NSString alloc] initWithData:result encoding:NSUTF8StringEncoding];
+        NSLog(@"%@", ket);
+    }
 }
+
 
 @end
