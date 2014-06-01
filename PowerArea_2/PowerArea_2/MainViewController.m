@@ -13,6 +13,12 @@
 #define BTN_GOOD    0
 #define BTN_BAD     1
 #define BTN_SEND    2
+
+#define BTN_SCHOOL  3
+#define BTN_RESTA   4
+#define BTN_LEISURE 5
+#define BTN_OTHER   6
+
 #define URL @ "http://133.13.60.160/mobile/post"
 
 @interface MainViewController ()<UITextFieldDelegate>
@@ -178,6 +184,17 @@
         [locationManager stopUpdatingLocation];
         locationManager = nil;
     }
+    
+    if (sender.tag == BTN_SCHOOL) {
+        NSLog(@"School");
+    } else if (sender.tag == BTN_RESTA) {
+        NSLog(@"Restaurant");
+    } else if (sender.tag == BTN_LEISURE) {
+        NSLog(@"Leisure");
+    } else if (sender.tag == BTN_OTHER) {
+        NSLog(@"Other");
+    }
+    
 }
 
 @end

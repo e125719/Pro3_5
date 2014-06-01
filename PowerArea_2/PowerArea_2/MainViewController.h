@@ -14,6 +14,11 @@
     IBOutlet UIButton *btnGood;
     IBOutlet UIButton *btnBad;
     
+    IBOutlet UIButton *btnSchool;
+    IBOutlet UIButton *btnResta;
+    IBOutlet UIButton *btnLeisure;
+    IBOutlet UIButton *btnOther;
+    
     NSString *_usid;
     NSString *_pass;
 }
