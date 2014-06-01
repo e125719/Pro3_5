@@ -86,6 +86,8 @@
     
     btnOther.tag = BTN_OTHER;
     [btnOther addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    locationManager.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -112,7 +114,9 @@
     NSLog(@"Lati = %f, Long = %f",latitude,longitude);
     
     self.lon = [[NSNumber alloc]initWithFloat:longitude];
+    NSLog(@"%@", self.lon);
     self.lat = [[NSNumber alloc]initWithFloat:latitude];
+    NSLog(@"%@", self.lat);
 }
 
 - (IBAction)clickButton:(UIButton *)sender {
@@ -201,7 +205,7 @@
     if (sender.tag == BTN_SCHOOL) {
         NSLog(@"School");
         
-        self.attrs = @"school";
+        self.attrs = @"School";
     }
     
     if (sender.tag == BTN_RESTA) {
@@ -225,11 +229,16 @@
     if (sender.tag == BTN_SCHOOL || sender.tag == BTN_RESTA || sender.tag == BTN_LEISURE || sender.tag == BTN_OTHER) {
         SpotEntity *spot = [NSEntityDescription insertNewObjectForEntityForName:@"SpotEntity" inManagedObjectContext:self.managedObjectContext];
         
-        spot.latitude = [[NSNumber alloc]initWithFloat:26.252948];
-        spot.longitude = [[NSNumber alloc]initWithFloat:127.766483];
+        //spot.latitude = [[NSNumber alloc]initWithFloat:26.252948];
+        //spot.longitude = [[NSNumber alloc]initWithFloat:127.766483];
+        spot.latitude = self.lat;
+        spot.longitude = self.lon;
+        NSLog(@"spot.latitude = %@, spot.longitude = %@", spot.latitude, spot.longitude);
         
         NSString *spotX = [self.lon stringValue];
         NSString *spotY = [self.lat stringValue];
+        
+        NSLog(@"%@", spotX);
         
         NSMutableURLRequest *request2 = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL2]];
         
@@ -245,6 +254,5 @@
         NSLog(@"%@", ket);
     }
 }
-
 
 @end
