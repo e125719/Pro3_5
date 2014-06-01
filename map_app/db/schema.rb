@@ -22,8 +22,8 @@ ActiveRecord::Schema.define(version: 20140525070707) do
 
   create_table "users", force: true do |t|
     t.string   "userid"
-    t.float    "latitude"
-    t.float    "longitude"
+    t.decimal  "latitude",    precision: 10, scale: 7
+    t.decimal  "longitude",   precision: 10, scale: 7
     t.string   "title"
     t.text     "description"
     t.string   "address"
