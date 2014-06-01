@@ -15,8 +15,14 @@
         <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="identity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IdEntity" inverseName="mapentity" inverseEntity="IdEntity" syncable="YES"/>
     </entity>
+    <entity name="SpotEntity" representedClassName="SpotEntity" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="spotAttrs" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="MapDataEntity" positionX="-63" positionY="-18" width="128" height="163"/>
         <element name="IdEntity" positionX="144" positionY="27" width="144" height="88"/>
+        <element name="MapDataEntity" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="SpotEntity" positionX="45" positionY="200" width="128" height="88"/>
     </elements>
 </model>

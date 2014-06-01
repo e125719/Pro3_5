@@ -157,11 +157,13 @@
         
         map.title = self.place.text;
         map.descriptions = self.text.text;
+
         if (btnGood.alpha == 1.0f) {
             map.status = @"good";
-        }else{
+        } else {
             map.status = @"bad";
         }
+
         map.longitude = self.lon;
         map.latitude = self.lat;
         map.userid = @"hoge";
@@ -196,6 +198,8 @@
     
     if (sender.tag == BTN_SCHOOL) {
         NSLog(@"School");
+        
+        
     }
     
     if (sender.tag == BTN_RESTA) {
@@ -209,7 +213,6 @@
     if (sender.tag == BTN_OTHER) {
         NSLog(@"Other");
     }
-    
 }
 
 @end
