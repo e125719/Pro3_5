@@ -58,19 +58,28 @@
     
     [self.text setDelegate:self];
     
-    btnSend.tag = BTN_SEND;
-    
     btnGood.tag = BTN_GOOD;
-    btnBad.tag = BTN_BAD;
-    
     [btnGood setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btnGood addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
+    btnBad.tag = BTN_BAD;
     [btnBad setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btnBad addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
+    btnSend.tag = BTN_SEND;
     [btnSend addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
+    btnSchool.tag = BTN_SCHOOL;
+    [btnSchool addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    btnResta.tag = BTN_RESTA;
+    [btnResta addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    btnLeisure.tag = BTN_LEISURE;
+    [btnLeisure addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    btnOther.tag = BTN_OTHER;
+    [btnOther addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
@@ -187,11 +196,17 @@
     
     if (sender.tag == BTN_SCHOOL) {
         NSLog(@"School");
-    } else if (sender.tag == BTN_RESTA) {
+    }
+    
+    if (sender.tag == BTN_RESTA) {
         NSLog(@"Restaurant");
-    } else if (sender.tag == BTN_LEISURE) {
+    }
+    
+    if (sender.tag == BTN_LEISURE) {
         NSLog(@"Leisure");
-    } else if (sender.tag == BTN_OTHER) {
+    }
+    
+    if (sender.tag == BTN_OTHER) {
         NSLog(@"Other");
     }
     

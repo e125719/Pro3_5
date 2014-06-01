@@ -235,6 +235,7 @@
                         <outlet property="btnResta" destination="KYk-HK-8G6" id="wZM-IE-ybg"/>
                         <outlet property="btnSchool" destination="WDm-ik-Znu" id="444-Kf-Fas"/>
                         <outlet property="btnSend" destination="Yai-wv-lkP" id="ty9-Gg-IbZ"/>
+                        <outlet property="place" destination="SwR-6e-PCk" id="o7K-ti-HTv"/>
                         <outlet property="text" destination="adj-2y-YmX" id="yhC-4o-sqg"/>
                     </connections>
                 </viewController>
