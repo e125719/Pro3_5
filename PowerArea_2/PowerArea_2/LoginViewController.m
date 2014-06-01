@@ -39,6 +39,9 @@
     self.manageObjectContext = appdele.manageObjectContext;
     
     [self.passT setDelegate:self];
+    self.passT.secureTextEntry = YES;
+    
+    [btnlogin addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,22 +55,24 @@
     return YES;
 }
 
-- (IBAction)login:(id)sender {
+- (IBAction)clickButton:(id)sender{
     
     IdEntity *iden = [NSEntityDescription insertNewObjectForEntityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext];
-    
+
     iden.user = self.userT.text;
     iden.pass = self.passT.text;
-    
-    NSError *error = nil;
+
+    NSError *error;
     if (![self.manageObjectContext save:&error]) {
-        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-        abort();
+        NSLog(@"miss");
     }
-    
+
+    self.passT.text = @"";
+    self.userT.text = @"";
+
     [self.view endEditing:YES];
-    
-    
+    [self performSegueWithIdentifier:@"loginok" sender:self];
+
 }
 
 @end

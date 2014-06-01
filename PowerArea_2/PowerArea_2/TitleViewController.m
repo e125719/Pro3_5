@@ -71,6 +71,5 @@
         [self performSegueWithIdentifier:@"getdata" sender:self];
     }
     
-    NSLog(@"%d", counting);
 }
 @end
