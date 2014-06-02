@@ -67,6 +67,7 @@
     self.managedObjectContext = delegate.manageObjectContext;
     
     [self.text setDelegate:self];
+    [self.place setDelegate:self];
     
     btnGood.tag = BTN_GOOD;
     btnGood.layer.borderColor = [UIColor grayColor].CGColor;
@@ -119,6 +120,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
