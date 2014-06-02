@@ -13,6 +13,7 @@ cCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-ip
 cCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/SpotEntity.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/SpotEntity.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/IdEntity.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/IdEntity.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 normal x86_64
 cCopyStringsFile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/en.lproj/InfoPlist.strings PowerArea_2/en.lproj/InfoPlist.strings
 cCompileStoryboard /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard
@@ -385,6 +386,10 @@ N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedD
 t1401621309
 s86428
 
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.o
+t1401673788
+s45224
+
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/IdEntity.o
 t1401621309
 s8828
@@ -404,8 +409,8 @@ t1401621309
 s68636
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o
-t1401671638
-s105944
+t1401673788
+s109560
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MapDataEntity.o
 t1401621309
@@ -416,9 +421,9 @@ t1401621309
 s58412
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/PowerArea_2.LinkFileList
-c00000000538B0A9F000000000000076D
-t1401621151
-s1901
+c00000000538BD38B0000000000000839
+t1401672587
+s2105
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/SpotEntity.o
 t1401621309
@@ -449,15 +454,15 @@ t1401621309
 s119024
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app
-t1401671638
+t1401674183
 s340
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM
-t1401671638
+t1401673788
 s102
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Base.lproj/Main.storyboardc
-t1401671742
+t1401674183
 s340
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Info.plist
@@ -473,8 +478,8 @@ t1401621311
 s8
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2
-t1401671638
-s77088
+t1401673788
+s81944
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/en.lproj/InfoPlist.strings
 t1401621152
@@ -506,9 +511,19 @@ t1401621152
 s4139
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard
-c00000000538BD0390000000000005D9B
-t1401671737
-s23963
+c00000000538BD9C60000000000005E58
+t1401674182
+s24152
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.h
+c00000000538BD23800000000000000C1
+t1401672248
+s193
+
+N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m
+c00000000538BD79A000000000000027B
+t1401673626
+s635
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/IdEntity.h
 c00000000538B0AA00000000000000157
@@ -551,9 +566,9 @@ t1401621152
 s814
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m
-c00000000538BCFD20000000000002074
-t1401671634
-s8308
+c00000000538BD83A00000000000023CB
+t1401673786
+s9163
 
 N/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MapDataEntity.h
 c00000000538B0AA00000000000000263
@@ -779,6 +794,9 @@ r0
 CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/AppDelegate.m
 r0
 
+CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m
+r0
+
 CBuild AST from /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/DateEntity.m
 r0
 
@@ -814,7 +832,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2e3b14bf073cb941^a39014bf073cb941^---0#1#1#--18"Check dependencies36"7C8F2E6A-7169-4979-9F7F-3D8D5B2E77B5-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese3c1c648113cb941^26c6e648113cb941^---0#1#1#--18"Check dependencies36"B90A2947-0EAD-499C-B294-1C98CB7F1462-
 
 CCompileAssetCatalog /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/PowerArea_2/Images.xcassets
 s422702896.766657
@@ -886,6 +904,22 @@ d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerAre
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/AppDelegate.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/AppDelegate.m242"CompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/AppDelegate.o PowerArea_2/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler158e2cbd423bb941^884871bd423bb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/AppDelegate.m0000000000000000^4571"CompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/AppDelegate.o PowerArea_2/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PrecompiledHeaders/PowerArea_2-Prefix-boczryjcrnmvirdmoaiwdscmigob/PowerArea_2-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/AppDelegate.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/AppDelegate.o36"1170778C-8AAB-485A-A1D1-75C0DB73D217-
 bB06B6138-75C4-4447-80E0-DCD0522860EA
+
+CCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423366588.534029
+e423366588.654660
+r1
+xCompileC
+xDerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.o
+x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m232"CompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.o PowerArea_2/Button.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7fde88bc0f3cb941^309ca7bc0f3cb941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m0000000000000000^4584"CompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.o PowerArea_2/Button.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PrecompiledHeaders/PowerArea_2-Prefix-boczryjcrnmvirdmoaiwdscmigob/PowerArea_2-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.o36"EBD62BC4-B33C-442C-BFCE-D7CF46ACE61D-
+b82BF9F2D-C045-4AA7-B36C-E5E34C32AAEB
 
 CCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/DateEntity.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/DateEntity.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -991,8 +1025,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compil
 b38BA0D21-7E2E-4136-AA51-1D666564416C
 
 CCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423364437.898839
-e423364438.077985
+s423366588.533441
+e423366588.656235
 r1
 xCompileC
 xDerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o
@@ -1006,8 +1040,9 @@ d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerAre
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/AppDelegate.h
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MapDataEntity.h
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/SpotEntity.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m256"CompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o PowerArea_2/MainViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compileraf3ee655073cb941^f0f71356073cb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m0000000000000000^4656"CompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o PowerArea_2/MainViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PrecompiledHeaders/PowerArea_2-Prefix-boczryjcrnmvirdmoaiwdscmigob/PowerArea_2-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o36"CB4EB2D5-F3A3-45D5-BF6D-A724C5395FAC-
-bCE8AE98F-2DC3-4262-8F24-B85AFC215BF3
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Button.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m256"CompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o PowerArea_2/MainViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera4c688bc0f3cb941^6500a8bc0f3cb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m0000000000000000^4656"CompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o PowerArea_2/MainViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-generated-files.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-own-target-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-all-target-headers.hmap -iquote /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/PowerArea_2-project-headers.hmap -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/DerivedSources/x86_64 -I/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/DerivedSources -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator -include /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PrecompiledHeaders/PowerArea_2-Prefix-boczryjcrnmvirdmoaiwdscmigob/PowerArea_2-Prefix.pch -MMD -MT dependencies -MF /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.d --serialize-diagnostics /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.dia -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MainViewController.m -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o36"B5B2329A-1B61-44B6-9466-EC314B39DCA2-
+b82BF9F2D-C045-4AA7-B36C-E5E34C32AAEB
 
 CCompileC DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MapDataEntity.o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/MapDataEntity.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423314109.173152
@@ -1144,13 +1179,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile
 bB4E6747A-86B1-4DA1-8792-7DFCD7EDC2E8
 
 CCompileStoryboard /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard
-s423364538.182508
-e423364543.052087
+s423366982.769960
+e423366983.113100
 r1
 xCompileStoryboard
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard56"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboardf6d42eba073cb941^c05a0dbf073cb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard0000000000000000^1014"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Base.lproj/Main.storyboardc /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard36"079C459D-9054-4AA1-8FE0-7C0BF2DAAD47-
-b767EEA7E-3EE0-4028-BE12-841E8C904292
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard56"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboardc632c546113cb941^3cf51c47113cb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard0000000000000000^1014"CompileStoryboard PowerArea_2/Base.lproj/Main.storyboard    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Base.lproj/Main.storyboardc /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/PowerArea_2/Base.lproj/Main.storyboard36"C132C06D-8DD6-4EB8-AB68-74DE3D977086-
+b1EDB078E-34F6-404B-BB23-F29954E01D57
 
 CCopyStringsFile /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/en.lproj/InfoPlist.strings PowerArea_2/en.lproj/InfoPlist.strings
 s422702896.765309
@@ -1199,14 +1234,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Genera
 b38BA0D21-7E2E-4136-AA51-1D666564416C
 
 CGenerateDSYMFile /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2
-s423364438.128557
-e423364438.150272
+s423366588.703693
+e423366588.727711
 r1
 xGenerateDSYMFile
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Generate /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM187"GenerateDSYMFile DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_212fb2056073cb941^14792656073cb941^---0#0#1#-19%DVTDocumentLocation2@160"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM/0000000000000000^920"GenerateDSYMFile DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM36"C60A4C1C-A626-4E94-9D1E-0D7E8FAC54F8-
-bCE8AE98F-2DC3-4262-8F24-B85AFC215BF3
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Generate /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM187"GenerateDSYMFile DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2f833b4bc0f3cb941^4144babc0f3cb941^---0#0#1#-19%DVTDocumentLocation2@160"file:///Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM/0000000000000000^920"GenerateDSYMFile DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app.dSYM36"DF23B4D2-9404-49F5-8F23-BF383DF148F3-
+b82BF9F2D-C045-4AA7-B36C-E5E34C32AAEB
 
 CLd /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 normal i386
 r0
@@ -1294,8 +1329,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Link /
 b38BA0D21-7E2E-4136-AA51-1D666564416C
 
 CLd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 normal x86_64
-s423364438.081947
-e423364438.125312
+s423366588.660580
+e423366588.701883
 r1
 xLd
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2
@@ -1309,6 +1344,7 @@ d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedD
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/TitleViewController.o
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/LoginViewController.o
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/main.o
+d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/Button.o
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/MainViewController.o
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/SpotEntity.o
 d/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/IdEntity.o
@@ -1352,12 +1388,12 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
 d/usr/lib/system/libcompiler_rt.dylib
 d/usr/lib/system/libcopyfile.dylib
 d/usr/lib/system/libcorecrypto.dylib
-d/usr/lib/system/libdyld.dylib
 d/usr/lib/system/libkeymgr.dylib
 d/usr/lib/system/liblaunch.dylib
 d/usr/lib/system/libmacho.dylib
@@ -1379,9 +1415,8 @@ d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libsystem_stats.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Link /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2105"Ld DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 normal x86_6423161556073cb941^66122156073cb941^---0#0#1#--1878"Ld DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 normal x86_64    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator -filelist /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/PowerArea_2.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework MapKit -framework CoreData -framework CoreLocation -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/PowerArea_2_dependency_info.dat -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_236"2C595315-D192-4BC8-9528-0BBAB1769FFC-
-bCE8AE98F-2DC3-4262-8F24-B85AFC215BF3
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Link /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2105"Ld DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 normal x86_643734a9bc0f3cb941^32afb3bc0f3cb941^---0#0#1#--1878"Ld DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_2 normal x86_64    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator -F/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator -filelist /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/PowerArea_2.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework MapKit -framework CoreData -framework CoreLocation -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Intermediates/PowerArea_2.build/Debug-iphonesimulator/PowerArea_2.build/Objects-normal/x86_64/PowerArea_2_dependency_info.dat -o /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/PowerArea_236"9978EFBD-78E9-48F7-ACDD-6845DECA498D-
+b82BF9F2D-C045-4AA7-B36C-E5E34C32AAEB
 
 CProcessInfoPlistFile /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app/Info.plist /Users/nagakuratakahiro/lecture/programingIII/works/PowerArea_2/PowerArea_2/PowerArea_2-Info.plist
 s422702907.525304
@@ -1473,11 +1508,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Touch 
 bB4E6747A-86B1-4DA1-8792-7DFCD7EDC2E8
 
 CTouch /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app
-s423364543.087321
-e423364543.131013
+s423366983.114933
+e423366983.120178
 r1
 xTouch
 x/Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Touch /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app82"Touch DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.appb16c16bf073cb941^db8a21bf073cb941^---0#0#1#--569"Touch DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /usr/bin/touch -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app36"364E5292-28BD-4A36-97EA-F1541669DBF6-
-b1CBBB679-5F83-4DB8-B48B-095EBF869A45
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Touch /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app82"Touch DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app967b1d47113cb941^d6c41e47113cb941^---0#0#1#--569"Touch DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app    cd /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /usr/bin/touch -c /Users/nagakuratakahiro/lecture/programingIII/works/Pro3_5/PowerArea_2/DerivedData/PowerArea_2/Build/Products/Debug-iphonesimulator/PowerArea_2.app36"6D189289-78FD-4C6E-8EFC-E57A537238E1-
+b1EDB078E-34F6-404B-BB23-F29954E01D57
 
