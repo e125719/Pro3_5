@@ -38,6 +38,8 @@ Rails.application.routes.draw do
   get "mobile/search_form"  
   post "mobile/search_form" => "mobile#search"
   post "mobile/search" => "mobile#search"    
+  get "mobile/search" => "mobile#search"    
+  get "mobile/search_form" => "mobile#search"
 
 
   #get  '/oauth2callback' => "sessions#create"

@@ -10,6 +10,7 @@
 #import "AppDelegate.h"
 #import "MapDataEntity.h"
 #import "SpotEntity.h"
+#import "Button.h"
 
 #define BTN_GOOD    0
 #define BTN_BAD     1
@@ -68,27 +69,50 @@
     [self.text setDelegate:self];
     
     btnGood.tag = BTN_GOOD;
+    btnGood.layer.borderColor = [UIColor grayColor].CGColor;
+    btnGood.layer.borderWidth = 1.0f;
+    btnGood.layer.cornerRadius = 7.5f;
     [btnGood setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btnGood addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
     btnBad.tag = BTN_BAD;
+    btnBad.layer.borderColor = [UIColor grayColor].CGColor;
+    btnBad.layer.borderWidth = 1.0f;
+    btnBad.layer.cornerRadius = 7.5f;
     [btnBad setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btnBad addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
     btnSend.tag = BTN_SEND;
+    btnSend.layer.borderColor = [UIColor grayColor].CGColor;
+    btnSend.layer.borderWidth = 1.0f;
+    btnSend.layer.cornerRadius = 7.5f;
     [btnSend addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
     btnSchool.tag = BTN_SCHOOL;
+    btnSchool.layer.borderColor = [UIColor grayColor].CGColor;
+    btnSchool.layer.borderWidth = 1.0f;
+    btnSchool.layer.cornerRadius = 7.5f;
     [btnSchool addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
     btnResta.tag = BTN_RESTA;
+    btnResta.layer.borderColor = [UIColor grayColor].CGColor;
+    btnResta.layer.borderWidth = 1.0f;
+    btnResta.layer.cornerRadius = 7.5f;
     [btnResta addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
     btnLeisure.tag = BTN_LEISURE;
+    btnLeisure.layer.borderColor = [UIColor grayColor].CGColor;
+    btnLeisure.layer.borderWidth = 1.0f;
+    btnLeisure.layer.cornerRadius = 7.5f;
     [btnLeisure addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
     btnOther.tag = BTN_OTHER;
+    btnOther.layer.borderColor = [UIColor grayColor].CGColor;
+    btnOther.layer.borderWidth = 1.0f;
+    btnOther.layer.cornerRadius = 7.5f;
     [btnOther addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    locationManager.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -115,7 +139,9 @@
     NSLog(@"Lati = %f, Long = %f",latitude,longitude);
     
     self.lon = [[NSNumber alloc]initWithFloat:longitude];
+    NSLog(@"%@", self.lon);
     self.lat = [[NSNumber alloc]initWithFloat:latitude];
+    NSLog(@"%@", self.lat);
 }
 
 - (IBAction)clickButton:(UIButton *)sender {
@@ -202,7 +228,7 @@
     if (sender.tag == BTN_SCHOOL) {
         NSLog(@"School");
         
-        self.attrs = @"school";
+        self.attrs = @"School";
     }
     
     if (sender.tag == BTN_RESTA) {
@@ -226,22 +252,20 @@
     if (sender.tag == BTN_SCHOOL || sender.tag == BTN_RESTA || sender.tag == BTN_LEISURE || sender.tag == BTN_OTHER) {
         SpotEntity *spot = [NSEntityDescription insertNewObjectForEntityForName:@"SpotEntity" inManagedObjectContext:self.managedObjectContext];
         
-        //spot.latitude = self.lat;
-        //spot.longitude = self.lon;
-        
-        spot.latitude = [[NSNumber alloc]initWithFloat:26.252948];
-        spot.longitude = [[NSNumber alloc]initWithFloat:127.766483];
+        spot.latitude = self.lat;
+        spot.longitude = self.lon;
 
         
         NSLog(@"%@", spot.latitude);
         NSLog(@"%@", self.lon);
-        
 
         NSMutableURLRequest *request2 = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL2]];
         
         NSString *body2 = [NSString stringWithFormat:@"latitude=%@&longitude=%@&type=%@", spot.latitude, spot.longitude, self.attrs];
         [request2 setHTTPMethod:@"POST"];
         [request2 setHTTPBody:[body2 dataUsingEncoding:NSUTF8StringEncoding]];
+        
+        //NSLog(@"spotX=%@, spotY=%@", spotX, spotY);
         
         NSURLResponse *response;
         NSError *err = nil;
@@ -258,6 +282,5 @@
         self.place.text = array[62];
     }
 }
-
 
 @end
