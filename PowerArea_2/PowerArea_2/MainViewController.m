@@ -257,16 +257,18 @@
         spot.longitude = self.lon;
         NSLog(@"spot.latitude = %@, spot.longitude = %@", spot.latitude, spot.longitude);
         
-        NSString *spotX = [self.lon stringValue];
-        NSString *spotY = [self.lat stringValue];
+        //NSString *spotX = [self.lat stringValue];
+        //NSString *spotY = [self.lon stringValue];
         
-        NSLog(@"%@", spotX);
+        //NSLog(@"spotX=%@, spotY=%@", spotX, spotY);
         
         NSMutableURLRequest *request2 = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL2]];
         
-        NSString *body2 = [NSString stringWithFormat:@"latitude=%@&longitude=%@&type=%@", spotX, spotY, self.attrs];
+        NSString *body2 = [NSString stringWithFormat:@"latitude=%@&longitude=%@&type=%@", spot.latitude, spot.longitude, self.attrs];
         [request2 setHTTPMethod:@"POST"];
         [request2 setHTTPBody:[body2 dataUsingEncoding:NSUTF8StringEncoding]];
+        
+        //NSLog(@"spotX=%@, spotY=%@", spotX, spotY);
         
         NSURLResponse *response;
         NSError *err = nil;
