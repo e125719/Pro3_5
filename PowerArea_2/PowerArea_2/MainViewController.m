@@ -11,6 +11,7 @@
 #import "MapDataEntity.h"
 #import "SpotEntity.h"
 #import "Button.h"
+#import "IdEntity.h"
 
 #define BTN_GOOD    0
 #define BTN_BAD     1
@@ -190,6 +191,7 @@
         NSLog(@"Send");
         
         MapDataEntity *map = [NSEntityDescription insertNewObjectForEntityForName:@"MapDataEntity" inManagedObjectContext:self.managedObjectContext];
+        IdEntity *idE = [NSEntityDescription insertNewObjectForEntityForName:@"IdEntity" inManagedObjectContext:self.managedObjectContext];
         
         map.title = self.place.text;
         map.descriptions = self.text.text;
@@ -202,8 +204,8 @@
 
         map.longitude = self.lon;
         map.latitude = self.lat;
-        map.userid = @"hoge";
-        map.password = @"hogehoge";
+        map.userid = idE.user;
+        map.password = idE.pass;
         
         NSString *mapX = [self.lat stringValue];
         NSString *mapY = [self.lon stringValue];
