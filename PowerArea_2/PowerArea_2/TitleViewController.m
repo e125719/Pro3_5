@@ -57,6 +57,7 @@
         count = 0;
     }
     
+    //ここに問題あり??
     return count;
 }
 
