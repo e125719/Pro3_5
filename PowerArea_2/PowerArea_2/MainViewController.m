@@ -64,7 +64,12 @@
     
     [self.text setDelegate:self];
     
+    
+    
     btnGood.tag = BTN_GOOD;
+    btnGood.layer.borderColor = [UIColor grayColor].CGColor;
+    btnGood.layer.borderWidth = 1.0f;
+    btnGood.layer.cornerRadius = 7.5f;
     [btnGood setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btnGood addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
