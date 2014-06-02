@@ -26,7 +26,7 @@
 @property (nonatomic, strong) NSNumber *goodbad;
 
 
-@property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic, strong) CLLocationManager *locationManager;
 @property (nonatomic) NSString *usid;
 @property (nonatomic) NSString *pass;
 

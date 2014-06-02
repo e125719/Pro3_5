@@ -59,6 +59,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
     AppDelegate *delegate = [UIApplication sharedApplication].delegate;
     self.managedObjectContext = delegate.manageObjectContext;
     
@@ -118,12 +121,10 @@
 - (IBAction)clickButton:(UIButton *)sender {
     
     if (locationManager == nil) {
-        locationManager = [[CLLocationManager alloc] init];
-        locationManager.delegate = self;
-        
-        locationManager.distanceFilter = 500;
-        
-        [locationManager startUpdatingLocation];
+        self.locationManager = [[CLLocationManager alloc] init];
+        self.locationManager.delegate = self;
+        self.locationManager.distanceFilter = 500;
+//    [self.locationManager startUpdatingLocation];
     }
     
     
@@ -137,6 +138,8 @@
         
         NSLog(@"Good");
         _goodbad = [NSNumber numberWithBool:YES];
+        
+        [self.locationManager startUpdatingLocation];
         
     } else if (sender.tag == BTN_BAD) {
         
@@ -193,8 +196,6 @@
         
         [NSURLConnection connectionWithRequest:request delegate:self];
         
-        [locationManager stopUpdatingLocation];
-        locationManager = nil;
     }
     
     
@@ -219,21 +220,26 @@
     if (sender.tag == BTN_OTHER) {
         NSLog(@"Other");
         
-        self.attrs = @"Other";
+        self.attrs = @"others";
     }
     
     if (sender.tag == BTN_SCHOOL || sender.tag == BTN_RESTA || sender.tag == BTN_LEISURE || sender.tag == BTN_OTHER) {
         SpotEntity *spot = [NSEntityDescription insertNewObjectForEntityForName:@"SpotEntity" inManagedObjectContext:self.managedObjectContext];
         
+        //spot.latitude = self.lat;
+        //spot.longitude = self.lon;
+        
         spot.latitude = [[NSNumber alloc]initWithFloat:26.252948];
         spot.longitude = [[NSNumber alloc]initWithFloat:127.766483];
+
         
-        NSString *spotX = [self.lon stringValue];
-        NSString *spotY = [self.lat stringValue];
+        NSLog(@"%@", spot.latitude);
+        NSLog(@"%@", self.lon);
         
+
         NSMutableURLRequest *request2 = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL2]];
         
-        NSString *body2 = [NSString stringWithFormat:@"latitude=%@&longitude=%@&type=%@", spotX, spotY, self.attrs];
+        NSString *body2 = [NSString stringWithFormat:@"latitude=%@&longitude=%@&type=%@", spot.latitude, spot.longitude, self.attrs];
         [request2 setHTTPMethod:@"POST"];
         [request2 setHTTPBody:[body2 dataUsingEncoding:NSUTF8StringEncoding]];
         
@@ -243,6 +249,13 @@
         
         NSString *ket = [[NSString alloc] initWithData:result encoding:NSUTF8StringEncoding];
         NSLog(@"%@", ket);
+        NSLog(@"%@", self.attrs);
+        
+        
+        NSArray *array = [ket componentsSeparatedByString:@"\n"];
+        NSLog(@"%@",array[62]);
+        
+        self.place.text = array[62];
     }
 }
 
