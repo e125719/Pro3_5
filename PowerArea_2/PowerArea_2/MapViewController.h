@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface MapViewController : UIViewController <MKMapViewDelegate> {
+@interface MapViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate> {
     MKMapView *mapView;
+    CLLocationManager* _locationManager;
+    CLLocationDegrees _latitude;
+    CLLocationDegrees _longitude;
 }
 
 @end
