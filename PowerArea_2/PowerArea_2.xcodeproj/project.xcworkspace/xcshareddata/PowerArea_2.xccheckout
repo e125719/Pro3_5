@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>462BCFBF-87A2-4887-BD4C-CA173A1DB09A</string>
+=======
+	<string>1355F1D4-DF5B-4AB7-885F-291D8F50606D</string>
+>>>>>>> 66d4c117cb2d80223a9bb36e9d7e4bf9c9b5a027
 	<key>IDESourceControlProjectName</key>
 	<string>PowerArea_2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>

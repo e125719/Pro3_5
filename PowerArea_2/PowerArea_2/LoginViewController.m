@@ -22,6 +22,7 @@
 
 @implementation LoginViewController
 
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -55,6 +56,7 @@
     return YES;
 }
 
+
 - (IBAction)clickButton:(id)sender{
     
     IdEntity *iden = [NSEntityDescription insertNewObjectForEntityForName:@"IdEntity" inManagedObjectContext:self.manageObjectContext];
@@ -66,9 +68,6 @@
     if (![self.manageObjectContext save:&error]) {
         NSLog(@"miss");
     }
-
-    self.passT.text = @"";
-    self.userT.text = @"";
 
     [self.view endEditing:YES];
     [self performSegueWithIdentifier:@"loginok" sender:self];

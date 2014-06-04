@@ -22,7 +22,7 @@
 #define BTN_LEISURE 5
 #define BTN_OTHER   6
 
-#define URL @ "http://133.13.60.160/mobile/post"
+#define URL @ "http://133.13.60.160/mobile/input"
 #define URL2 @ "http://133.13.60.160/mobile/search_form"
 #define URL3 @ "http://133.13.60.160/mobile/search"
 
@@ -44,8 +44,6 @@
 
 @synthesize locationManager;
 @synthesize goodbad = _goodbad;
-@synthesize usid = _usid;
-@synthesize pass = _pass;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -186,53 +184,6 @@
         
     }
     
-    if (sender.tag == BTN_SEND) {
-        
-        NSLog(@"Send");
-        
-        MapDataEntity *map = [NSEntityDescription insertNewObjectForEntityForName:@"MapDataEntity" inManagedObjectContext:self.managedObjectContext];
-        IdEntity *idE = [NSEntityDescription insertNewObjectForEntityForName:@"IdEntity" inManagedObjectContext:self.managedObjectContext];
-        
-        map.title = self.place.text;
-        map.descriptions = self.text.text;
-
-        if (btnGood.alpha == 1.0f) {
-            map.status = @"good";
-        } else {
-            map.status = @"bad";
-        }
-
-        map.longitude = self.lon;
-        map.latitude = self.lat;
-        map.userid = idE.user;
-        map.password = idE.pass;
-        
-        NSString *mapX = [self.lat stringValue];
-        NSString *mapY = [self.lon stringValue];
-        
-        NSError *error;
-        
-        if (![self.managedObjectContext save:&error]) {
-            NSLog(@"miss");
-        }
-        
-        self.place.text = @"";
-        self.text.text = @"";
-        
-        
-        [self.view endEditing:YES];
-        
-        
-        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL]];
-        NSString *body = [NSString stringWithFormat:@"title=%@&description=%@&status=%@&longitude=%@&latitude=%@&userid=%@&password=%@", map.title, map.descriptions, map.status, mapY, mapX, map.userid, map.password];
-        [request setHTTPMethod:@"POST"];
-        [request setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
-        
-        [NSURLConnection connectionWithRequest:request delegate:self];
-        
-    }
-    
-    
     if (sender.tag == BTN_SCHOOL) {
         NSLog(@"School");
         
@@ -289,6 +240,66 @@
         
         self.place.text = array[62];
     }
+    
+    if (sender.tag == BTN_SEND) {
+        
+        NSLog(@"Send");
+        
+        MapDataEntity *map = [NSEntityDescription insertNewObjectForEntityForName:@"MapDataEntity" inManagedObjectContext:self.managedObjectContext];
+        
+        NSManagedObjectContext *moc = [self managedObjectContext];
+        NSFetchRequest *request_2 = [[NSFetchRequest alloc] init];
+        NSEntityDescription *d = [NSEntityDescription entityForName: @"IdEntity" inManagedObjectContext:self.managedObjectContext];
+        [request_2 setEntity:d];
+        
+        NSError *er = nil;
+        NSArray *list = [moc executeFetchRequest:request_2 error:&er];
+        NSManagedObject *resultObject = [list objectAtIndex:0];
+        
+        NSString *result_name = [resultObject valueForKey:@"user"];
+        NSString *result_pass = [resultObject valueForKey:@"pass"];
+        
+        
+        map.title = self.place.text;
+        map.descriptions = self.text.text;
+        
+        if (btnGood.alpha == 1.0f) {
+            map.status = @"good";
+        } else {
+            map.status = @"bad";
+        }
+        
+        map.longitude = self.lon;
+        map.latitude = self.lat;
+        map.userid = result_name;
+        map.password = result_pass;
+        
+        NSLog(@"%@,%@,%@,%@,%@,%@,%@", map.title,map.descriptions,map.status,map.longitude,map.latitude,map.userid,map.password);
+        
+        NSError *error;
+        
+        if (![self.managedObjectContext save:&error]) {
+            NSLog(@"miss");
+        }
+        
+        self.place.text = @"";
+        self.text.text = @"";
+        
+        
+        [self.view endEditing:YES];
+        
+        
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URL]];
+        NSString *body = [NSString stringWithFormat:@"title=%@&description=%@&status=%@&longitude=%@&latitude=%@&userid=%@&password=%@", map.title, map.descriptions, map.status, map.longitude, map.latitude, map.userid, map.password];
+        [request setHTTPMethod:@"POST"];
+        [request setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
+        
+        [NSURLConnection connectionWithRequest:request delegate:self];
+        
+        NSLog(@"complete");
+        
+    }
+
 }
 
 @end
