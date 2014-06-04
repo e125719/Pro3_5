@@ -36,15 +36,6 @@
     AppDelegate *delegate = [UIApplication sharedApplication].delegate;
     self.managedObjectContext = delegate.manageObjectContext;
     
-    _latitude = 0.0f;
-    _longitude = 0.0f;
-    
-    _locationManager = [[CLLocationManager alloc] init];
-    _locationManager.delegate = self;
-    
-    if ([CLLocationManager locationServicesEnabled]) {
-        [_locationManager startUpdatingLocation];
-    }
     
     mapView = [[MKMapView alloc] init];
     [mapView setFrame:self.view.frame];
@@ -77,7 +68,7 @@
     CLLocationCoordinate2D coordinate;
     coordinate.latitude = [result_lat floatValue];
     coordinate.longitude = [result_lon floatValue];
-    NSLog(@"_latitude = %f, _longitude = %f", _latitude, _longitude);
+    NSLog(@"_latitude = %f, _longitude = %f", coordinate.latitude, coordinate.longitude);
     
     MKCoordinateSpan span;
     span.latitudeDelta = 0.01;
@@ -89,20 +80,11 @@
     [mapView setRegion:region animated:YES];
 }
 
-- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
-    CLLocationCoordinate2D coordinating = newLocation.coordinate;
-    _latitude = coordinating.latitude;
-    _longitude = coordinating.longitude;
-    NSLog(@"coordinating.latitude = %f\ncoordinating.longitude = %f",coordinating.latitude, coordinating.longitude);
-}
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    [_locationManager stopUpdatingLocation];
-    
-    _locationManager.delegate = nil;
 }
 
 - (void)mapViewDidFinishLoadingMap:(MKMapView *)mapView {

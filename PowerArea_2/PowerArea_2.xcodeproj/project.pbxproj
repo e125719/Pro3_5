@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		692CFF661939C5CF0027E6B3 /* IdEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CFF651939C5CF0027E6B3 /* IdEntity.m */; };
 		692CFF691939C68A0027E6B3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CFF681939C68A0027E6B3 /* LoginViewController.m */; };
+		69D1D0F9193ED01200C2DF5A /* glyphicons_087_log_book.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D1D0F7193ED01200C2DF5A /* glyphicons_087_log_book.png */; };
+		69D1D0FA193ED01200C2DF5A /* glyphicons_242_google_maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D1D0F8193ED01200C2DF5A /* glyphicons_242_google_maps.png */; };
 		6A16911B19362C2600DDC0E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16911A19362C2600DDC0E5 /* MapKit.framework */; };
 		6A16911E19362C7700DDC0E5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A16911D19362C7700DDC0E5 /* MapViewController.m */; };
 		6A1C9B821933575B00449F12 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C9B811933575B00449F12 /* CoreLocation.framework */; };
@@ -49,6 +51,9 @@
 		692CFF651939C5CF0027E6B3 /* IdEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdEntity.m; sourceTree = "<group>"; };
 		692CFF671939C68A0027E6B3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		692CFF681939C68A0027E6B3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		69D1D0F7193ED01200C2DF5A /* glyphicons_087_log_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_087_log_book.png; sourceTree = "<group>"; };
+		69D1D0F8193ED01200C2DF5A /* glyphicons_242_google_maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_242_google_maps.png; sourceTree = "<group>"; };
+		69D1D101193ED76500C2DF5A /* iphone-app-paper-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-app-paper-128.png"; sourceTree = "<group>"; };
 		6A16911A19362C2600DDC0E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6A16911C19362C7700DDC0E5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		6A16911D19362C7700DDC0E5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
@@ -114,6 +119,7 @@
 		6AF52A141931ED1C001932F0 = {
 			isa = PBXGroup;
 			children = (
+				69D1D101193ED76500C2DF5A /* iphone-app-paper-128.png */,
 				6AF52A261931ED1C001932F0 /* PowerArea_2 */,
 				6AF52A451931ED1D001932F0 /* PowerArea_2Tests */,
 				6AF52A1F1931ED1C001932F0 /* Frameworks */,
@@ -167,6 +173,8 @@
 				6A62BA101934999B003A4631 /* MapDataEntity.m */,
 				6A6968E1193B132A00A4BE5C /* SpotEntity.h */,
 				6A6968E2193B132A00A4BE5C /* SpotEntity.m */,
+				69D1D0F7193ED01200C2DF5A /* glyphicons_087_log_book.png */,
+				69D1D0F8193ED01200C2DF5A /* glyphicons_242_google_maps.png */,
 				6AF52A381931ED1C001932F0 /* Images.xcassets */,
 				6AF52A271931ED1C001932F0 /* Supporting Files */,
 			);
@@ -281,9 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D1D0FA193ED01200C2DF5A /* glyphicons_242_google_maps.png in Resources */,
 				6AF52A391931ED1C001932F0 /* Images.xcassets in Resources */,
 				6AF52A2B1931ED1C001932F0 /* InfoPlist.strings in Resources */,
 				6AF52A341931ED1C001932F0 /* Main.storyboard in Resources */,
+				69D1D0F9193ED01200C2DF5A /* glyphicons_087_log_book.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +445,6 @@
 		6AF52A501931ED1D001932F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: 博希 松本 (BUB45PC376)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 博希 松本 (BUB45PC376)";
@@ -451,7 +460,6 @@
 		6AF52A511931ED1D001932F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: 博希 松本 (BUB45PC376)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 博希 松本 (BUB45PC376)";

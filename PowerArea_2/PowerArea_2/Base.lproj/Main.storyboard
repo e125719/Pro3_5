@@ -134,7 +134,7 @@
             </objects>
             <point key="canvasLocation" x="724" y="-653"/>
         </scene>
-        <!--Main View Controller - Item 1-->
+        <!--Main View Controller - Diary-->
         <scene sceneID="HpD-3c-bUz">
             <objects>
                 <viewController id="Ks4-hB-Q1M" customClass="MainViewController" sceneMemberID="viewController">
@@ -224,7 +224,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="jOd-Ge-ElG"/>
+                    <tabBarItem key="tabBarItem" title="Diary" image="glyphicons_087_log_book.png" id="jOd-Ge-ElG"/>
                     <connections>
                         <outlet property="btnBad" destination="LMW-qv-Vkk" id="GDP-mL-93o"/>
                         <outlet property="btnGood" destination="TMa-eF-Mjb" id="VDX-xh-V80"/>
@@ -241,7 +241,7 @@
             </objects>
             <point key="canvasLocation" x="1301" y="-267"/>
         </scene>
-        <!--Map View Controller - Item-->
+        <!--Map View Controller - Map-->
         <scene sceneID="cOa-s7-gtH">
             <objects>
                 <viewController id="tDu-Gf-lqi" customClass="MapViewController" sceneMemberID="viewController">
@@ -254,7 +254,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="B3h-vZ-63P"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="glyphicons_242_google_maps" id="B3h-vZ-63P"/>
                     <navigationItem key="navigationItem" id="NMW-gt-7NU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6y0-4s-bL4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -262,6 +262,10 @@
             <point key="canvasLocation" x="1301" y="453"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="glyphicons_087_log_book.png" width="22" height="24"/>
+        <image name="glyphicons_242_google_maps" width="16" height="24"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

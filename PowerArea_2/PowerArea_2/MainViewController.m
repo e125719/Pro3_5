@@ -187,19 +187,19 @@
     if (sender.tag == BTN_SCHOOL) {
         NSLog(@"School");
         
-        self.attrs = @"School";
+        self.attrs = @"school";
     }
     
     if (sender.tag == BTN_RESTA) {
         NSLog(@"Restaurant");
         
-        self.attrs = @"Resta";
+        self.attrs = @"restaurant";
     }
     
     if (sender.tag == BTN_LEISURE) {
         NSLog(@"Leisure");
         
-        self.attrs = @"Leisure";
+        self.attrs = @"pleasure";
     }
     
     if (sender.tag == BTN_OTHER) {
