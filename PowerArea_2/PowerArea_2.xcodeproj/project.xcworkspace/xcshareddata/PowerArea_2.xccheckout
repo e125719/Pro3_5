@@ -5,34 +5,38 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
+	<string>462BCFBF-87A2-4887-BD4C-CA173A1DB09A</string>
+=======
 	<string>1355F1D4-DF5B-4AB7-885F-291D8F50606D</string>
+>>>>>>> 66d4c117cb2d80223a9bb36e9d7e4bf9c9b5a027
 	<key>IDESourceControlProjectName</key>
 	<string>PowerArea_2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>26880148-A314-45AE-95C9-F90EE0448A9E</key>
-		<string>http://github.com/e125719/Pro3_5</string>
+		<key>22C999E1-8F69-4ABD-8682-D96206B94CF0</key>
+		<string>https://github.com/e125719/Pro3_5.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PowerArea_2/PowerArea_2.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>26880148-A314-45AE-95C9-F90EE0448A9E</key>
+		<key>22C999E1-8F69-4ABD-8682-D96206B94CF0</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://github.com/e125719/Pro3_5</string>
+	<string>https://github.com/e125719/Pro3_5.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>26880148-A314-45AE-95C9-F90EE0448A9E</string>
+	<string>22C999E1-8F69-4ABD-8682-D96206B94CF0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>26880148-A314-45AE-95C9-F90EE0448A9E</string>
+			<string>22C999E1-8F69-4ABD-8682-D96206B94CF0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Pro3_5</string>
 		</dict>
